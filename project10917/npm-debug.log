@@ -1,0 +1,3890 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @angular/common
+20 silly mapToRegistry name @angular/common
+21 silly mapToRegistry scope (from package name) @angular
+22 verbose mapToRegistry no registry URL found in name for scope @angular
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+26 silly fetchNamedPackageData @angular/compiler
+27 silly mapToRegistry name @angular/compiler
+28 silly mapToRegistry scope (from package name) @angular
+29 verbose mapToRegistry no registry URL found in name for scope @angular
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+33 silly fetchNamedPackageData @angular/core
+34 silly mapToRegistry name @angular/core
+35 silly mapToRegistry scope (from package name) @angular
+36 verbose mapToRegistry no registry URL found in name for scope @angular
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+40 silly fetchNamedPackageData @angular/forms
+41 silly mapToRegistry name @angular/forms
+42 silly mapToRegistry scope (from package name) @angular
+43 verbose mapToRegistry no registry URL found in name for scope @angular
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+47 silly fetchNamedPackageData @angular/http
+48 silly mapToRegistry name @angular/http
+49 silly mapToRegistry scope (from package name) @angular
+50 verbose mapToRegistry no registry URL found in name for scope @angular
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+54 silly fetchNamedPackageData @angular/platform-browser
+55 silly mapToRegistry name @angular/platform-browser
+56 silly mapToRegistry scope (from package name) @angular
+57 verbose mapToRegistry no registry URL found in name for scope @angular
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+61 silly fetchNamedPackageData @angular/platform-browser-dynamic
+62 silly mapToRegistry name @angular/platform-browser-dynamic
+63 silly mapToRegistry scope (from package name) @angular
+64 verbose mapToRegistry no registry URL found in name for scope @angular
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+68 silly fetchNamedPackageData @angular/router
+69 silly mapToRegistry name @angular/router
+70 silly mapToRegistry scope (from package name) @angular
+71 verbose mapToRegistry no registry URL found in name for scope @angular
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+75 silly fetchNamedPackageData @angular/upgrade
+76 silly mapToRegistry name @angular/upgrade
+77 silly mapToRegistry scope (from package name) @angular
+78 verbose mapToRegistry no registry URL found in name for scope @angular
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fupgrade
+82 silly fetchNamedPackageData angular-in-memory-web-api
+83 silly mapToRegistry name angular-in-memory-web-api
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/angular-in-memory-web-api
+87 silly fetchNamedPackageData bootstrap
+88 silly mapToRegistry name bootstrap
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+92 silly fetchNamedPackageData core-js
+93 silly mapToRegistry name core-js
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/core-js
+97 silly fetchNamedPackageData reflect-metadata
+98 silly mapToRegistry name reflect-metadata
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+102 silly fetchNamedPackageData rxjs
+103 silly mapToRegistry name rxjs
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+107 silly fetchNamedPackageData systemjs
+108 silly mapToRegistry name systemjs
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+112 silly fetchNamedPackageData zone.js
+113 silly mapToRegistry name zone.js
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+117 verbose request uri https://registry.npmjs.org/@angular%2fforms
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 12:56:44 AM
+120 verbose request id 6ef2cdf1ed9f12c8
+121 verbose etag "599de5ea-1c5de"
+122 http request GET https://registry.npmjs.org/@angular%2fforms
+123 verbose request uri https://registry.npmjs.org/@angular%2fcommon
+124 verbose request no auth needed
+125 info attempt registry request try #1 at 12:56:44 AM
+126 verbose etag "599de5d2-1dc3a"
+127 http request GET https://registry.npmjs.org/@angular%2fcommon
+128 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 12:56:44 AM
+131 verbose etag "599de601-20f61"
+132 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+133 verbose request uri https://registry.npmjs.org/@angular%2fhttp
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 12:56:44 AM
+136 verbose etag "599de5f0-1e25f"
+137 http request GET https://registry.npmjs.org/@angular%2fhttp
+138 verbose request uri https://registry.npmjs.org/@angular%2fcore
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 12:56:44 AM
+141 verbose etag "599de5e4-1d3e7"
+142 http request GET https://registry.npmjs.org/@angular%2fcore
+143 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 12:56:44 AM
+146 verbose etag "599de606-24dc2"
+147 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+148 verbose request uri https://registry.npmjs.org/@angular%2fupgrade
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 12:56:44 AM
+151 verbose etag "599de625-20823"
+152 http request GET https://registry.npmjs.org/@angular%2fupgrade
+153 verbose request uri https://registry.npmjs.org/@angular%2frouter
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 12:56:44 AM
+156 verbose etag "599de61e-27da4"
+157 http request GET https://registry.npmjs.org/@angular%2frouter
+158 verbose request uri https://registry.npmjs.org/@angular%2fcompiler
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 12:56:44 AM
+161 verbose etag "599de5d9-1dd0e"
+162 http request GET https://registry.npmjs.org/@angular%2fcompiler
+163 verbose request uri https://registry.npmjs.org/reflect-metadata
+164 verbose request no auth needed
+165 info attempt registry request try #1 at 12:56:44 AM
+166 verbose etag W/"59932ad7-70ac"
+167 verbose lastModified Tue, 15 Aug 2017 17:09:43 GMT
+168 http request GET https://registry.npmjs.org/reflect-metadata
+169 verbose request uri https://registry.npmjs.org/zone.js
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 12:56:45 AM
+172 verbose etag W/"599dcc29-2ba15"
+173 verbose lastModified Wed, 23 Aug 2017 18:40:41 GMT
+174 http request GET https://registry.npmjs.org/zone.js
+175 verbose request uri https://registry.npmjs.org/core-js
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 12:56:45 AM
+178 verbose etag W/"598727fe-39217"
+179 verbose lastModified Sun, 06 Aug 2017 14:30:22 GMT
+180 http request GET https://registry.npmjs.org/core-js
+181 verbose request uri https://registry.npmjs.org/angular-in-memory-web-api
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 12:56:45 AM
+184 verbose etag W/"59708fdd-14790"
+185 verbose lastModified Thu, 20 Jul 2017 11:11:25 GMT
+186 http request GET https://registry.npmjs.org/angular-in-memory-web-api
+187 verbose request uri https://registry.npmjs.org/rxjs
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 12:56:45 AM
+190 verbose etag W/"599c7f43-2bde7"
+191 verbose lastModified Tue, 22 Aug 2017 19:00:19 GMT
+192 http request GET https://registry.npmjs.org/rxjs
+193 verbose request uri https://registry.npmjs.org/bootstrap
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 12:56:45 AM
+196 verbose etag W/"599d4c3c-e2a0"
+197 verbose lastModified Wed, 23 Aug 2017 09:34:52 GMT
+198 http request GET https://registry.npmjs.org/bootstrap
+199 verbose request uri https://registry.npmjs.org/systemjs
+200 verbose request no auth needed
+201 info attempt registry request try #1 at 12:56:45 AM
+202 verbose etag W/"59996d32-3aa09"
+203 verbose lastModified Sun, 20 Aug 2017 11:06:26 GMT
+204 http request GET https://registry.npmjs.org/systemjs
+205 http 200 https://registry.npmjs.org/reflect-metadata
+206 verbose headers { server: 'nginx/1.10.1',
+206 verbose headers   'content-type': 'application/json',
+206 verbose headers   'last-modified': 'Tue, 29 Aug 2017 08:07:23 GMT',
+206 verbose headers   etag: 'W/"59a520bb-70be"',
+206 verbose headers   'content-encoding': 'gzip',
+206 verbose headers   'cache-control': 'max-age=300',
+206 verbose headers   'content-length': '5119',
+206 verbose headers   'accept-ranges': 'bytes',
+206 verbose headers   date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+206 verbose headers   via: '1.1 varnish',
+206 verbose headers   age: '256',
+206 verbose headers   connection: 'keep-alive',
+206 verbose headers   'x-served-by': 'cache-ams4420-AMS',
+206 verbose headers   'x-cache': 'HIT',
+206 verbose headers   'x-cache-hits': '1',
+206 verbose headers   'x-timer': 'S1504898806.857351,VS0,VE0',
+206 verbose headers   vary: 'Accept-Encoding, Accept' }
+207 silly get cb [ 200,
+207 silly get   { server: 'nginx/1.10.1',
+207 silly get     'content-type': 'application/json',
+207 silly get     'last-modified': 'Tue, 29 Aug 2017 08:07:23 GMT',
+207 silly get     etag: 'W/"59a520bb-70be"',
+207 silly get     'content-encoding': 'gzip',
+207 silly get     'cache-control': 'max-age=300',
+207 silly get     'content-length': '5119',
+207 silly get     'accept-ranges': 'bytes',
+207 silly get     date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+207 silly get     via: '1.1 varnish',
+207 silly get     age: '256',
+207 silly get     connection: 'keep-alive',
+207 silly get     'x-served-by': 'cache-ams4420-AMS',
+207 silly get     'x-cache': 'HIT',
+207 silly get     'x-cache-hits': '1',
+207 silly get     'x-timer': 'S1504898806.857351,VS0,VE0',
+207 silly get     vary: 'Accept-Encoding, Accept' } ]
+208 verbose get saving reflect-metadata to /home/lawlug/.npm/registry.npmjs.org/reflect-metadata/.cache.json
+209 silly resolveWithNewModule reflect-metadata@0.1.10 checking installable status
+210 silly cache add args [ 'reflect-metadata@^0.1.8', null ]
+211 verbose cache add spec reflect-metadata@^0.1.8
+212 silly cache add parsed spec Result {
+212 silly cache add   raw: 'reflect-metadata@^0.1.8',
+212 silly cache add   scope: null,
+212 silly cache add   name: 'reflect-metadata',
+212 silly cache add   rawSpec: '^0.1.8',
+212 silly cache add   spec: '>=0.1.8 <0.2.0',
+212 silly cache add   type: 'range' }
+213 silly addNamed reflect-metadata@>=0.1.8 <0.2.0
+214 verbose addNamed ">=0.1.8 <0.2.0" is a valid semver range for reflect-metadata
+215 silly addNameRange { name: 'reflect-metadata',
+215 silly addNameRange   range: '>=0.1.8 <0.2.0',
+215 silly addNameRange   hasData: false }
+216 silly mapToRegistry name reflect-metadata
+217 silly mapToRegistry using default registry
+218 silly mapToRegistry registry https://registry.npmjs.org/
+219 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+220 verbose addNameRange registry:https://registry.npmjs.org/reflect-metadata not in flight; fetching
+221 http 304 https://registry.npmjs.org/zone.js
+222 verbose headers { date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+222 verbose headers   via: '1.1 varnish',
+222 verbose headers   'cache-control': 'max-age=300',
+222 verbose headers   etag: 'W/"599dcc29-2ba15"',
+222 verbose headers   age: '68',
+222 verbose headers   connection: 'keep-alive',
+222 verbose headers   'x-served-by': 'cache-ams4423-AMS',
+222 verbose headers   'x-cache': 'HIT',
+222 verbose headers   'x-cache-hits': '1',
+222 verbose headers   'x-timer': 'S1504898806.906167,VS0,VE0',
+222 verbose headers   vary: 'Accept-Encoding, Accept' }
+223 silly get cb [ 304,
+223 silly get   { date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+223 silly get     via: '1.1 varnish',
+223 silly get     'cache-control': 'max-age=300',
+223 silly get     etag: 'W/"599dcc29-2ba15"',
+223 silly get     age: '68',
+223 silly get     connection: 'keep-alive',
+223 silly get     'x-served-by': 'cache-ams4423-AMS',
+223 silly get     'x-cache': 'HIT',
+223 silly get     'x-cache-hits': '1',
+223 silly get     'x-timer': 'S1504898806.906167,VS0,VE0',
+223 silly get     vary: 'Accept-Encoding, Accept' } ]
+224 verbose etag https://registry.npmjs.org/zone.js from cache
+225 verbose get saving zone.js to /home/lawlug/.npm/registry.npmjs.org/zone.js/.cache.json
+226 verbose get https://registry.npmjs.org/reflect-metadata not expired, no request
+227 silly addNameRange number 2 { name: 'reflect-metadata',
+227 silly addNameRange   range: '>=0.1.8 <0.2.0',
+227 silly addNameRange   hasData: true }
+228 silly addNameRange versions [ 'reflect-metadata',
+228 silly addNameRange   [ '0.0.2',
+228 silly addNameRange     '0.0.3',
+228 silly addNameRange     '0.1.0',
+228 silly addNameRange     '0.1.1',
+228 silly addNameRange     '0.1.2',
+228 silly addNameRange     '0.1.3',
+228 silly addNameRange     '0.1.4',
+228 silly addNameRange     '0.1.5',
+228 silly addNameRange     '0.1.6',
+228 silly addNameRange     '0.1.7',
+228 silly addNameRange     '0.1.8',
+228 silly addNameRange     '0.1.9',
+228 silly addNameRange     '0.1.10' ] ]
+229 silly addNamed reflect-metadata@0.1.10
+230 verbose addNamed "0.1.10" is a plain semver version for reflect-metadata
+231 http 200 https://registry.npmjs.org/angular-in-memory-web-api
+232 verbose headers { server: 'nginx/1.10.1',
+232 verbose headers   'content-type': 'application/json',
+232 verbose headers   'last-modified': 'Fri, 08 Sep 2017 06:53:23 GMT',
+232 verbose headers   etag: 'W/"59b23e63-164cc"',
+232 verbose headers   'content-encoding': 'gzip',
+232 verbose headers   'cache-control': 'max-age=300',
+232 verbose headers   'content-length': '11953',
+232 verbose headers   'accept-ranges': 'bytes',
+232 verbose headers   date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+232 verbose headers   via: '1.1 varnish',
+232 verbose headers   age: '282',
+232 verbose headers   connection: 'keep-alive',
+232 verbose headers   'x-served-by': 'cache-ams4427-AMS',
+232 verbose headers   'x-cache': 'HIT',
+232 verbose headers   'x-cache-hits': '1',
+232 verbose headers   'x-timer': 'S1504898806.862161,VS0,VE0',
+232 verbose headers   vary: 'Accept-Encoding, Accept' }
+233 silly get cb [ 200,
+233 silly get   { server: 'nginx/1.10.1',
+233 silly get     'content-type': 'application/json',
+233 silly get     'last-modified': 'Fri, 08 Sep 2017 06:53:23 GMT',
+233 silly get     etag: 'W/"59b23e63-164cc"',
+233 silly get     'content-encoding': 'gzip',
+233 silly get     'cache-control': 'max-age=300',
+233 silly get     'content-length': '11953',
+233 silly get     'accept-ranges': 'bytes',
+233 silly get     date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+233 silly get     via: '1.1 varnish',
+233 silly get     age: '282',
+233 silly get     connection: 'keep-alive',
+233 silly get     'x-served-by': 'cache-ams4427-AMS',
+233 silly get     'x-cache': 'HIT',
+233 silly get     'x-cache-hits': '1',
+233 silly get     'x-timer': 'S1504898806.862161,VS0,VE0',
+233 silly get     vary: 'Accept-Encoding, Accept' } ]
+234 verbose get saving angular-in-memory-web-api to /home/lawlug/.npm/registry.npmjs.org/angular-in-memory-web-api/.cache.json
+235 silly resolveWithNewModule zone.js@0.6.26 checking installable status
+236 silly cache add args [ 'zone.js@^0.6.25', null ]
+237 verbose cache add spec zone.js@^0.6.25
+238 silly cache add parsed spec Result {
+238 silly cache add   raw: 'zone.js@^0.6.25',
+238 silly cache add   scope: null,
+238 silly cache add   name: 'zone.js',
+238 silly cache add   rawSpec: '^0.6.25',
+238 silly cache add   spec: '>=0.6.25 <0.7.0',
+238 silly cache add   type: 'range' }
+239 silly addNamed zone.js@>=0.6.25 <0.7.0
+240 verbose addNamed ">=0.6.25 <0.7.0" is a valid semver range for zone.js
+241 silly addNameRange { name: 'zone.js', range: '>=0.6.25 <0.7.0', hasData: false }
+242 silly mapToRegistry name zone.js
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npmjs.org/
+245 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+246 verbose addNameRange registry:https://registry.npmjs.org/zone.js not in flight; fetching
+247 verbose get https://registry.npmjs.org/zone.js not expired, no request
+248 silly addNameRange number 2 { name: 'zone.js', range: '>=0.6.25 <0.7.0', hasData: true }
+249 silly addNameRange versions [ 'zone.js',
+249 silly addNameRange   [ '0.1.0',
+249 silly addNameRange     '0.1.1',
+249 silly addNameRange     '0.2.0',
+249 silly addNameRange     '0.2.1',
+249 silly addNameRange     '0.2.3',
+249 silly addNameRange     '0.2.2',
+249 silly addNameRange     '0.2.4',
+249 silly addNameRange     '0.3.0',
+249 silly addNameRange     '0.4.0',
+249 silly addNameRange     '0.4.1',
+249 silly addNameRange     '0.4.2',
+249 silly addNameRange     '0.4.3',
+249 silly addNameRange     '0.4.4',
+249 silly addNameRange     '0.5.0',
+249 silly addNameRange     '0.5.1',
+249 silly addNameRange     '0.5.2',
+249 silly addNameRange     '0.5.3',
+249 silly addNameRange     '0.5.4',
+249 silly addNameRange     '0.5.5',
+249 silly addNameRange     '0.5.6',
+249 silly addNameRange     '0.5.7',
+249 silly addNameRange     '0.5.8',
+249 silly addNameRange     '0.5.9',
+249 silly addNameRange     '0.5.10',
+249 silly addNameRange     '0.5.11',
+249 silly addNameRange     '0.5.12',
+249 silly addNameRange     '0.5.13',
+249 silly addNameRange     '0.5.14',
+249 silly addNameRange     '0.5.15',
+249 silly addNameRange     '0.6.0',
+249 silly addNameRange     '0.6.1',
+249 silly addNameRange     '0.6.2',
+249 silly addNameRange     '0.6.3',
+249 silly addNameRange     '0.6.4',
+249 silly addNameRange     '0.6.5',
+249 silly addNameRange     '0.6.6',
+249 silly addNameRange     '0.6.8',
+249 silly addNameRange     '0.6.9',
+249 silly addNameRange     '0.6.10',
+249 silly addNameRange     '0.6.11',
+249 silly addNameRange     '0.6.12',
+249 silly addNameRange     '0.6.13',
+249 silly addNameRange     '0.6.14',
+249 silly addNameRange     '0.6.15',
+249 silly addNameRange     '0.6.16',
+249 silly addNameRange     '0.6.17',
+249 silly addNameRange     '0.6.18',
+249 silly addNameRange     '0.6.19',
+249 silly addNameRange     '0.6.20',
+249 silly addNameRange     '0.6.21',
+249 silly addNameRange     '0.6.22',
+249 silly addNameRange     '0.6.23',
+249 silly addNameRange     '0.6.24',
+249 silly addNameRange     '0.6.25',
+249 silly addNameRange     '0.6.26',
+249 silly addNameRange     '0.7.0',
+249 silly addNameRange     '0.7.1',
+249 silly addNameRange     '0.7.2',
+249 silly addNameRange     '0.7.3',
+249 silly addNameRange     '0.7.4',
+249 silly addNameRange     '0.7.5',
+249 silly addNameRange     '0.7.6',
+249 silly addNameRange     '0.7.7',
+249 silly addNameRange     '0.7.8',
+249 silly addNameRange     '0.8.0',
+249 silly addNameRange     '0.8.1',
+249 silly addNameRange     '0.8.2',
+249 silly addNameRange     '0.8.3',
+249 silly addNameRange     '0.8.4',
+249 silly addNameRange     '0.8.5',
+249 silly addNameRange     '0.8.6',
+249 silly addNameRange     '0.8.7',
+249 silly addNameRange     '0.8.8',
+249 silly addNameRange     '0.8.9',
+249 silly addNameRange     '0.8.10',
+249 silly addNameRange     '0.8.11',
+249 silly addNameRange     '0.8.12',
+249 silly addNameRange     '0.8.13',
+249 silly addNameRange     '0.8.14',
+249 silly addNameRange     '0.8.16',
+249 silly addNameRange     '0.8.17' ] ]
+250 silly addNamed zone.js@0.6.26
+251 verbose addNamed "0.6.26" is a plain semver version for zone.js
+252 silly resolveWithNewModule angular-in-memory-web-api@0.1.17 checking installable status
+253 silly cache add args [ 'angular-in-memory-web-api@~0.1.5', null ]
+254 verbose cache add spec angular-in-memory-web-api@~0.1.5
+255 silly cache add parsed spec Result {
+255 silly cache add   raw: 'angular-in-memory-web-api@~0.1.5',
+255 silly cache add   scope: null,
+255 silly cache add   name: 'angular-in-memory-web-api',
+255 silly cache add   rawSpec: '~0.1.5',
+255 silly cache add   spec: '>=0.1.5 <0.2.0',
+255 silly cache add   type: 'range' }
+256 silly addNamed angular-in-memory-web-api@>=0.1.5 <0.2.0
+257 verbose addNamed ">=0.1.5 <0.2.0" is a valid semver range for angular-in-memory-web-api
+258 silly addNameRange { name: 'angular-in-memory-web-api',
+258 silly addNameRange   range: '>=0.1.5 <0.2.0',
+258 silly addNameRange   hasData: false }
+259 silly mapToRegistry name angular-in-memory-web-api
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry https://registry.npmjs.org/
+262 silly mapToRegistry uri https://registry.npmjs.org/angular-in-memory-web-api
+263 verbose addNameRange registry:https://registry.npmjs.org/angular-in-memory-web-api not in flight; fetching
+264 verbose get https://registry.npmjs.org/angular-in-memory-web-api not expired, no request
+265 silly addNameRange number 2 { name: 'angular-in-memory-web-api',
+265 silly addNameRange   range: '>=0.1.5 <0.2.0',
+265 silly addNameRange   hasData: true }
+266 silly addNameRange versions [ 'angular-in-memory-web-api',
+266 silly addNameRange   [ '0.1.0',
+266 silly addNameRange     '0.1.1',
+266 silly addNameRange     '0.1.2',
+266 silly addNameRange     '0.1.3',
+266 silly addNameRange     '0.1.4',
+266 silly addNameRange     '0.1.5',
+266 silly addNameRange     '0.1.6',
+266 silly addNameRange     '0.1.7',
+266 silly addNameRange     '0.1.8',
+266 silly addNameRange     '0.1.9',
+266 silly addNameRange     '0.1.10',
+266 silly addNameRange     '0.1.11',
+266 silly addNameRange     '0.1.12',
+266 silly addNameRange     '0.1.13',
+266 silly addNameRange     '0.1.14',
+266 silly addNameRange     '0.1.15',
+266 silly addNameRange     '0.1.16',
+266 silly addNameRange     '0.1.17',
+266 silly addNameRange     '0.2.0',
+266 silly addNameRange     '0.2.1',
+266 silly addNameRange     '0.2.2',
+266 silly addNameRange     '0.2.3',
+266 silly addNameRange     '0.2.4',
+266 silly addNameRange     '0.2.5',
+266 silly addNameRange     '0.3.0',
+266 silly addNameRange     '0.3.1',
+266 silly addNameRange     '0.3.2',
+266 silly addNameRange     '0.4.0' ] ]
+267 silly addNamed angular-in-memory-web-api@0.1.17
+268 verbose addNamed "0.1.17" is a plain semver version for angular-in-memory-web-api
+269 http 200 https://registry.npmjs.org/rxjs
+270 verbose headers { server: 'nginx/1.10.1',
+270 verbose headers   'content-type': 'application/json',
+270 verbose headers   'last-modified': 'Fri, 08 Sep 2017 18:23:48 GMT',
+270 verbose headers   etag: 'W/"59b2e034-2be0f"',
+270 verbose headers   'content-encoding': 'gzip',
+270 verbose headers   'cache-control': 'max-age=300',
+270 verbose headers   'content-length': '12946',
+270 verbose headers   'accept-ranges': 'bytes',
+270 verbose headers   date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+270 verbose headers   via: '1.1 varnish',
+270 verbose headers   age: '172',
+270 verbose headers   connection: 'keep-alive',
+270 verbose headers   'x-served-by': 'cache-ams4439-AMS',
+270 verbose headers   'x-cache': 'HIT',
+270 verbose headers   'x-cache-hits': '1',
+270 verbose headers   'x-timer': 'S1504898806.920167,VS0,VE1',
+270 verbose headers   vary: 'Accept-Encoding, Accept' }
+271 silly get cb [ 200,
+271 silly get   { server: 'nginx/1.10.1',
+271 silly get     'content-type': 'application/json',
+271 silly get     'last-modified': 'Fri, 08 Sep 2017 18:23:48 GMT',
+271 silly get     etag: 'W/"59b2e034-2be0f"',
+271 silly get     'content-encoding': 'gzip',
+271 silly get     'cache-control': 'max-age=300',
+271 silly get     'content-length': '12946',
+271 silly get     'accept-ranges': 'bytes',
+271 silly get     date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+271 silly get     via: '1.1 varnish',
+271 silly get     age: '172',
+271 silly get     connection: 'keep-alive',
+271 silly get     'x-served-by': 'cache-ams4439-AMS',
+271 silly get     'x-cache': 'HIT',
+271 silly get     'x-cache-hits': '1',
+271 silly get     'x-timer': 'S1504898806.920167,VS0,VE1',
+271 silly get     vary: 'Accept-Encoding, Accept' } ]
+272 verbose get saving rxjs to /home/lawlug/.npm/registry.npmjs.org/rxjs/.cache.json
+273 silly resolveWithNewModule rxjs@5.0.0-beta.12 checking installable status
+274 silly cache add args [ 'rxjs@5.0.0-beta.12', null ]
+275 verbose cache add spec rxjs@5.0.0-beta.12
+276 silly cache add parsed spec Result {
+276 silly cache add   raw: 'rxjs@5.0.0-beta.12',
+276 silly cache add   scope: null,
+276 silly cache add   name: 'rxjs',
+276 silly cache add   rawSpec: '5.0.0-beta.12',
+276 silly cache add   spec: '5.0.0-beta.12',
+276 silly cache add   type: 'version' }
+277 silly addNamed rxjs@5.0.0-beta.12
+278 verbose addNamed "5.0.0-beta.12" is a plain semver version for rxjs
+279 silly mapToRegistry name rxjs
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry https://registry.npmjs.org/
+282 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+283 verbose addNameVersion registry:https://registry.npmjs.org/rxjs not in flight; fetching
+284 silly cache afterAdd reflect-metadata@0.1.10
+285 verbose afterAdd /home/lawlug/.npm/reflect-metadata/0.1.10/package/package.json not in flight; writing
+286 verbose get https://registry.npmjs.org/rxjs not expired, no request
+287 verbose afterAdd /home/lawlug/.npm/reflect-metadata/0.1.10/package/package.json written
+288 http 200 https://registry.npmjs.org/bootstrap
+289 verbose headers { server: 'nginx/1.10.1',
+289 verbose headers   'content-type': 'application/json',
+289 verbose headers   'last-modified': 'Fri, 08 Sep 2017 17:06:45 GMT',
+289 verbose headers   etag: 'W/"59b2ce25-e2db"',
+289 verbose headers   'content-encoding': 'gzip',
+289 verbose headers   'cache-control': 'max-age=300',
+289 verbose headers   'content-length': '11503',
+289 verbose headers   'accept-ranges': 'bytes',
+289 verbose headers   date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+289 verbose headers   via: '1.1 varnish',
+289 verbose headers   age: '172',
+289 verbose headers   connection: 'keep-alive',
+289 verbose headers   'x-served-by': 'cache-ams4436-AMS',
+289 verbose headers   'x-cache': 'HIT',
+289 verbose headers   'x-cache-hits': '1',
+289 verbose headers   'x-timer': 'S1504898806.942880,VS0,VE0',
+289 verbose headers   vary: 'Accept-Encoding, Accept' }
+290 silly get cb [ 200,
+290 silly get   { server: 'nginx/1.10.1',
+290 silly get     'content-type': 'application/json',
+290 silly get     'last-modified': 'Fri, 08 Sep 2017 17:06:45 GMT',
+290 silly get     etag: 'W/"59b2ce25-e2db"',
+290 silly get     'content-encoding': 'gzip',
+290 silly get     'cache-control': 'max-age=300',
+290 silly get     'content-length': '11503',
+290 silly get     'accept-ranges': 'bytes',
+290 silly get     date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+290 silly get     via: '1.1 varnish',
+290 silly get     age: '172',
+290 silly get     connection: 'keep-alive',
+290 silly get     'x-served-by': 'cache-ams4436-AMS',
+290 silly get     'x-cache': 'HIT',
+290 silly get     'x-cache-hits': '1',
+290 silly get     'x-timer': 'S1504898806.942880,VS0,VE0',
+290 silly get     vary: 'Accept-Encoding, Accept' } ]
+291 verbose get saving bootstrap to /home/lawlug/.npm/registry.npmjs.org/bootstrap/.cache.json
+292 silly cache afterAdd angular-in-memory-web-api@0.1.17
+293 verbose afterAdd /home/lawlug/.npm/angular-in-memory-web-api/0.1.17/package/package.json not in flight; writing
+294 silly cache afterAdd zone.js@0.6.26
+295 verbose afterAdd /home/lawlug/.npm/zone.js/0.6.26/package/package.json not in flight; writing
+296 silly cache afterAdd rxjs@5.0.0-beta.12
+297 verbose afterAdd /home/lawlug/.npm/rxjs/5.0.0-beta.12/package/package.json not in flight; writing
+298 verbose afterAdd /home/lawlug/.npm/zone.js/0.6.26/package/package.json written
+299 verbose afterAdd /home/lawlug/.npm/angular-in-memory-web-api/0.1.17/package/package.json written
+300 verbose afterAdd /home/lawlug/.npm/rxjs/5.0.0-beta.12/package/package.json written
+301 http 200 https://registry.npmjs.org/@angular%2fforms
+302 verbose headers { 'content-type': 'application/json',
+302 verbose headers   server: 'nginx/1.10.1',
+302 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:03:47 GMT',
+302 verbose headers   etag: 'W/"59aad663-1d578"',
+302 verbose headers   'content-encoding': 'gzip',
+302 verbose headers   'cache-control': 'max-age=0',
+302 verbose headers   'transfer-encoding': 'chunked',
+302 verbose headers   'accept-ranges': 'bytes',
+302 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+302 verbose headers   via: '1.1 varnish',
+302 verbose headers   age: '0',
+302 verbose headers   connection: 'keep-alive',
+302 verbose headers   'x-served-by': 'cache-ams4445-AMS',
+302 verbose headers   'x-cache': 'MISS',
+302 verbose headers   'x-cache-hits': '0',
+302 verbose headers   'x-timer': 'S1504898806.769707,VS0,VE248',
+302 verbose headers   vary: 'Accept-Encoding' }
+303 silly get cb [ 200,
+303 silly get   { 'content-type': 'application/json',
+303 silly get     server: 'nginx/1.10.1',
+303 silly get     'last-modified': 'Sat, 02 Sep 2017 16:03:47 GMT',
+303 silly get     etag: 'W/"59aad663-1d578"',
+303 silly get     'content-encoding': 'gzip',
+303 silly get     'cache-control': 'max-age=0',
+303 silly get     'transfer-encoding': 'chunked',
+303 silly get     'accept-ranges': 'bytes',
+303 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+303 silly get     via: '1.1 varnish',
+303 silly get     age: '0',
+303 silly get     connection: 'keep-alive',
+303 silly get     'x-served-by': 'cache-ams4445-AMS',
+303 silly get     'x-cache': 'MISS',
+303 silly get     'x-cache-hits': '0',
+303 silly get     'x-timer': 'S1504898806.769707,VS0,VE248',
+303 silly get     vary: 'Accept-Encoding' } ]
+304 verbose get saving @angular/forms to /home/lawlug/.npm/registry.npmjs.org/_40angular_252fforms/.cache.json
+305 silly resolveWithNewModule bootstrap@3.3.7 checking installable status
+306 silly cache add args [ 'bootstrap@^3.3.7', null ]
+307 verbose cache add spec bootstrap@^3.3.7
+308 silly cache add parsed spec Result {
+308 silly cache add   raw: 'bootstrap@^3.3.7',
+308 silly cache add   scope: null,
+308 silly cache add   name: 'bootstrap',
+308 silly cache add   rawSpec: '^3.3.7',
+308 silly cache add   spec: '>=3.3.7 <4.0.0',
+308 silly cache add   type: 'range' }
+309 silly addNamed bootstrap@>=3.3.7 <4.0.0
+310 verbose addNamed ">=3.3.7 <4.0.0" is a valid semver range for bootstrap
+311 silly addNameRange { name: 'bootstrap', range: '>=3.3.7 <4.0.0', hasData: false }
+312 silly mapToRegistry name bootstrap
+313 silly mapToRegistry using default registry
+314 silly mapToRegistry registry https://registry.npmjs.org/
+315 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+316 verbose addNameRange registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+317 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+318 silly addNameRange number 2 { name: 'bootstrap', range: '>=3.3.7 <4.0.0', hasData: true }
+319 silly addNameRange versions [ 'bootstrap',
+319 silly addNameRange   [ '0.0.1',
+319 silly addNameRange     '0.0.2',
+319 silly addNameRange     '3.1.1',
+319 silly addNameRange     '3.2.0',
+319 silly addNameRange     '3.3.0',
+319 silly addNameRange     '3.3.1',
+319 silly addNameRange     '3.3.2',
+319 silly addNameRange     '3.3.4',
+319 silly addNameRange     '3.3.5',
+319 silly addNameRange     '3.3.6',
+319 silly addNameRange     '4.0.0-alpha.2',
+319 silly addNameRange     '3.3.7',
+319 silly addNameRange     '4.0.0-alpha.3',
+319 silly addNameRange     '4.0.0-alpha.4',
+319 silly addNameRange     '4.0.0-alpha.5',
+319 silly addNameRange     '4.0.0-alpha.6',
+319 silly addNameRange     '4.0.0-beta' ] ]
+320 silly addNamed bootstrap@3.3.7
+321 verbose addNamed "3.3.7" is a plain semver version for bootstrap
+322 http 200 https://registry.npmjs.org/@angular%2fcompiler
+323 verbose headers { 'content-type': 'application/json',
+323 verbose headers   server: 'nginx/1.10.1',
+323 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:03:37 GMT',
+323 verbose headers   etag: 'W/"59aad659-1eb76"',
+323 verbose headers   'content-encoding': 'gzip',
+323 verbose headers   'cache-control': 'max-age=0',
+323 verbose headers   'transfer-encoding': 'chunked',
+323 verbose headers   'accept-ranges': 'bytes',
+323 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+323 verbose headers   via: '1.1 varnish',
+323 verbose headers   age: '0',
+323 verbose headers   connection: 'keep-alive',
+323 verbose headers   'x-served-by': 'cache-ams4144-AMS',
+323 verbose headers   'x-cache': 'MISS',
+323 verbose headers   'x-cache-hits': '0',
+323 verbose headers   'x-timer': 'S1504898806.843670,VS0,VE188',
+323 verbose headers   vary: 'Accept-Encoding' }
+324 silly get cb [ 200,
+324 silly get   { 'content-type': 'application/json',
+324 silly get     server: 'nginx/1.10.1',
+324 silly get     'last-modified': 'Sat, 02 Sep 2017 16:03:37 GMT',
+324 silly get     etag: 'W/"59aad659-1eb76"',
+324 silly get     'content-encoding': 'gzip',
+324 silly get     'cache-control': 'max-age=0',
+324 silly get     'transfer-encoding': 'chunked',
+324 silly get     'accept-ranges': 'bytes',
+324 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+324 silly get     via: '1.1 varnish',
+324 silly get     age: '0',
+324 silly get     connection: 'keep-alive',
+324 silly get     'x-served-by': 'cache-ams4144-AMS',
+324 silly get     'x-cache': 'MISS',
+324 silly get     'x-cache-hits': '0',
+324 silly get     'x-timer': 'S1504898806.843670,VS0,VE188',
+324 silly get     vary: 'Accept-Encoding' } ]
+325 verbose get saving @angular/compiler to /home/lawlug/.npm/registry.npmjs.org/_40angular_252fcompiler/.cache.json
+326 http 200 https://registry.npmjs.org/@angular%2fhttp
+327 verbose headers { 'content-type': 'application/json',
+327 verbose headers   server: 'nginx/1.10.1',
+327 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:03:51 GMT',
+327 verbose headers   etag: 'W/"59aad667-1f15c"',
+327 verbose headers   'content-encoding': 'gzip',
+327 verbose headers   'cache-control': 'max-age=0',
+327 verbose headers   'transfer-encoding': 'chunked',
+327 verbose headers   'accept-ranges': 'bytes',
+327 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+327 verbose headers   via: '1.1 varnish',
+327 verbose headers   age: '0',
+327 verbose headers   connection: 'keep-alive',
+327 verbose headers   'x-served-by': 'cache-ams4136-AMS',
+327 verbose headers   'x-cache': 'MISS',
+327 verbose headers   'x-cache-hits': '0',
+327 verbose headers   'x-timer': 'S1504898806.761933,VS0,VE252',
+327 verbose headers   vary: 'Accept-Encoding' }
+328 silly get cb [ 200,
+328 silly get   { 'content-type': 'application/json',
+328 silly get     server: 'nginx/1.10.1',
+328 silly get     'last-modified': 'Sat, 02 Sep 2017 16:03:51 GMT',
+328 silly get     etag: 'W/"59aad667-1f15c"',
+328 silly get     'content-encoding': 'gzip',
+328 silly get     'cache-control': 'max-age=0',
+328 silly get     'transfer-encoding': 'chunked',
+328 silly get     'accept-ranges': 'bytes',
+328 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+328 silly get     via: '1.1 varnish',
+328 silly get     age: '0',
+328 silly get     connection: 'keep-alive',
+328 silly get     'x-served-by': 'cache-ams4136-AMS',
+328 silly get     'x-cache': 'MISS',
+328 silly get     'x-cache-hits': '0',
+328 silly get     'x-timer': 'S1504898806.761933,VS0,VE252',
+328 silly get     vary: 'Accept-Encoding' } ]
+329 verbose get saving @angular/http to /home/lawlug/.npm/registry.npmjs.org/_40angular_252fhttp/.cache.json
+330 silly resolveWithNewModule @angular/forms@2.0.2 checking installable status
+331 silly cache add args [ '@angular/forms@~2.0.2', null ]
+332 verbose cache add spec @angular/forms@~2.0.2
+333 silly cache add parsed spec Result {
+333 silly cache add   raw: '@angular/forms@~2.0.2',
+333 silly cache add   scope: '@angular',
+333 silly cache add   name: '@angular/forms',
+333 silly cache add   rawSpec: '~2.0.2',
+333 silly cache add   spec: '>=2.0.2 <2.1.0',
+333 silly cache add   type: 'range' }
+334 silly addNamed @angular/forms@>=2.0.2 <2.1.0
+335 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for @angular/forms
+336 silly addNameRange { name: '@angular/forms',
+336 silly addNameRange   range: '>=2.0.2 <2.1.0',
+336 silly addNameRange   hasData: false }
+337 silly mapToRegistry name @angular/forms
+338 silly mapToRegistry scope (from package name) @angular
+339 verbose mapToRegistry no registry URL found in name for scope @angular
+340 silly mapToRegistry using default registry
+341 silly mapToRegistry registry https://registry.npmjs.org/
+342 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+343 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fforms not in flight; fetching
+344 http 200 https://registry.npmjs.org/@angular%2fplatform-browser
+345 verbose headers { 'content-type': 'application/json',
+345 verbose headers   server: 'nginx/1.10.1',
+345 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:04:00 GMT',
+345 verbose headers   etag: 'W/"59aad670-21fc8"',
+345 verbose headers   'content-encoding': 'gzip',
+345 verbose headers   'cache-control': 'max-age=0',
+345 verbose headers   'transfer-encoding': 'chunked',
+345 verbose headers   'accept-ranges': 'bytes',
+345 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+345 verbose headers   via: '1.1 varnish',
+345 verbose headers   age: '0',
+345 verbose headers   connection: 'keep-alive',
+345 verbose headers   'x-served-by': 'cache-ams4449-AMS',
+345 verbose headers   'x-cache': 'MISS',
+345 verbose headers   'x-cache-hits': '0',
+345 verbose headers   'x-timer': 'S1504898806.812144,VS0,VE254',
+345 verbose headers   vary: 'Accept-Encoding' }
+346 silly get cb [ 200,
+346 silly get   { 'content-type': 'application/json',
+346 silly get     server: 'nginx/1.10.1',
+346 silly get     'last-modified': 'Sat, 02 Sep 2017 16:04:00 GMT',
+346 silly get     etag: 'W/"59aad670-21fc8"',
+346 silly get     'content-encoding': 'gzip',
+346 silly get     'cache-control': 'max-age=0',
+346 silly get     'transfer-encoding': 'chunked',
+346 silly get     'accept-ranges': 'bytes',
+346 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+346 silly get     via: '1.1 varnish',
+346 silly get     age: '0',
+346 silly get     connection: 'keep-alive',
+346 silly get     'x-served-by': 'cache-ams4449-AMS',
+346 silly get     'x-cache': 'MISS',
+346 silly get     'x-cache-hits': '0',
+346 silly get     'x-timer': 'S1504898806.812144,VS0,VE254',
+346 silly get     vary: 'Accept-Encoding' } ]
+347 verbose get saving @angular/platform-browser to /home/lawlug/.npm/registry.npmjs.org/_40angular_252fplatform-browser/.cache.json
+348 verbose get https://registry.npmjs.org/@angular%2fforms not expired, no request
+349 silly addNameRange number 2 { name: '@angular/forms',
+349 silly addNameRange   range: '>=2.0.2 <2.1.0',
+349 silly addNameRange   hasData: true }
+350 silly addNameRange versions [ '@angular/forms',
+350 silly addNameRange   [ '0.1.0',
+350 silly addNameRange     '0.1.1',
+350 silly addNameRange     '0.2.0',
+350 silly addNameRange     '0.3.0',
+350 silly addNameRange     '2.0.0-rc.6',
+350 silly addNameRange     '2.0.0-rc.7',
+350 silly addNameRange     '2.0.0',
+350 silly addNameRange     '2.0.1',
+350 silly addNameRange     '2.1.0-beta.0',
+350 silly addNameRange     '2.0.2',
+350 silly addNameRange     '2.1.0-rc.0',
+350 silly addNameRange     '2.1.0',
+350 silly addNameRange     '2.2.0-beta.0',
+350 silly addNameRange     '2.1.1',
+350 silly addNameRange     '2.2.0-beta.1',
+350 silly addNameRange     '2.1.2',
+350 silly addNameRange     '2.2.0-rc.0',
+350 silly addNameRange     '2.2.0',
+350 silly addNameRange     '2.2.1',
+350 silly addNameRange     '2.3.0-beta.0',
+350 silly addNameRange     '2.2.2',
+350 silly addNameRange     '2.3.0-beta.1',
+350 silly addNameRange     '2.2.3',
+350 silly addNameRange     '2.2.4',
+350 silly addNameRange     '2.3.0-rc.0',
+350 silly addNameRange     '2.3.0',
+350 silly addNameRange     '4.0.0-beta.0',
+350 silly addNameRange     '2.3.1',
+350 silly addNameRange     '2.4.0',
+350 silly addNameRange     '2.4.1',
+350 silly addNameRange     '4.0.0-beta.1',
+350 silly addNameRange     '4.0.0-beta.2',
+350 silly addNameRange     '2.4.2',
+350 silly addNameRange     '2.4.3',
+350 silly addNameRange     '4.0.0-beta.3',
+350 silly addNameRange     '2.4.4',
+350 silly addNameRange     '4.0.0-beta.4',
+350 silly addNameRange     '2.4.5',
+350 silly addNameRange     '4.0.0-beta.5',
+350 silly addNameRange     '2.4.6',
+350 silly addNameRange     '4.0.0-beta.6',
+350 silly addNameRange     '2.4.7',
+350 silly addNameRange     '4.0.0-beta.7',
+350 silly addNameRange     '2.4.8',
+350 silly addNameRange     '4.0.0-beta.8',
+350 silly addNameRange     '4.0.0-rc.0',
+350 silly addNameRange     '4.0.0-rc.1',
+350 silly addNameRange     '4.0.0-rc.2',
+350 silly addNameRange     '2.4.9',
+350 silly addNameRange     '4.0.0-rc.3',
+350 silly addNameRange     '2.4.10',
+350 silly addNameRange     '4.0.0-rc.4',
+350 silly addNameRange     '4.0.0-rc.5',
+350 silly addNameRange     '4.0.0-rc.6',
+350 silly addNameRange     '4.0.0',
+350 silly addNameRange     '4.0.1',
+350 silly addNameRange     '4.1.0-beta.0',
+350 silly addNameRange     '4.0.2',
+350 silly addNameRange     '4.1.0-beta.1',
+350 silly addNameRange     '4.0.3',
+350 silly addNameRange     '4.1.0-rc.0',
+350 silly addNameRange     '4.1.0',
+350 silly addNameRange     '4.1.1',
+350 silly addNameRange     '4.2.0-beta.0',
+350 silly addNameRange     '4.1.2',
+350 silly addNameRange     '4.2.0-beta.1',
+350 silly addNameRange     '4.1.3',
+350 silly addNameRange     '4.2.0-rc.0',
+350 silly addNameRange     '4.2.0-rc.1',
+350 silly addNameRange     '4.2.0-rc.2',
+350 silly addNameRange     '4.2.0',
+350 silly addNameRange     '4.2.1',
+350 silly addNameRange     '4.2.2',
+350 silly addNameRange     '4.2.3',
+350 silly addNameRange     '4.2.4',
+350 silly addNameRange     '4.3.0-beta.0',
+350 silly addNameRange     '4.3.0-beta.1',
+350 silly addNameRange     '4.2.5',
+350 silly addNameRange     '4.2.6',
+350 silly addNameRange     '4.3.0-rc.0',
+350 silly addNameRange     '4.3.0',
+350 silly addNameRange     '4.3.1',
+350 silly addNameRange     '5.0.0-beta.0',
+350 silly addNameRange     '4.3.2',
+350 silly addNameRange     '5.0.0-beta.1',
+350 silly addNameRange     '4.3.3',
+350 silly addNameRange     '5.0.0-beta.2',
+350 silly addNameRange     '5.0.0-beta.3',
+350 silly addNameRange     '4.3.4',
+350 silly addNameRange     '4.3.5',
+350 silly addNameRange     '5.0.0-beta.4',
+350 silly addNameRange     '4.3.6',
+350 silly addNameRange     '5.0.0-beta.5',
+350 silly addNameRange     '4.4.0-RC.0',
+350 silly addNameRange     '5.0.0-beta.6' ] ]
+351 silly addNamed @angular/forms@2.0.2
+352 verbose addNamed "2.0.2" is a plain semver version for @angular/forms
+353 silly resolveWithNewModule @angular/http@2.0.2 checking installable status
+354 silly cache add args [ '@angular/http@~2.0.2', null ]
+355 verbose cache add spec @angular/http@~2.0.2
+356 silly cache add parsed spec Result {
+356 silly cache add   raw: '@angular/http@~2.0.2',
+356 silly cache add   scope: '@angular',
+356 silly cache add   name: '@angular/http',
+356 silly cache add   rawSpec: '~2.0.2',
+356 silly cache add   spec: '>=2.0.2 <2.1.0',
+356 silly cache add   type: 'range' }
+357 silly addNamed @angular/http@>=2.0.2 <2.1.0
+358 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for @angular/http
+359 silly addNameRange { name: '@angular/http',
+359 silly addNameRange   range: '>=2.0.2 <2.1.0',
+359 silly addNameRange   hasData: false }
+360 silly mapToRegistry name @angular/http
+361 silly mapToRegistry scope (from package name) @angular
+362 verbose mapToRegistry no registry URL found in name for scope @angular
+363 silly mapToRegistry using default registry
+364 silly mapToRegistry registry https://registry.npmjs.org/
+365 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+366 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fhttp not in flight; fetching
+367 http 200 https://registry.npmjs.org/@angular%2fcore
+368 verbose headers { 'content-type': 'application/json',
+368 verbose headers   server: 'nginx/1.10.1',
+368 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:03:44 GMT',
+368 verbose headers   etag: 'W/"59aad660-1e246"',
+368 verbose headers   'content-encoding': 'gzip',
+368 verbose headers   'cache-control': 'max-age=0',
+368 verbose headers   'transfer-encoding': 'chunked',
+368 verbose headers   'accept-ranges': 'bytes',
+368 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+368 verbose headers   via: '1.1 varnish',
+368 verbose headers   age: '0',
+368 verbose headers   connection: 'keep-alive',
+368 verbose headers   'x-served-by': 'cache-ams4147-AMS',
+368 verbose headers   'x-cache': 'MISS',
+368 verbose headers   'x-cache-hits': '0',
+368 verbose headers   'x-timer': 'S1504898806.825027,VS0,VE268',
+368 verbose headers   vary: 'Accept-Encoding' }
+369 silly get cb [ 200,
+369 silly get   { 'content-type': 'application/json',
+369 silly get     server: 'nginx/1.10.1',
+369 silly get     'last-modified': 'Sat, 02 Sep 2017 16:03:44 GMT',
+369 silly get     etag: 'W/"59aad660-1e246"',
+369 silly get     'content-encoding': 'gzip',
+369 silly get     'cache-control': 'max-age=0',
+369 silly get     'transfer-encoding': 'chunked',
+369 silly get     'accept-ranges': 'bytes',
+369 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+369 silly get     via: '1.1 varnish',
+369 silly get     age: '0',
+369 silly get     connection: 'keep-alive',
+369 silly get     'x-served-by': 'cache-ams4147-AMS',
+369 silly get     'x-cache': 'MISS',
+369 silly get     'x-cache-hits': '0',
+369 silly get     'x-timer': 'S1504898806.825027,VS0,VE268',
+369 silly get     vary: 'Accept-Encoding' } ]
+370 verbose get saving @angular/core to /home/lawlug/.npm/registry.npmjs.org/_40angular_252fcore/.cache.json
+371 silly resolveWithNewModule @angular/platform-browser@2.0.2 checking installable status
+372 silly cache add args [ '@angular/platform-browser@~2.0.2', null ]
+373 verbose cache add spec @angular/platform-browser@~2.0.2
+374 silly cache add parsed spec Result {
+374 silly cache add   raw: '@angular/platform-browser@~2.0.2',
+374 silly cache add   scope: '@angular',
+374 silly cache add   name: '@angular/platform-browser',
+374 silly cache add   rawSpec: '~2.0.2',
+374 silly cache add   spec: '>=2.0.2 <2.1.0',
+374 silly cache add   type: 'range' }
+375 silly addNamed @angular/platform-browser@>=2.0.2 <2.1.0
+376 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for @angular/platform-browser
+377 silly addNameRange { name: '@angular/platform-browser',
+377 silly addNameRange   range: '>=2.0.2 <2.1.0',
+377 silly addNameRange   hasData: false }
+378 silly mapToRegistry name @angular/platform-browser
+379 silly mapToRegistry scope (from package name) @angular
+380 verbose mapToRegistry no registry URL found in name for scope @angular
+381 silly mapToRegistry using default registry
+382 silly mapToRegistry registry https://registry.npmjs.org/
+383 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+384 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fplatform-browser not in flight; fetching
+385 verbose get https://registry.npmjs.org/@angular%2fhttp not expired, no request
+386 silly addNameRange number 2 { name: '@angular/http', range: '>=2.0.2 <2.1.0', hasData: true }
+387 silly addNameRange versions [ '@angular/http',
+387 silly addNameRange   [ '0.0.0-0',
+387 silly addNameRange     '0.0.0-1',
+387 silly addNameRange     '0.0.0-2',
+387 silly addNameRange     '0.0.0-3',
+387 silly addNameRange     '0.0.0-4',
+387 silly addNameRange     '0.0.0-5',
+387 silly addNameRange     '0.0.0-6',
+387 silly addNameRange     '0.0.0-7',
+387 silly addNameRange     '2.0.0-rc.0',
+387 silly addNameRange     '2.0.0-rc.1',
+387 silly addNameRange     '2.0.0-rc.2',
+387 silly addNameRange     '2.0.0-rc.3',
+387 silly addNameRange     '2.0.0-rc.4',
+387 silly addNameRange     '2.0.0-rc.5',
+387 silly addNameRange     '2.0.0-rc.6',
+387 silly addNameRange     '2.0.0-rc.7',
+387 silly addNameRange     '2.0.0',
+387 silly addNameRange     '2.0.1',
+387 silly addNameRange     '2.1.0-beta.0',
+387 silly addNameRange     '2.0.2',
+387 silly addNameRange     '2.1.0-rc.0',
+387 silly addNameRange     '2.1.0',
+387 silly addNameRange     '2.2.0-beta.0',
+387 silly addNameRange     '2.1.1',
+387 silly addNameRange     '2.2.0-beta.1',
+387 silly addNameRange     '2.1.2',
+387 silly addNameRange     '2.2.0-rc.0',
+387 silly addNameRange     '2.2.0',
+387 silly addNameRange     '2.2.1',
+387 silly addNameRange     '2.3.0-beta.0',
+387 silly addNameRange     '2.2.2',
+387 silly addNameRange     '2.3.0-beta.1',
+387 silly addNameRange     '2.2.3',
+387 silly addNameRange     '2.2.4',
+387 silly addNameRange     '2.3.0-rc.0',
+387 silly addNameRange     '2.3.0',
+387 silly addNameRange     '4.0.0-beta.0',
+387 silly addNameRange     '2.3.1',
+387 silly addNameRange     '2.4.0',
+387 silly addNameRange     '2.4.1',
+387 silly addNameRange     '4.0.0-beta.1',
+387 silly addNameRange     '4.0.0-beta.2',
+387 silly addNameRange     '2.4.2',
+387 silly addNameRange     '2.4.3',
+387 silly addNameRange     '4.0.0-beta.3',
+387 silly addNameRange     '2.4.4',
+387 silly addNameRange     '4.0.0-beta.4',
+387 silly addNameRange     '2.4.5',
+387 silly addNameRange     '4.0.0-beta.5',
+387 silly addNameRange     '2.4.6',
+387 silly addNameRange     '4.0.0-beta.6',
+387 silly addNameRange     '2.4.7',
+387 silly addNameRange     '4.0.0-beta.7',
+387 silly addNameRange     '2.4.8',
+387 silly addNameRange     '4.0.0-beta.8',
+387 silly addNameRange     '4.0.0-rc.0',
+387 silly addNameRange     '4.0.0-rc.1',
+387 silly addNameRange     '4.0.0-rc.2',
+387 silly addNameRange     '2.4.9',
+387 silly addNameRange     '4.0.0-rc.3',
+387 silly addNameRange     '2.4.10',
+387 silly addNameRange     '4.0.0-rc.4',
+387 silly addNameRange     '4.0.0-rc.5',
+387 silly addNameRange     '4.0.0-rc.6',
+387 silly addNameRange     '4.0.0',
+387 silly addNameRange     '4.0.1',
+387 silly addNameRange     '4.1.0-beta.0',
+387 silly addNameRange     '4.0.2',
+387 silly addNameRange     '4.1.0-beta.1',
+387 silly addNameRange     '4.0.3',
+387 silly addNameRange     '4.1.0-rc.0',
+387 silly addNameRange     '4.1.0',
+387 silly addNameRange     '4.1.1',
+387 silly addNameRange     '4.2.0-beta.0',
+387 silly addNameRange     '4.1.2',
+387 silly addNameRange     '4.2.0-beta.1',
+387 silly addNameRange     '4.1.3',
+387 silly addNameRange     '4.2.0-rc.0',
+387 silly addNameRange     '4.2.0-rc.1',
+387 silly addNameRange     '4.2.0-rc.2',
+387 silly addNameRange     '4.2.0',
+387 silly addNameRange     '4.2.1',
+387 silly addNameRange     '4.2.2',
+387 silly addNameRange     '4.2.3',
+387 silly addNameRange     '4.2.4',
+387 silly addNameRange     '4.3.0-beta.0',
+387 silly addNameRange     '4.3.0-beta.1',
+387 silly addNameRange     '4.2.5',
+387 silly addNameRange     '4.2.6',
+387 silly addNameRange     '4.3.0-rc.0',
+387 silly addNameRange     '4.3.0',
+387 silly addNameRange     '4.3.1',
+387 silly addNameRange     '5.0.0-beta.0',
+387 silly addNameRange     '4.3.2',
+387 silly addNameRange     '5.0.0-beta.1',
+387 silly addNameRange     '4.3.3',
+387 silly addNameRange     '5.0.0-beta.2',
+387 silly addNameRange     '5.0.0-beta.3',
+387 silly addNameRange     '4.3.4',
+387 silly addNameRange     '4.3.5',
+387 silly addNameRange     '5.0.0-beta.4',
+387 silly addNameRange     '4.3.6',
+387 silly addNameRange     '5.0.0-beta.5',
+387 silly addNameRange     '4.4.0-RC.0',
+387 silly addNameRange     '5.0.0-beta.6' ] ]
+388 silly addNamed @angular/http@2.0.2
+389 verbose addNamed "2.0.2" is a plain semver version for @angular/http
+390 silly resolveWithNewModule @angular/compiler@2.0.2 checking installable status
+391 silly cache add args [ '@angular/compiler@~2.0.2', null ]
+392 verbose cache add spec @angular/compiler@~2.0.2
+393 silly cache add parsed spec Result {
+393 silly cache add   raw: '@angular/compiler@~2.0.2',
+393 silly cache add   scope: '@angular',
+393 silly cache add   name: '@angular/compiler',
+393 silly cache add   rawSpec: '~2.0.2',
+393 silly cache add   spec: '>=2.0.2 <2.1.0',
+393 silly cache add   type: 'range' }
+394 silly addNamed @angular/compiler@>=2.0.2 <2.1.0
+395 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for @angular/compiler
+396 silly addNameRange { name: '@angular/compiler',
+396 silly addNameRange   range: '>=2.0.2 <2.1.0',
+396 silly addNameRange   hasData: false }
+397 silly mapToRegistry name @angular/compiler
+398 silly mapToRegistry scope (from package name) @angular
+399 verbose mapToRegistry no registry URL found in name for scope @angular
+400 silly mapToRegistry using default registry
+401 silly mapToRegistry registry https://registry.npmjs.org/
+402 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+403 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fcompiler not in flight; fetching
+404 silly cache afterAdd bootstrap@3.3.7
+405 verbose afterAdd /home/lawlug/.npm/bootstrap/3.3.7/package/package.json not in flight; writing
+406 verbose get https://registry.npmjs.org/@angular%2fplatform-browser not expired, no request
+407 silly addNameRange number 2 { name: '@angular/platform-browser',
+407 silly addNameRange   range: '>=2.0.2 <2.1.0',
+407 silly addNameRange   hasData: true }
+408 silly addNameRange versions [ '@angular/platform-browser',
+408 silly addNameRange   [ '0.0.0-0',
+408 silly addNameRange     '0.0.0-1',
+408 silly addNameRange     '0.0.0-2',
+408 silly addNameRange     '0.0.0-3',
+408 silly addNameRange     '0.0.0-4',
+408 silly addNameRange     '0.0.0-5',
+408 silly addNameRange     '0.0.0-6',
+408 silly addNameRange     '0.0.0-7',
+408 silly addNameRange     '2.0.0-rc.0',
+408 silly addNameRange     '2.0.0-rc.1',
+408 silly addNameRange     '2.0.0-rc.2',
+408 silly addNameRange     '2.0.0-rc.3',
+408 silly addNameRange     '2.0.0-rc.4',
+408 silly addNameRange     '2.0.0-rc.5',
+408 silly addNameRange     '2.0.0-rc.6',
+408 silly addNameRange     '2.0.0-rc.7',
+408 silly addNameRange     '2.0.0',
+408 silly addNameRange     '2.0.1',
+408 silly addNameRange     '2.1.0-beta.0',
+408 silly addNameRange     '2.0.2',
+408 silly addNameRange     '2.1.0-rc.0',
+408 silly addNameRange     '2.1.0',
+408 silly addNameRange     '2.2.0-beta.0',
+408 silly addNameRange     '2.1.1',
+408 silly addNameRange     '2.2.0-beta.1',
+408 silly addNameRange     '2.1.2',
+408 silly addNameRange     '2.2.0-rc.0',
+408 silly addNameRange     '2.2.0',
+408 silly addNameRange     '2.2.1',
+408 silly addNameRange     '2.3.0-beta.0',
+408 silly addNameRange     '2.2.2',
+408 silly addNameRange     '2.3.0-beta.1',
+408 silly addNameRange     '2.2.3',
+408 silly addNameRange     '2.2.4',
+408 silly addNameRange     '2.3.0-rc.0',
+408 silly addNameRange     '2.3.0',
+408 silly addNameRange     '4.0.0-beta.0',
+408 silly addNameRange     '2.3.1',
+408 silly addNameRange     '2.4.0',
+408 silly addNameRange     '2.4.1',
+408 silly addNameRange     '4.0.0-beta.1',
+408 silly addNameRange     '4.0.0-beta.2',
+408 silly addNameRange     '2.4.2',
+408 silly addNameRange     '2.4.3',
+408 silly addNameRange     '4.0.0-beta.3',
+408 silly addNameRange     '2.4.4',
+408 silly addNameRange     '4.0.0-beta.4',
+408 silly addNameRange     '2.4.5',
+408 silly addNameRange     '4.0.0-beta.5',
+408 silly addNameRange     '2.4.6',
+408 silly addNameRange     '4.0.0-beta.6',
+408 silly addNameRange     '2.4.7',
+408 silly addNameRange     '4.0.0-beta.7',
+408 silly addNameRange     '2.4.8',
+408 silly addNameRange     '4.0.0-beta.8',
+408 silly addNameRange     '4.0.0-rc.0',
+408 silly addNameRange     '4.0.0-rc.1',
+408 silly addNameRange     '4.0.0-rc.2',
+408 silly addNameRange     '2.4.9',
+408 silly addNameRange     '4.0.0-rc.3',
+408 silly addNameRange     '2.4.10',
+408 silly addNameRange     '4.0.0-rc.4',
+408 silly addNameRange     '4.0.0-rc.5',
+408 silly addNameRange     '4.0.0-rc.6',
+408 silly addNameRange     '4.0.0',
+408 silly addNameRange     '4.0.1',
+408 silly addNameRange     '4.1.0-beta.0',
+408 silly addNameRange     '4.0.2',
+408 silly addNameRange     '4.1.0-beta.1',
+408 silly addNameRange     '4.0.3',
+408 silly addNameRange     '4.1.0-rc.0',
+408 silly addNameRange     '4.1.0',
+408 silly addNameRange     '4.1.1',
+408 silly addNameRange     '4.2.0-beta.0',
+408 silly addNameRange     '4.1.2',
+408 silly addNameRange     '4.2.0-beta.1',
+408 silly addNameRange     '4.1.3',
+408 silly addNameRange     '4.2.0-rc.0',
+408 silly addNameRange     '4.2.0-rc.1',
+408 silly addNameRange     '4.2.0-rc.2',
+408 silly addNameRange     '4.2.0',
+408 silly addNameRange     '4.2.1',
+408 silly addNameRange     '4.2.2',
+408 silly addNameRange     '4.2.3',
+408 silly addNameRange     '4.2.4',
+408 silly addNameRange     '4.3.0-beta.0',
+408 silly addNameRange     '4.3.0-beta.1',
+408 silly addNameRange     '4.2.5',
+408 silly addNameRange     '4.2.6',
+408 silly addNameRange     '4.3.0-rc.0',
+408 silly addNameRange     '4.3.0',
+408 silly addNameRange     '4.3.1',
+408 silly addNameRange     '5.0.0-beta.0',
+408 silly addNameRange     '4.3.2',
+408 silly addNameRange     '5.0.0-beta.1',
+408 silly addNameRange     '4.3.3',
+408 silly addNameRange     '5.0.0-beta.2',
+408 silly addNameRange     '5.0.0-beta.3',
+408 silly addNameRange     '4.3.4',
+408 silly addNameRange     '4.3.5',
+408 silly addNameRange     '5.0.0-beta.4',
+408 silly addNameRange     '4.3.6',
+408 silly addNameRange     '5.0.0-beta.5',
+408 silly addNameRange     '4.4.0-RC.0',
+408 silly addNameRange     '5.0.0-beta.6' ] ]
+409 silly addNamed @angular/platform-browser@2.0.2
+410 verbose addNamed "2.0.2" is a plain semver version for @angular/platform-browser
+411 verbose get https://registry.npmjs.org/@angular%2fcompiler not expired, no request
+412 silly addNameRange number 2 { name: '@angular/compiler',
+412 silly addNameRange   range: '>=2.0.2 <2.1.0',
+412 silly addNameRange   hasData: true }
+413 silly addNameRange versions [ '@angular/compiler',
+413 silly addNameRange   [ '0.0.0-0',
+413 silly addNameRange     '0.0.0-1',
+413 silly addNameRange     '0.0.0-2',
+413 silly addNameRange     '0.0.0-3',
+413 silly addNameRange     '0.0.0-4',
+413 silly addNameRange     '0.0.0-5',
+413 silly addNameRange     '0.0.0-6',
+413 silly addNameRange     '0.0.0-7',
+413 silly addNameRange     '2.0.0-rc.0',
+413 silly addNameRange     '2.0.0-rc.1',
+413 silly addNameRange     '2.0.0-rc.2',
+413 silly addNameRange     '2.0.0-rc.3',
+413 silly addNameRange     '2.0.0-rc.4',
+413 silly addNameRange     '2.0.0-rc.5',
+413 silly addNameRange     '2.0.0-rc.6',
+413 silly addNameRange     '2.0.0-rc.7',
+413 silly addNameRange     '2.0.0',
+413 silly addNameRange     '2.0.1',
+413 silly addNameRange     '2.1.0-beta.0',
+413 silly addNameRange     '2.0.2',
+413 silly addNameRange     '2.1.0-rc.0',
+413 silly addNameRange     '2.1.0',
+413 silly addNameRange     '2.2.0-beta.0',
+413 silly addNameRange     '2.1.1',
+413 silly addNameRange     '2.2.0-beta.1',
+413 silly addNameRange     '2.1.2',
+413 silly addNameRange     '2.2.0-rc.0',
+413 silly addNameRange     '2.2.0',
+413 silly addNameRange     '2.2.1',
+413 silly addNameRange     '2.3.0-beta.0',
+413 silly addNameRange     '2.2.2',
+413 silly addNameRange     '2.3.0-beta.1',
+413 silly addNameRange     '2.2.3',
+413 silly addNameRange     '2.2.4',
+413 silly addNameRange     '2.3.0-rc.0',
+413 silly addNameRange     '2.3.0',
+413 silly addNameRange     '4.0.0-beta.0',
+413 silly addNameRange     '2.3.1',
+413 silly addNameRange     '2.4.0',
+413 silly addNameRange     '2.4.1',
+413 silly addNameRange     '4.0.0-beta.1',
+413 silly addNameRange     '4.0.0-beta.2',
+413 silly addNameRange     '2.4.2',
+413 silly addNameRange     '2.4.3',
+413 silly addNameRange     '4.0.0-beta.3',
+413 silly addNameRange     '2.4.4',
+413 silly addNameRange     '4.0.0-beta.4',
+413 silly addNameRange     '2.4.5',
+413 silly addNameRange     '4.0.0-beta.5',
+413 silly addNameRange     '2.4.6',
+413 silly addNameRange     '4.0.0-beta.6',
+413 silly addNameRange     '2.4.7',
+413 silly addNameRange     '4.0.0-beta.7',
+413 silly addNameRange     '2.4.8',
+413 silly addNameRange     '4.0.0-beta.8',
+413 silly addNameRange     '4.0.0-rc.0',
+413 silly addNameRange     '4.0.0-rc.1',
+413 silly addNameRange     '4.0.0-rc.2',
+413 silly addNameRange     '2.4.9',
+413 silly addNameRange     '4.0.0-rc.3',
+413 silly addNameRange     '2.4.10',
+413 silly addNameRange     '4.0.0-rc.4',
+413 silly addNameRange     '4.0.0-rc.5',
+413 silly addNameRange     '4.0.0-rc.6',
+413 silly addNameRange     '4.0.0',
+413 silly addNameRange     '4.0.1',
+413 silly addNameRange     '4.1.0-beta.0',
+413 silly addNameRange     '4.0.2',
+413 silly addNameRange     '4.1.0-beta.1',
+413 silly addNameRange     '4.0.3',
+413 silly addNameRange     '4.1.0-rc.0',
+413 silly addNameRange     '4.1.0',
+413 silly addNameRange     '4.1.1',
+413 silly addNameRange     '4.2.0-beta.0',
+413 silly addNameRange     '4.1.2',
+413 silly addNameRange     '4.2.0-beta.1',
+413 silly addNameRange     '4.1.3',
+413 silly addNameRange     '4.2.0-rc.0',
+413 silly addNameRange     '4.2.0-rc.1',
+413 silly addNameRange     '4.2.0-rc.2',
+413 silly addNameRange     '4.2.0',
+413 silly addNameRange     '4.2.1',
+413 silly addNameRange     '4.2.2',
+413 silly addNameRange     '4.2.3',
+413 silly addNameRange     '4.2.4',
+413 silly addNameRange     '4.3.0-beta.0',
+413 silly addNameRange     '4.3.0-beta.1',
+413 silly addNameRange     '4.2.5',
+413 silly addNameRange     '4.2.6',
+413 silly addNameRange     '4.3.0-rc.0',
+413 silly addNameRange     '4.3.0',
+413 silly addNameRange     '4.3.1',
+413 silly addNameRange     '5.0.0-beta.0',
+413 silly addNameRange     '4.3.2',
+413 silly addNameRange     '5.0.0-beta.1',
+413 silly addNameRange     '4.3.3',
+413 silly addNameRange     '5.0.0-beta.2',
+413 silly addNameRange     '5.0.0-beta.3',
+413 silly addNameRange     '4.3.4',
+413 silly addNameRange     '4.3.5',
+413 silly addNameRange     '5.0.0-beta.4',
+413 silly addNameRange     '4.3.6',
+413 silly addNameRange     '5.0.0-beta.5',
+413 silly addNameRange     '4.4.0-RC.0',
+413 silly addNameRange     '5.0.0-beta.6' ] ]
+414 silly addNamed @angular/compiler@2.0.2
+415 verbose addNamed "2.0.2" is a plain semver version for @angular/compiler
+416 silly resolveWithNewModule @angular/core@2.0.2 checking installable status
+417 silly cache add args [ '@angular/core@~2.0.2', null ]
+418 verbose cache add spec @angular/core@~2.0.2
+419 silly cache add parsed spec Result {
+419 silly cache add   raw: '@angular/core@~2.0.2',
+419 silly cache add   scope: '@angular',
+419 silly cache add   name: '@angular/core',
+419 silly cache add   rawSpec: '~2.0.2',
+419 silly cache add   spec: '>=2.0.2 <2.1.0',
+419 silly cache add   type: 'range' }
+420 silly addNamed @angular/core@>=2.0.2 <2.1.0
+421 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for @angular/core
+422 silly addNameRange { name: '@angular/core',
+422 silly addNameRange   range: '>=2.0.2 <2.1.0',
+422 silly addNameRange   hasData: false }
+423 silly mapToRegistry name @angular/core
+424 silly mapToRegistry scope (from package name) @angular
+425 verbose mapToRegistry no registry URL found in name for scope @angular
+426 silly mapToRegistry using default registry
+427 silly mapToRegistry registry https://registry.npmjs.org/
+428 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+429 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fcore not in flight; fetching
+430 silly cache afterAdd @angular/forms@2.0.2
+431 verbose afterAdd /home/lawlug/.npm/@angular/forms/2.0.2/package/package.json not in flight; writing
+432 verbose afterAdd /home/lawlug/.npm/bootstrap/3.3.7/package/package.json written
+433 silly cache afterAdd @angular/http@2.0.2
+434 verbose afterAdd /home/lawlug/.npm/@angular/http/2.0.2/package/package.json not in flight; writing
+435 verbose get https://registry.npmjs.org/@angular%2fcore not expired, no request
+436 silly addNameRange number 2 { name: '@angular/core', range: '>=2.0.2 <2.1.0', hasData: true }
+437 silly addNameRange versions [ '@angular/core',
+437 silly addNameRange   [ '0.0.0-0',
+437 silly addNameRange     '0.0.0-1',
+437 silly addNameRange     '0.0.0-2',
+437 silly addNameRange     '0.0.0-3',
+437 silly addNameRange     '0.0.0-4',
+437 silly addNameRange     '0.0.0-5',
+437 silly addNameRange     '0.0.0-6',
+437 silly addNameRange     '0.0.0-7',
+437 silly addNameRange     '2.0.0-rc.0',
+437 silly addNameRange     '2.0.0-rc.1',
+437 silly addNameRange     '2.0.0-rc.2',
+437 silly addNameRange     '2.0.0-rc.3',
+437 silly addNameRange     '2.0.0-rc.4',
+437 silly addNameRange     '2.0.0-rc.5',
+437 silly addNameRange     '2.0.0-rc.6',
+437 silly addNameRange     '2.0.0-rc.7',
+437 silly addNameRange     '2.0.0',
+437 silly addNameRange     '2.0.1',
+437 silly addNameRange     '2.1.0-beta.0',
+437 silly addNameRange     '2.0.2',
+437 silly addNameRange     '2.1.0-rc.0',
+437 silly addNameRange     '2.1.0',
+437 silly addNameRange     '2.2.0-beta.0',
+437 silly addNameRange     '2.1.1',
+437 silly addNameRange     '2.2.0-beta.1',
+437 silly addNameRange     '2.1.2',
+437 silly addNameRange     '2.2.0-rc.0',
+437 silly addNameRange     '2.2.0',
+437 silly addNameRange     '2.2.1',
+437 silly addNameRange     '2.3.0-beta.0',
+437 silly addNameRange     '2.2.2',
+437 silly addNameRange     '2.3.0-beta.1',
+437 silly addNameRange     '2.2.3',
+437 silly addNameRange     '2.2.4',
+437 silly addNameRange     '2.3.0-rc.0',
+437 silly addNameRange     '2.3.0',
+437 silly addNameRange     '4.0.0-beta.0',
+437 silly addNameRange     '2.3.1',
+437 silly addNameRange     '2.4.0',
+437 silly addNameRange     '2.4.1',
+437 silly addNameRange     '4.0.0-beta.1',
+437 silly addNameRange     '4.0.0-beta.2',
+437 silly addNameRange     '2.4.2',
+437 silly addNameRange     '2.4.3',
+437 silly addNameRange     '4.0.0-beta.3',
+437 silly addNameRange     '2.4.4',
+437 silly addNameRange     '4.0.0-beta.4',
+437 silly addNameRange     '2.4.5',
+437 silly addNameRange     '4.0.0-beta.5',
+437 silly addNameRange     '2.4.6',
+437 silly addNameRange     '4.0.0-beta.6',
+437 silly addNameRange     '2.4.7',
+437 silly addNameRange     '4.0.0-beta.7',
+437 silly addNameRange     '2.4.8',
+437 silly addNameRange     '4.0.0-beta.8',
+437 silly addNameRange     '4.0.0-rc.0',
+437 silly addNameRange     '4.0.0-rc.1',
+437 silly addNameRange     '4.0.0-rc.2',
+437 silly addNameRange     '2.4.9',
+437 silly addNameRange     '4.0.0-rc.3',
+437 silly addNameRange     '2.4.10',
+437 silly addNameRange     '4.0.0-rc.4',
+437 silly addNameRange     '4.0.0-rc.5',
+437 silly addNameRange     '4.0.0-rc.6',
+437 silly addNameRange     '4.0.0',
+437 silly addNameRange     '4.0.1',
+437 silly addNameRange     '4.1.0-beta.0',
+437 silly addNameRange     '4.0.2',
+437 silly addNameRange     '4.1.0-beta.1',
+437 silly addNameRange     '4.0.3',
+437 silly addNameRange     '4.1.0-rc.0',
+437 silly addNameRange     '4.1.0',
+437 silly addNameRange     '4.1.1',
+437 silly addNameRange     '4.2.0-beta.0',
+437 silly addNameRange     '4.1.2',
+437 silly addNameRange     '4.2.0-beta.1',
+437 silly addNameRange     '4.1.3',
+437 silly addNameRange     '4.2.0-rc.0',
+437 silly addNameRange     '4.2.0-rc.1',
+437 silly addNameRange     '4.2.0-rc.2',
+437 silly addNameRange     '4.2.0',
+437 silly addNameRange     '4.2.1',
+437 silly addNameRange     '4.2.2',
+437 silly addNameRange     '4.2.3',
+437 silly addNameRange     '4.2.4',
+437 silly addNameRange     '4.3.0-beta.0',
+437 silly addNameRange     '4.3.0-beta.1',
+437 silly addNameRange     '4.2.5',
+437 silly addNameRange     '4.2.6',
+437 silly addNameRange     '4.3.0-rc.0',
+437 silly addNameRange     '4.3.0',
+437 silly addNameRange     '4.3.1',
+437 silly addNameRange     '5.0.0-beta.0',
+437 silly addNameRange     '4.3.2',
+437 silly addNameRange     '5.0.0-beta.1',
+437 silly addNameRange     '4.3.3',
+437 silly addNameRange     '5.0.0-beta.2',
+437 silly addNameRange     '5.0.0-beta.3',
+437 silly addNameRange     '4.3.4',
+437 silly addNameRange     '4.3.5',
+437 silly addNameRange     '5.0.0-beta.4',
+437 silly addNameRange     '4.3.6',
+437 silly addNameRange     '5.0.0-beta.5',
+437 silly addNameRange     '4.4.0-RC.0',
+437 silly addNameRange     '5.0.0-beta.6' ] ]
+438 silly addNamed @angular/core@2.0.2
+439 verbose addNamed "2.0.2" is a plain semver version for @angular/core
+440 verbose afterAdd /home/lawlug/.npm/@angular/forms/2.0.2/package/package.json written
+441 verbose afterAdd /home/lawlug/.npm/@angular/http/2.0.2/package/package.json written
+442 silly cache afterAdd @angular/platform-browser@2.0.2
+443 verbose afterAdd /home/lawlug/.npm/@angular/platform-browser/2.0.2/package/package.json not in flight; writing
+444 http 200 https://registry.npmjs.org/@angular%2fupgrade
+445 verbose headers { 'content-type': 'application/json',
+445 verbose headers   server: 'nginx/1.10.1',
+445 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:04:23 GMT',
+445 verbose headers   etag: 'W/"59aad687-21898"',
+445 verbose headers   'content-encoding': 'gzip',
+445 verbose headers   'cache-control': 'max-age=0',
+445 verbose headers   'transfer-encoding': 'chunked',
+445 verbose headers   'accept-ranges': 'bytes',
+445 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+445 verbose headers   via: '1.1 varnish',
+445 verbose headers   age: '0',
+445 verbose headers   connection: 'keep-alive',
+445 verbose headers   'x-served-by': 'cache-ams4120-AMS',
+445 verbose headers   'x-cache': 'MISS',
+445 verbose headers   'x-cache-hits': '0',
+445 verbose headers   'x-timer': 'S1504898806.840230,VS0,VE255',
+445 verbose headers   vary: 'Accept-Encoding' }
+446 silly get cb [ 200,
+446 silly get   { 'content-type': 'application/json',
+446 silly get     server: 'nginx/1.10.1',
+446 silly get     'last-modified': 'Sat, 02 Sep 2017 16:04:23 GMT',
+446 silly get     etag: 'W/"59aad687-21898"',
+446 silly get     'content-encoding': 'gzip',
+446 silly get     'cache-control': 'max-age=0',
+446 silly get     'transfer-encoding': 'chunked',
+446 silly get     'accept-ranges': 'bytes',
+446 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+446 silly get     via: '1.1 varnish',
+446 silly get     age: '0',
+446 silly get     connection: 'keep-alive',
+446 silly get     'x-served-by': 'cache-ams4120-AMS',
+446 silly get     'x-cache': 'MISS',
+446 silly get     'x-cache-hits': '0',
+446 silly get     'x-timer': 'S1504898806.840230,VS0,VE255',
+446 silly get     vary: 'Accept-Encoding' } ]
+447 verbose get saving @angular/upgrade to /home/lawlug/.npm/registry.npmjs.org/_40angular_252fupgrade/.cache.json
+448 http 200 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+449 verbose headers { 'content-type': 'application/json',
+449 verbose headers   server: 'nginx/1.10.1',
+449 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:04:03 GMT',
+449 verbose headers   etag: 'W/"59aad673-26048"',
+449 verbose headers   'content-encoding': 'gzip',
+449 verbose headers   'cache-control': 'max-age=0',
+449 verbose headers   'transfer-encoding': 'chunked',
+449 verbose headers   'accept-ranges': 'bytes',
+449 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+449 verbose headers   via: '1.1 varnish',
+449 verbose headers   connection: 'keep-alive',
+449 verbose headers   'x-served-by': 'cache-ams4446-AMS',
+449 verbose headers   'x-cache': 'MISS',
+449 verbose headers   'x-cache-hits': '0',
+449 verbose headers   'x-timer': 'S1504898806.817941,VS0,VE272',
+449 verbose headers   vary: 'Accept-Encoding' }
+450 silly get cb [ 200,
+450 silly get   { 'content-type': 'application/json',
+450 silly get     server: 'nginx/1.10.1',
+450 silly get     'last-modified': 'Sat, 02 Sep 2017 16:04:03 GMT',
+450 silly get     etag: 'W/"59aad673-26048"',
+450 silly get     'content-encoding': 'gzip',
+450 silly get     'cache-control': 'max-age=0',
+450 silly get     'transfer-encoding': 'chunked',
+450 silly get     'accept-ranges': 'bytes',
+450 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+450 silly get     via: '1.1 varnish',
+450 silly get     connection: 'keep-alive',
+450 silly get     'x-served-by': 'cache-ams4446-AMS',
+450 silly get     'x-cache': 'MISS',
+450 silly get     'x-cache-hits': '0',
+450 silly get     'x-timer': 'S1504898806.817941,VS0,VE272',
+450 silly get     vary: 'Accept-Encoding' } ]
+451 verbose get saving @angular/platform-browser-dynamic to /home/lawlug/.npm/registry.npmjs.org/_40angular_252fplatform-browser-dynamic/.cache.json
+452 http 200 https://registry.npmjs.org/@angular%2frouter
+453 verbose headers { 'content-type': 'application/json',
+453 verbose headers   server: 'nginx/1.10.1',
+453 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:04:16 GMT',
+453 verbose headers   etag: 'W/"59aad680-28dfb"',
+453 verbose headers   'content-encoding': 'gzip',
+453 verbose headers   'cache-control': 'max-age=0',
+453 verbose headers   'transfer-encoding': 'chunked',
+453 verbose headers   'accept-ranges': 'bytes',
+453 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+453 verbose headers   via: '1.1 varnish',
+453 verbose headers   age: '0',
+453 verbose headers   connection: 'keep-alive',
+453 verbose headers   'x-served-by': 'cache-ams4147-AMS',
+453 verbose headers   'x-cache': 'MISS',
+453 verbose headers   'x-cache-hits': '0',
+453 verbose headers   'x-timer': 'S1504898806.833939,VS0,VE272',
+453 verbose headers   vary: 'Accept-Encoding' }
+454 silly get cb [ 200,
+454 silly get   { 'content-type': 'application/json',
+454 silly get     server: 'nginx/1.10.1',
+454 silly get     'last-modified': 'Sat, 02 Sep 2017 16:04:16 GMT',
+454 silly get     etag: 'W/"59aad680-28dfb"',
+454 silly get     'content-encoding': 'gzip',
+454 silly get     'cache-control': 'max-age=0',
+454 silly get     'transfer-encoding': 'chunked',
+454 silly get     'accept-ranges': 'bytes',
+454 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+454 silly get     via: '1.1 varnish',
+454 silly get     age: '0',
+454 silly get     connection: 'keep-alive',
+454 silly get     'x-served-by': 'cache-ams4147-AMS',
+454 silly get     'x-cache': 'MISS',
+454 silly get     'x-cache-hits': '0',
+454 silly get     'x-timer': 'S1504898806.833939,VS0,VE272',
+454 silly get     vary: 'Accept-Encoding' } ]
+455 verbose get saving @angular/router to /home/lawlug/.npm/registry.npmjs.org/_40angular_252frouter/.cache.json
+456 silly cache afterAdd @angular/compiler@2.0.2
+457 verbose afterAdd /home/lawlug/.npm/@angular/compiler/2.0.2/package/package.json not in flight; writing
+458 http 200 https://registry.npmjs.org/systemjs
+459 verbose headers { server: 'nginx/1.10.1',
+459 verbose headers   'content-type': 'application/json',
+459 verbose headers   'last-modified': 'Thu, 07 Sep 2017 16:26:11 GMT',
+459 verbose headers   etag: 'W/"59b17323-3aa15"',
+459 verbose headers   'content-encoding': 'gzip',
+459 verbose headers   'cache-control': 'max-age=300',
+459 verbose headers   'content-length': '19945',
+459 verbose headers   'accept-ranges': 'bytes',
+459 verbose headers   date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+459 verbose headers   via: '1.1 varnish',
+459 verbose headers   age: '151',
+459 verbose headers   connection: 'keep-alive',
+459 verbose headers   'x-served-by': 'cache-ams4130-AMS',
+459 verbose headers   'x-cache': 'HIT',
+459 verbose headers   'x-cache-hits': '1',
+459 verbose headers   'x-timer': 'S1504898806.955628,VS0,VE0',
+459 verbose headers   vary: 'Accept-Encoding, Accept' }
+460 silly get cb [ 200,
+460 silly get   { server: 'nginx/1.10.1',
+460 silly get     'content-type': 'application/json',
+460 silly get     'last-modified': 'Thu, 07 Sep 2017 16:26:11 GMT',
+460 silly get     etag: 'W/"59b17323-3aa15"',
+460 silly get     'content-encoding': 'gzip',
+460 silly get     'cache-control': 'max-age=300',
+460 silly get     'content-length': '19945',
+460 silly get     'accept-ranges': 'bytes',
+460 silly get     date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+460 silly get     via: '1.1 varnish',
+460 silly get     age: '151',
+460 silly get     connection: 'keep-alive',
+460 silly get     'x-served-by': 'cache-ams4130-AMS',
+460 silly get     'x-cache': 'HIT',
+460 silly get     'x-cache-hits': '1',
+460 silly get     'x-timer': 'S1504898806.955628,VS0,VE0',
+460 silly get     vary: 'Accept-Encoding, Accept' } ]
+461 verbose get saving systemjs to /home/lawlug/.npm/registry.npmjs.org/systemjs/.cache.json
+462 http 200 https://registry.npmjs.org/core-js
+463 verbose headers { server: 'nginx/1.10.1',
+463 verbose headers   'content-type': 'application/json',
+463 verbose headers   'last-modified': 'Thu, 31 Aug 2017 17:52:58 GMT',
+463 verbose headers   etag: 'W/"59a84cfa-39b05"',
+463 verbose headers   'content-encoding': 'gzip',
+463 verbose headers   'cache-control': 'max-age=300',
+463 verbose headers   'content-length': '27847',
+463 verbose headers   'accept-ranges': 'bytes',
+463 verbose headers   date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+463 verbose headers   via: '1.1 varnish',
+463 verbose headers   age: '215',
+463 verbose headers   connection: 'keep-alive',
+463 verbose headers   'x-served-by': 'cache-ams4424-AMS',
+463 verbose headers   'x-cache': 'HIT',
+463 verbose headers   'x-cache-hits': '1',
+463 verbose headers   'x-timer': 'S1504898806.886545,VS0,VE1',
+463 verbose headers   vary: 'Accept-Encoding, Accept' }
+464 silly get cb [ 200,
+464 silly get   { server: 'nginx/1.10.1',
+464 silly get     'content-type': 'application/json',
+464 silly get     'last-modified': 'Thu, 31 Aug 2017 17:52:58 GMT',
+464 silly get     etag: 'W/"59a84cfa-39b05"',
+464 silly get     'content-encoding': 'gzip',
+464 silly get     'cache-control': 'max-age=300',
+464 silly get     'content-length': '27847',
+464 silly get     'accept-ranges': 'bytes',
+464 silly get     date: 'Fri, 08 Sep 2017 19:26:45 GMT',
+464 silly get     via: '1.1 varnish',
+464 silly get     age: '215',
+464 silly get     connection: 'keep-alive',
+464 silly get     'x-served-by': 'cache-ams4424-AMS',
+464 silly get     'x-cache': 'HIT',
+464 silly get     'x-cache-hits': '1',
+464 silly get     'x-timer': 'S1504898806.886545,VS0,VE1',
+464 silly get     vary: 'Accept-Encoding, Accept' } ]
+465 verbose get saving core-js to /home/lawlug/.npm/registry.npmjs.org/core-js/.cache.json
+466 verbose afterAdd /home/lawlug/.npm/@angular/platform-browser/2.0.2/package/package.json written
+467 verbose afterAdd /home/lawlug/.npm/@angular/compiler/2.0.2/package/package.json written
+468 silly cache afterAdd @angular/core@2.0.2
+469 verbose afterAdd /home/lawlug/.npm/@angular/core/2.0.2/package/package.json not in flight; writing
+470 silly resolveWithNewModule @angular/upgrade@2.0.2 checking installable status
+471 silly cache add args [ '@angular/upgrade@~2.0.2', null ]
+472 verbose cache add spec @angular/upgrade@~2.0.2
+473 silly cache add parsed spec Result {
+473 silly cache add   raw: '@angular/upgrade@~2.0.2',
+473 silly cache add   scope: '@angular',
+473 silly cache add   name: '@angular/upgrade',
+473 silly cache add   rawSpec: '~2.0.2',
+473 silly cache add   spec: '>=2.0.2 <2.1.0',
+473 silly cache add   type: 'range' }
+474 silly addNamed @angular/upgrade@>=2.0.2 <2.1.0
+475 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for @angular/upgrade
+476 silly addNameRange { name: '@angular/upgrade',
+476 silly addNameRange   range: '>=2.0.2 <2.1.0',
+476 silly addNameRange   hasData: false }
+477 silly mapToRegistry name @angular/upgrade
+478 silly mapToRegistry scope (from package name) @angular
+479 verbose mapToRegistry no registry URL found in name for scope @angular
+480 silly mapToRegistry using default registry
+481 silly mapToRegistry registry https://registry.npmjs.org/
+482 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fupgrade
+483 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fupgrade not in flight; fetching
+484 silly resolveWithNewModule @angular/platform-browser-dynamic@2.0.2 checking installable status
+485 silly cache add args [ '@angular/platform-browser-dynamic@~2.0.2', null ]
+486 verbose cache add spec @angular/platform-browser-dynamic@~2.0.2
+487 silly cache add parsed spec Result {
+487 silly cache add   raw: '@angular/platform-browser-dynamic@~2.0.2',
+487 silly cache add   scope: '@angular',
+487 silly cache add   name: '@angular/platform-browser-dynamic',
+487 silly cache add   rawSpec: '~2.0.2',
+487 silly cache add   spec: '>=2.0.2 <2.1.0',
+487 silly cache add   type: 'range' }
+488 silly addNamed @angular/platform-browser-dynamic@>=2.0.2 <2.1.0
+489 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for @angular/platform-browser-dynamic
+490 silly addNameRange { name: '@angular/platform-browser-dynamic',
+490 silly addNameRange   range: '>=2.0.2 <2.1.0',
+490 silly addNameRange   hasData: false }
+491 silly mapToRegistry name @angular/platform-browser-dynamic
+492 silly mapToRegistry scope (from package name) @angular
+493 verbose mapToRegistry no registry URL found in name for scope @angular
+494 silly mapToRegistry using default registry
+495 silly mapToRegistry registry https://registry.npmjs.org/
+496 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+497 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fplatform-browser-dynamic not in flight; fetching
+498 silly resolveWithNewModule @angular/router@3.0.2 checking installable status
+499 silly cache add args [ '@angular/router@~3.0.2', null ]
+500 verbose cache add spec @angular/router@~3.0.2
+501 silly cache add parsed spec Result {
+501 silly cache add   raw: '@angular/router@~3.0.2',
+501 silly cache add   scope: '@angular',
+501 silly cache add   name: '@angular/router',
+501 silly cache add   rawSpec: '~3.0.2',
+501 silly cache add   spec: '>=3.0.2 <3.1.0',
+501 silly cache add   type: 'range' }
+502 silly addNamed @angular/router@>=3.0.2 <3.1.0
+503 verbose addNamed ">=3.0.2 <3.1.0" is a valid semver range for @angular/router
+504 silly addNameRange { name: '@angular/router',
+504 silly addNameRange   range: '>=3.0.2 <3.1.0',
+504 silly addNameRange   hasData: false }
+505 silly mapToRegistry name @angular/router
+506 silly mapToRegistry scope (from package name) @angular
+507 verbose mapToRegistry no registry URL found in name for scope @angular
+508 silly mapToRegistry using default registry
+509 silly mapToRegistry registry https://registry.npmjs.org/
+510 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+511 verbose addNameRange registry:https://registry.npmjs.org/@angular%2frouter not in flight; fetching
+512 silly resolveWithNewModule systemjs@0.19.39 checking installable status
+513 silly cache add args [ 'systemjs@0.19.39', null ]
+514 verbose cache add spec systemjs@0.19.39
+515 silly cache add parsed spec Result {
+515 silly cache add   raw: 'systemjs@0.19.39',
+515 silly cache add   scope: null,
+515 silly cache add   name: 'systemjs',
+515 silly cache add   rawSpec: '0.19.39',
+515 silly cache add   spec: '0.19.39',
+515 silly cache add   type: 'version' }
+516 silly addNamed systemjs@0.19.39
+517 verbose addNamed "0.19.39" is a plain semver version for systemjs
+518 silly mapToRegistry name systemjs
+519 silly mapToRegistry using default registry
+520 silly mapToRegistry registry https://registry.npmjs.org/
+521 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+522 verbose addNameVersion registry:https://registry.npmjs.org/systemjs not in flight; fetching
+523 silly resolveWithNewModule core-js@2.5.1 checking installable status
+524 silly cache add args [ 'core-js@^2.4.1', null ]
+525 verbose cache add spec core-js@^2.4.1
+526 silly cache add parsed spec Result {
+526 silly cache add   raw: 'core-js@^2.4.1',
+526 silly cache add   scope: null,
+526 silly cache add   name: 'core-js',
+526 silly cache add   rawSpec: '^2.4.1',
+526 silly cache add   spec: '>=2.4.1 <3.0.0',
+526 silly cache add   type: 'range' }
+527 silly addNamed core-js@>=2.4.1 <3.0.0
+528 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for core-js
+529 silly addNameRange { name: 'core-js', range: '>=2.4.1 <3.0.0', hasData: false }
+530 silly mapToRegistry name core-js
+531 silly mapToRegistry using default registry
+532 silly mapToRegistry registry https://registry.npmjs.org/
+533 silly mapToRegistry uri https://registry.npmjs.org/core-js
+534 verbose addNameRange registry:https://registry.npmjs.org/core-js not in flight; fetching
+535 verbose afterAdd /home/lawlug/.npm/@angular/core/2.0.2/package/package.json written
+536 verbose get https://registry.npmjs.org/@angular%2fupgrade not expired, no request
+537 silly addNameRange number 2 { name: '@angular/upgrade',
+537 silly addNameRange   range: '>=2.0.2 <2.1.0',
+537 silly addNameRange   hasData: true }
+538 silly addNameRange versions [ '@angular/upgrade',
+538 silly addNameRange   [ '0.0.0-0',
+538 silly addNameRange     '0.0.0-2',
+538 silly addNameRange     '0.0.0-3',
+538 silly addNameRange     '0.0.0-4',
+538 silly addNameRange     '0.0.0-5',
+538 silly addNameRange     '0.0.0-6',
+538 silly addNameRange     '0.0.0-7',
+538 silly addNameRange     '2.0.0-rc.0',
+538 silly addNameRange     '2.0.0-rc.1',
+538 silly addNameRange     '2.0.0-rc.2',
+538 silly addNameRange     '2.0.0-rc.3',
+538 silly addNameRange     '2.0.0-rc.4',
+538 silly addNameRange     '2.0.0-rc.5',
+538 silly addNameRange     '2.0.0-rc.6',
+538 silly addNameRange     '2.0.0-rc.7',
+538 silly addNameRange     '2.0.0',
+538 silly addNameRange     '2.0.1',
+538 silly addNameRange     '2.1.0-beta.0',
+538 silly addNameRange     '2.0.2',
+538 silly addNameRange     '2.1.0-rc.0',
+538 silly addNameRange     '2.1.0',
+538 silly addNameRange     '2.2.0-beta.0',
+538 silly addNameRange     '2.1.1',
+538 silly addNameRange     '2.2.0-beta.1',
+538 silly addNameRange     '2.1.2',
+538 silly addNameRange     '2.2.0-rc.0',
+538 silly addNameRange     '2.2.0',
+538 silly addNameRange     '2.2.1',
+538 silly addNameRange     '2.3.0-beta.0',
+538 silly addNameRange     '2.2.2',
+538 silly addNameRange     '2.3.0-beta.1',
+538 silly addNameRange     '2.2.3',
+538 silly addNameRange     '2.2.4',
+538 silly addNameRange     '2.3.0-rc.0',
+538 silly addNameRange     '2.3.0',
+538 silly addNameRange     '4.0.0-beta.0',
+538 silly addNameRange     '2.3.1',
+538 silly addNameRange     '2.4.0',
+538 silly addNameRange     '2.4.1',
+538 silly addNameRange     '4.0.0-beta.1',
+538 silly addNameRange     '4.0.0-beta.2',
+538 silly addNameRange     '2.4.2',
+538 silly addNameRange     '2.4.3',
+538 silly addNameRange     '4.0.0-beta.3',
+538 silly addNameRange     '2.4.4',
+538 silly addNameRange     '4.0.0-beta.4',
+538 silly addNameRange     '2.4.5',
+538 silly addNameRange     '4.0.0-beta.5',
+538 silly addNameRange     '2.4.6',
+538 silly addNameRange     '4.0.0-beta.6',
+538 silly addNameRange     '2.4.7',
+538 silly addNameRange     '4.0.0-beta.7',
+538 silly addNameRange     '2.4.8',
+538 silly addNameRange     '4.0.0-beta.8',
+538 silly addNameRange     '4.0.0-rc.0',
+538 silly addNameRange     '4.0.0-rc.1',
+538 silly addNameRange     '4.0.0-rc.2',
+538 silly addNameRange     '2.4.9',
+538 silly addNameRange     '4.0.0-rc.3',
+538 silly addNameRange     '2.4.10',
+538 silly addNameRange     '4.0.0-rc.4',
+538 silly addNameRange     '4.0.0-rc.5',
+538 silly addNameRange     '4.0.0-rc.6',
+538 silly addNameRange     '4.0.0',
+538 silly addNameRange     '4.0.1',
+538 silly addNameRange     '4.1.0-beta.0',
+538 silly addNameRange     '4.0.2',
+538 silly addNameRange     '4.1.0-beta.1',
+538 silly addNameRange     '4.0.3',
+538 silly addNameRange     '4.1.0-rc.0',
+538 silly addNameRange     '4.1.0',
+538 silly addNameRange     '4.1.1',
+538 silly addNameRange     '4.2.0-beta.0',
+538 silly addNameRange     '4.1.2',
+538 silly addNameRange     '4.2.0-beta.1',
+538 silly addNameRange     '4.1.3',
+538 silly addNameRange     '4.2.0-rc.0',
+538 silly addNameRange     '4.2.0-rc.1',
+538 silly addNameRange     '4.2.0-rc.2',
+538 silly addNameRange     '4.2.0',
+538 silly addNameRange     '4.2.1',
+538 silly addNameRange     '4.2.2',
+538 silly addNameRange     '4.2.3',
+538 silly addNameRange     '4.2.4',
+538 silly addNameRange     '4.3.0-beta.0',
+538 silly addNameRange     '4.3.0-beta.1',
+538 silly addNameRange     '4.2.5',
+538 silly addNameRange     '4.2.6',
+538 silly addNameRange     '4.3.0-rc.0',
+538 silly addNameRange     '4.3.0',
+538 silly addNameRange     '4.3.1',
+538 silly addNameRange     '5.0.0-beta.0',
+538 silly addNameRange     '4.3.2',
+538 silly addNameRange     '5.0.0-beta.1',
+538 silly addNameRange     '4.3.3',
+538 silly addNameRange     '5.0.0-beta.2',
+538 silly addNameRange     '5.0.0-beta.3',
+538 silly addNameRange     '4.3.4',
+538 silly addNameRange     '4.3.5',
+538 silly addNameRange     '5.0.0-beta.4',
+538 silly addNameRange     '4.3.6',
+538 silly addNameRange     '5.0.0-beta.5',
+538 silly addNameRange     '4.4.0-RC.0',
+538 silly addNameRange     '5.0.0-beta.6' ] ]
+539 silly addNamed @angular/upgrade@2.0.2
+540 verbose addNamed "2.0.2" is a plain semver version for @angular/upgrade
+541 verbose get https://registry.npmjs.org/@angular%2fplatform-browser-dynamic not expired, no request
+542 silly addNameRange number 2 { name: '@angular/platform-browser-dynamic',
+542 silly addNameRange   range: '>=2.0.2 <2.1.0',
+542 silly addNameRange   hasData: true }
+543 silly addNameRange versions [ '@angular/platform-browser-dynamic',
+543 silly addNameRange   [ '0.0.0-0',
+543 silly addNameRange     '0.0.0-1',
+543 silly addNameRange     '0.0.0-2',
+543 silly addNameRange     '0.0.0-3',
+543 silly addNameRange     '0.0.0-4',
+543 silly addNameRange     '0.0.0-5',
+543 silly addNameRange     '0.0.0-6',
+543 silly addNameRange     '0.0.0-7',
+543 silly addNameRange     '2.0.0-rc.0',
+543 silly addNameRange     '2.0.0-rc.1',
+543 silly addNameRange     '2.0.0-rc.2',
+543 silly addNameRange     '2.0.0-rc.3',
+543 silly addNameRange     '2.0.0-rc.4',
+543 silly addNameRange     '2.0.0-rc.5',
+543 silly addNameRange     '2.0.0-rc.6',
+543 silly addNameRange     '2.0.0-rc.7',
+543 silly addNameRange     '2.0.0',
+543 silly addNameRange     '2.0.1',
+543 silly addNameRange     '2.1.0-beta.0',
+543 silly addNameRange     '2.0.2',
+543 silly addNameRange     '2.1.0-rc.0',
+543 silly addNameRange     '2.1.0',
+543 silly addNameRange     '2.2.0-beta.0',
+543 silly addNameRange     '2.1.1',
+543 silly addNameRange     '2.2.0-beta.1',
+543 silly addNameRange     '2.1.2',
+543 silly addNameRange     '2.2.0-rc.0',
+543 silly addNameRange     '2.2.0',
+543 silly addNameRange     '2.2.1',
+543 silly addNameRange     '2.3.0-beta.0',
+543 silly addNameRange     '2.2.2',
+543 silly addNameRange     '2.3.0-beta.1',
+543 silly addNameRange     '2.2.3',
+543 silly addNameRange     '2.2.4',
+543 silly addNameRange     '2.3.0-rc.0',
+543 silly addNameRange     '2.3.0',
+543 silly addNameRange     '4.0.0-beta.0',
+543 silly addNameRange     '2.3.1',
+543 silly addNameRange     '2.4.0',
+543 silly addNameRange     '2.4.1',
+543 silly addNameRange     '4.0.0-beta.1',
+543 silly addNameRange     '4.0.0-beta.2',
+543 silly addNameRange     '2.4.2',
+543 silly addNameRange     '2.4.3',
+543 silly addNameRange     '4.0.0-beta.3',
+543 silly addNameRange     '2.4.4',
+543 silly addNameRange     '4.0.0-beta.4',
+543 silly addNameRange     '2.4.5',
+543 silly addNameRange     '4.0.0-beta.5',
+543 silly addNameRange     '2.4.6',
+543 silly addNameRange     '4.0.0-beta.6',
+543 silly addNameRange     '2.4.7',
+543 silly addNameRange     '4.0.0-beta.7',
+543 silly addNameRange     '2.4.8',
+543 silly addNameRange     '4.0.0-beta.8',
+543 silly addNameRange     '4.0.0-rc.0',
+543 silly addNameRange     '4.0.0-rc.1',
+543 silly addNameRange     '4.0.0-rc.2',
+543 silly addNameRange     '2.4.9',
+543 silly addNameRange     '4.0.0-rc.3',
+543 silly addNameRange     '2.4.10',
+543 silly addNameRange     '4.0.0-rc.4',
+543 silly addNameRange     '4.0.0-rc.5',
+543 silly addNameRange     '4.0.0-rc.6',
+543 silly addNameRange     '4.0.0',
+543 silly addNameRange     '4.0.1',
+543 silly addNameRange     '4.1.0-beta.0',
+543 silly addNameRange     '4.0.2',
+543 silly addNameRange     '4.1.0-beta.1',
+543 silly addNameRange     '4.0.3',
+543 silly addNameRange     '4.1.0-rc.0',
+543 silly addNameRange     '4.1.0',
+543 silly addNameRange     '4.1.1',
+543 silly addNameRange     '4.2.0-beta.0',
+543 silly addNameRange     '4.1.2',
+543 silly addNameRange     '4.2.0-beta.1',
+543 silly addNameRange     '4.1.3',
+543 silly addNameRange     '4.2.0-rc.0',
+543 silly addNameRange     '4.2.0-rc.1',
+543 silly addNameRange     '4.2.0-rc.2',
+543 silly addNameRange     '4.2.0',
+543 silly addNameRange     '4.2.1',
+543 silly addNameRange     '4.2.2',
+543 silly addNameRange     '4.2.3',
+543 silly addNameRange     '4.2.4',
+543 silly addNameRange     '4.3.0-beta.0',
+543 silly addNameRange     '4.3.0-beta.1',
+543 silly addNameRange     '4.2.5',
+543 silly addNameRange     '4.2.6',
+543 silly addNameRange     '4.3.0-rc.0',
+543 silly addNameRange     '4.3.0',
+543 silly addNameRange     '4.3.1',
+543 silly addNameRange     '5.0.0-beta.0',
+543 silly addNameRange     '4.3.2',
+543 silly addNameRange     '5.0.0-beta.1',
+543 silly addNameRange     '4.3.3',
+543 silly addNameRange     '5.0.0-beta.2',
+543 silly addNameRange     '5.0.0-beta.3',
+543 silly addNameRange     '4.3.4',
+543 silly addNameRange     '4.3.5',
+543 silly addNameRange     '5.0.0-beta.4',
+543 silly addNameRange     '4.3.6',
+543 silly addNameRange     '5.0.0-beta.5',
+543 silly addNameRange     '4.4.0-RC.0',
+543 silly addNameRange     '5.0.0-beta.6' ] ]
+544 silly addNamed @angular/platform-browser-dynamic@2.0.2
+545 verbose addNamed "2.0.2" is a plain semver version for @angular/platform-browser-dynamic
+546 verbose get https://registry.npmjs.org/@angular%2frouter not expired, no request
+547 silly addNameRange number 2 { name: '@angular/router',
+547 silly addNameRange   range: '>=3.0.2 <3.1.0',
+547 silly addNameRange   hasData: true }
+548 silly addNameRange versions [ '@angular/router',
+548 silly addNameRange   [ '0.0.1',
+548 silly addNameRange     '0.1.0',
+548 silly addNameRange     '0.2.0',
+548 silly addNameRange     '0.0.0-0',
+548 silly addNameRange     '0.0.0-1',
+548 silly addNameRange     '0.0.0-2',
+548 silly addNameRange     '0.0.0-3',
+548 silly addNameRange     '0.0.0-4',
+548 silly addNameRange     '0.0.0-5',
+548 silly addNameRange     '0.0.0-6',
+548 silly addNameRange     '0.0.0-7',
+548 silly addNameRange     '2.0.0-rc.0',
+548 silly addNameRange     '2.0.0-rc.1',
+548 silly addNameRange     '3.0.0-alpha.0',
+548 silly addNameRange     '3.0.0-alpha.1',
+548 silly addNameRange     '3.0.0-alpha.2',
+548 silly addNameRange     '3.0.0-alpha.3',
+548 silly addNameRange     '3.0.0-alpha.4',
+548 silly addNameRange     '2.0.0-rc.2',
+548 silly addNameRange     '3.0.0-alpha.5',
+548 silly addNameRange     '3.0.0-alpha.6',
+548 silly addNameRange     '3.0.0-alpha.7',
+548 silly addNameRange     '3.0.0-alpha.8',
+548 silly addNameRange     '3.0.0-beta.1',
+548 silly addNameRange     '3.0.0-beta.2',
+548 silly addNameRange     '3.0.0-rc.1',
+548 silly addNameRange     '3.0.0-rc.2',
+548 silly addNameRange     '3.0.0-rc.3',
+548 silly addNameRange     '3.0.0',
+548 silly addNameRange     '3.0.1',
+548 silly addNameRange     '3.1.0-beta.0',
+548 silly addNameRange     '3.0.2',
+548 silly addNameRange     '3.1.0-rc.0',
+548 silly addNameRange     '3.1.0',
+548 silly addNameRange     '3.2.0-beta.0',
+548 silly addNameRange     '3.1.1',
+548 silly addNameRange     '3.2.0-beta.1',
+548 silly addNameRange     '3.1.2',
+548 silly addNameRange     '3.2.0-rc.0',
+548 silly addNameRange     '3.2.0',
+548 silly addNameRange     '3.2.1',
+548 silly addNameRange     '3.3.0-beta.0',
+548 silly addNameRange     '3.2.2',
+548 silly addNameRange     '3.3.0-beta.1',
+548 silly addNameRange     '3.2.3',
+548 silly addNameRange     '3.2.4',
+548 silly addNameRange     '3.3.0-rc.0',
+548 silly addNameRange     '3.3.0',
+548 silly addNameRange     '4.0.0-beta.0',
+548 silly addNameRange     '3.3.1',
+548 silly addNameRange     '3.4.0',
+548 silly addNameRange     '3.4.1',
+548 silly addNameRange     '4.0.0-beta.1',
+548 silly addNameRange     '4.0.0-beta.2',
+548 silly addNameRange     '3.4.2',
+548 silly addNameRange     '3.4.3',
+548 silly addNameRange     '4.0.0-beta.3',
+548 silly addNameRange     '3.4.4',
+548 silly addNameRange     '4.0.0-beta.4',
+548 silly addNameRange     '3.4.5',
+548 silly addNameRange     '4.0.0-beta.5',
+548 silly addNameRange     '3.4.6',
+548 silly addNameRange     '4.0.0-beta.6',
+548 silly addNameRange     '3.4.7',
+548 silly addNameRange     '4.0.0-beta.7',
+548 silly addNameRange     '3.4.8',
+548 silly addNameRange     '4.0.0-beta.8',
+548 silly addNameRange     '4.0.0-rc.0',
+548 silly addNameRange     '4.0.0-rc.1',
+548 silly addNameRange     '4.0.0-rc.2',
+548 silly addNameRange     '3.4.9',
+548 silly addNameRange     '4.0.0-rc.3',
+548 silly addNameRange     '3.4.10',
+548 silly addNameRange     '4.0.0-rc.4',
+548 silly addNameRange     '4.0.0-rc.5',
+548 silly addNameRange     '4.0.0-rc.6',
+548 silly addNameRange     '4.0.0',
+548 silly addNameRange     '4.0.1',
+548 silly addNameRange     '4.1.0-beta.0',
+548 silly addNameRange     '4.0.2',
+548 silly addNameRange     '4.1.0-beta.1',
+548 silly addNameRange     '4.0.3',
+548 silly addNameRange     '4.1.0-rc.0',
+548 silly addNameRange     '4.1.0',
+548 silly addNameRange     '4.1.1',
+548 silly addNameRange     '4.2.0-beta.0',
+548 silly addNameRange     '4.1.2',
+548 silly addNameRange     '4.2.0-beta.1',
+548 silly addNameRange     '4.1.3',
+548 silly addNameRange     '4.2.0-rc.0',
+548 silly addNameRange     '0.0.0-ROUTERPLACEHOLDER',
+548 silly addNameRange     '4.2.0-rc.1',
+548 silly addNameRange     '4.2.0-rc.2',
+548 silly addNameRange     '4.2.0',
+548 silly addNameRange     '4.2.1',
+548 silly addNameRange     '4.2.2',
+548 silly addNameRange     '4.2.3',
+548 silly addNameRange     '4.2.4',
+548 silly addNameRange     '4.3.0-beta.0',
+548 silly addNameRange     '4.3.0-beta.1',
+548 silly addNameRange     '4.2.5',
+548 silly addNameRange     '4.2.6',
+548 silly addNameRange     '4.3.0-rc.0',
+548 silly addNameRange     '4.3.0',
+548 silly addNameRange     '4.3.1',
+548 silly addNameRange     '5.0.0-beta.0',
+548 silly addNameRange     '4.3.2',
+548 silly addNameRange     '5.0.0-beta.1',
+548 silly addNameRange     '4.3.3',
+548 silly addNameRange     '5.0.0-beta.2',
+548 silly addNameRange     '5.0.0-beta.3',
+548 silly addNameRange     '4.3.4',
+548 silly addNameRange     '4.3.5',
+548 silly addNameRange     '5.0.0-beta.4',
+548 silly addNameRange     '4.3.6',
+548 silly addNameRange     '5.0.0-beta.5',
+548 silly addNameRange     '4.4.0-RC.0',
+548 silly addNameRange     '5.0.0-beta.6' ] ]
+549 silly addNamed @angular/router@3.0.2
+550 verbose addNamed "3.0.2" is a plain semver version for @angular/router
+551 http 200 https://registry.npmjs.org/@angular%2fcommon
+552 verbose headers { 'content-type': 'application/json',
+552 verbose headers   server: 'nginx/1.10.1',
+552 verbose headers   'last-modified': 'Sat, 02 Sep 2017 16:03:32 GMT',
+552 verbose headers   etag: 'W/"59aad654-1eb09"',
+552 verbose headers   'content-encoding': 'gzip',
+552 verbose headers   'cache-control': 'max-age=0',
+552 verbose headers   'transfer-encoding': 'chunked',
+552 verbose headers   'accept-ranges': 'bytes',
+552 verbose headers   date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+552 verbose headers   via: '1.1 varnish',
+552 verbose headers   age: '0',
+552 verbose headers   connection: 'keep-alive',
+552 verbose headers   'x-served-by': 'cache-ams4450-AMS',
+552 verbose headers   'x-cache': 'MISS',
+552 verbose headers   'x-cache-hits': '0',
+552 verbose headers   'x-timer': 'S1504898807.581965,VS0,VE257',
+552 verbose headers   vary: 'Accept-Encoding' }
+553 silly get cb [ 200,
+553 silly get   { 'content-type': 'application/json',
+553 silly get     server: 'nginx/1.10.1',
+553 silly get     'last-modified': 'Sat, 02 Sep 2017 16:03:32 GMT',
+553 silly get     etag: 'W/"59aad654-1eb09"',
+553 silly get     'content-encoding': 'gzip',
+553 silly get     'cache-control': 'max-age=0',
+553 silly get     'transfer-encoding': 'chunked',
+553 silly get     'accept-ranges': 'bytes',
+553 silly get     date: 'Fri, 08 Sep 2017 19:26:46 GMT',
+553 silly get     via: '1.1 varnish',
+553 silly get     age: '0',
+553 silly get     connection: 'keep-alive',
+553 silly get     'x-served-by': 'cache-ams4450-AMS',
+553 silly get     'x-cache': 'MISS',
+553 silly get     'x-cache-hits': '0',
+553 silly get     'x-timer': 'S1504898807.581965,VS0,VE257',
+553 silly get     vary: 'Accept-Encoding' } ]
+554 verbose get saving @angular/common to /home/lawlug/.npm/registry.npmjs.org/_40angular_252fcommon/.cache.json
+555 verbose get https://registry.npmjs.org/systemjs not expired, no request
+556 verbose get https://registry.npmjs.org/core-js not expired, no request
+557 silly addNameRange number 2 { name: 'core-js', range: '>=2.4.1 <3.0.0', hasData: true }
+558 silly addNameRange versions [ 'core-js',
+558 silly addNameRange   [ '0.0.3',
+558 silly addNameRange     '0.0.4',
+558 silly addNameRange     '0.0.5',
+558 silly addNameRange     '0.0.7',
+558 silly addNameRange     '0.0.8',
+558 silly addNameRange     '0.0.9',
+558 silly addNameRange     '0.1.1',
+558 silly addNameRange     '0.1.2',
+558 silly addNameRange     '0.1.3',
+558 silly addNameRange     '0.1.4',
+558 silly addNameRange     '0.1.5',
+558 silly addNameRange     '0.2.0',
+558 silly addNameRange     '0.2.1',
+558 silly addNameRange     '0.2.2',
+558 silly addNameRange     '0.2.3',
+558 silly addNameRange     '0.2.4',
+558 silly addNameRange     '0.2.5',
+558 silly addNameRange     '0.3.0',
+558 silly addNameRange     '0.3.1',
+558 silly addNameRange     '0.3.2',
+558 silly addNameRange     '0.3.3',
+558 silly addNameRange     '0.4.0',
+558 silly addNameRange     '0.4.1',
+558 silly addNameRange     '0.4.2',
+558 silly addNameRange     '0.4.3',
+558 silly addNameRange     '0.4.4',
+558 silly addNameRange     '0.4.5',
+558 silly addNameRange     '0.4.6',
+558 silly addNameRange     '0.4.7',
+558 silly addNameRange     '0.4.8',
+558 silly addNameRange     '0.4.9',
+558 silly addNameRange     '0.4.10',
+558 silly addNameRange     '0.5.0',
+558 silly addNameRange     '0.5.1',
+558 silly addNameRange     '0.5.2',
+558 silly addNameRange     '0.5.3',
+558 silly addNameRange     '0.5.4',
+558 silly addNameRange     '0.6.0',
+558 silly addNameRange     '0.6.1',
+558 silly addNameRange     '0.7.0',
+558 silly addNameRange     '0.7.1',
+558 silly addNameRange     '0.7.2',
+558 silly addNameRange     '0.8.0',
+558 silly addNameRange     '0.8.1',
+558 silly addNameRange     '0.8.2',
+558 silly addNameRange     '0.8.3',
+558 silly addNameRange     '0.8.4',
+558 silly addNameRange     '0.9.0',
+558 silly addNameRange     '0.9.1',
+558 silly addNameRange     '0.9.2',
+558 silly addNameRange     '0.9.3',
+558 silly addNameRange     '0.9.4',
+558 silly addNameRange     '0.9.5',
+558 silly addNameRange     '0.9.6',
+558 silly addNameRange     '0.9.7',
+558 silly addNameRange     '0.9.8',
+558 silly addNameRange     '0.9.9',
+558 silly addNameRange     '0.9.10',
+558 silly addNameRange     '0.9.11',
+558 silly addNameRange     '0.9.12',
+558 silly addNameRange     '0.9.13',
+558 silly addNameRange     '0.9.14',
+558 silly addNameRange     '0.9.15',
+558 silly addNameRange     '0.9.16',
+558 silly addNameRange     '0.9.17',
+558 silly addNameRange     '0.9.18',
+558 silly addNameRange     '1.0.0',
+558 silly addNameRange     '1.0.1',
+558 silly addNameRange     '1.1.0',
+558 silly addNameRange     '1.1.1',
+558 silly addNameRange     '1.1.2',
+558 silly addNameRange     '1.1.3',
+558 silly addNameRange     '1.1.4',
+558 silly addNameRange     '1.2.0',
+558 silly addNameRange     '1.2.1',
+558 silly addNameRange     '1.2.2',
+558 silly addNameRange     '1.2.3',
+558 silly addNameRange     '1.2.4',
+558 silly addNameRange     '1.2.5',
+558 silly addNameRange     '1.2.6',
+558 silly addNameRange     '2.0.0-alpha',
+558 silly addNameRange     '2.0.0-beta',
+558 silly addNameRange     '2.0.0-beta.2',
+558 silly addNameRange     '2.0.0',
+558 silly addNameRange     '2.0.1',
+558 silly addNameRange     '2.0.2',
+558 silly addNameRange     '2.0.3',
+558 silly addNameRange     '2.1.0',
+558 silly addNameRange     '2.1.1',
+558 silly addNameRange     '2.1.2',
+558 silly addNameRange     '2.1.3',
+558 silly addNameRange     '2.1.4',
+558 silly addNameRange     '2.1.5',
+558 silly addNameRange     '2.2.0',
+558 silly addNameRange     '2.2.1',
+558 silly addNameRange     '2.2.2',
+558 silly addNameRange     '2.3.0',
+558 silly addNameRange     '2.4.0',
+558 silly addNameRange     '1.2.7',
+558 silly addNameRange     '2.4.1',
+558 silly addNameRange     '2.5.0',
+558 silly addNameRange     '2.5.1' ] ]
+559 silly addNamed core-js@2.5.1
+560 verbose addNamed "2.5.1" is a plain semver version for core-js
+561 silly mapToRegistry name core-js
+562 silly mapToRegistry using default registry
+563 silly mapToRegistry registry https://registry.npmjs.org/
+564 silly mapToRegistry uri https://registry.npmjs.org/core-js
+565 verbose addRemoteTarball https://registry.npmjs.org/core-js/-/core-js-2.5.1.tgz not in flight; adding
+566 verbose addRemoteTarball [ 'https://registry.npmjs.org/core-js/-/core-js-2.5.1.tgz',
+566 verbose addRemoteTarball   'ae6874dc66937789b80754ff5428df66819ca50b' ]
+567 silly resolveWithNewModule @angular/common@2.0.2 checking installable status
+568 silly cache add args [ '@angular/common@~2.0.2', null ]
+569 verbose cache add spec @angular/common@~2.0.2
+570 silly cache add parsed spec Result {
+570 silly cache add   raw: '@angular/common@~2.0.2',
+570 silly cache add   scope: '@angular',
+570 silly cache add   name: '@angular/common',
+570 silly cache add   rawSpec: '~2.0.2',
+570 silly cache add   spec: '>=2.0.2 <2.1.0',
+570 silly cache add   type: 'range' }
+571 silly addNamed @angular/common@>=2.0.2 <2.1.0
+572 verbose addNamed ">=2.0.2 <2.1.0" is a valid semver range for @angular/common
+573 silly addNameRange { name: '@angular/common',
+573 silly addNameRange   range: '>=2.0.2 <2.1.0',
+573 silly addNameRange   hasData: false }
+574 silly mapToRegistry name @angular/common
+575 silly mapToRegistry scope (from package name) @angular
+576 verbose mapToRegistry no registry URL found in name for scope @angular
+577 silly mapToRegistry using default registry
+578 silly mapToRegistry registry https://registry.npmjs.org/
+579 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+580 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fcommon not in flight; fetching
+581 silly cache afterAdd @angular/router@3.0.2
+582 verbose afterAdd /home/lawlug/.npm/@angular/router/3.0.2/package/package.json not in flight; writing
+583 silly cache afterAdd @angular/upgrade@2.0.2
+584 verbose afterAdd /home/lawlug/.npm/@angular/upgrade/2.0.2/package/package.json not in flight; writing
+585 silly cache afterAdd @angular/platform-browser-dynamic@2.0.2
+586 verbose afterAdd /home/lawlug/.npm/@angular/platform-browser-dynamic/2.0.2/package/package.json not in flight; writing
+587 verbose get https://registry.npmjs.org/@angular%2fcommon not expired, no request
+588 silly addNameRange number 2 { name: '@angular/common',
+588 silly addNameRange   range: '>=2.0.2 <2.1.0',
+588 silly addNameRange   hasData: true }
+589 silly addNameRange versions [ '@angular/common',
+589 silly addNameRange   [ '0.0.0-0',
+589 silly addNameRange     '0.0.0-1',
+589 silly addNameRange     '0.0.0-2',
+589 silly addNameRange     '0.0.0-3',
+589 silly addNameRange     '0.0.0-4',
+589 silly addNameRange     '0.0.0-5',
+589 silly addNameRange     '0.0.0-6',
+589 silly addNameRange     '0.0.0-7',
+589 silly addNameRange     '2.0.0-rc.0',
+589 silly addNameRange     '2.0.0-rc.1',
+589 silly addNameRange     '2.0.0-rc.2',
+589 silly addNameRange     '2.0.0-rc.3',
+589 silly addNameRange     '2.0.0-rc.4',
+589 silly addNameRange     '2.0.0-rc.5',
+589 silly addNameRange     '2.0.0-rc.6',
+589 silly addNameRange     '2.0.0-rc.7',
+589 silly addNameRange     '2.0.0',
+589 silly addNameRange     '2.0.1',
+589 silly addNameRange     '2.1.0-beta.0',
+589 silly addNameRange     '2.0.2',
+589 silly addNameRange     '2.1.0-rc.0',
+589 silly addNameRange     '2.1.0',
+589 silly addNameRange     '2.2.0-beta.0',
+589 silly addNameRange     '2.1.1',
+589 silly addNameRange     '2.2.0-beta.1',
+589 silly addNameRange     '2.1.2',
+589 silly addNameRange     '2.2.0-rc.0',
+589 silly addNameRange     '2.2.0',
+589 silly addNameRange     '2.2.1',
+589 silly addNameRange     '2.3.0-beta.0',
+589 silly addNameRange     '2.2.2',
+589 silly addNameRange     '2.3.0-beta.1',
+589 silly addNameRange     '2.2.3',
+589 silly addNameRange     '2.2.4',
+589 silly addNameRange     '2.3.0-rc.0',
+589 silly addNameRange     '2.3.0',
+589 silly addNameRange     '4.0.0-beta.0',
+589 silly addNameRange     '2.3.1',
+589 silly addNameRange     '2.4.0',
+589 silly addNameRange     '2.4.1',
+589 silly addNameRange     '4.0.0-beta.1',
+589 silly addNameRange     '4.0.0-beta.2',
+589 silly addNameRange     '2.4.2',
+589 silly addNameRange     '2.4.3',
+589 silly addNameRange     '4.0.0-beta.3',
+589 silly addNameRange     '2.4.4',
+589 silly addNameRange     '4.0.0-beta.4',
+589 silly addNameRange     '2.4.5',
+589 silly addNameRange     '4.0.0-beta.5',
+589 silly addNameRange     '2.4.6',
+589 silly addNameRange     '4.0.0-beta.6',
+589 silly addNameRange     '2.4.7',
+589 silly addNameRange     '4.0.0-beta.7',
+589 silly addNameRange     '2.4.8',
+589 silly addNameRange     '4.0.0-beta.8',
+589 silly addNameRange     '4.0.0-rc.0',
+589 silly addNameRange     '4.0.0-rc.1',
+589 silly addNameRange     '4.0.0-rc.2',
+589 silly addNameRange     '2.4.9',
+589 silly addNameRange     '4.0.0-rc.3',
+589 silly addNameRange     '2.4.10',
+589 silly addNameRange     '4.0.0-rc.4',
+589 silly addNameRange     '4.0.0-rc.5',
+589 silly addNameRange     '4.0.0-rc.6',
+589 silly addNameRange     '4.0.0',
+589 silly addNameRange     '4.0.1',
+589 silly addNameRange     '4.1.0-beta.0',
+589 silly addNameRange     '4.0.2',
+589 silly addNameRange     '4.1.0-beta.1',
+589 silly addNameRange     '4.0.3',
+589 silly addNameRange     '4.1.0-rc.0',
+589 silly addNameRange     '4.1.0',
+589 silly addNameRange     '4.1.1',
+589 silly addNameRange     '4.2.0-beta.0',
+589 silly addNameRange     '4.1.2',
+589 silly addNameRange     '4.2.0-beta.1',
+589 silly addNameRange     '4.1.3',
+589 silly addNameRange     '4.2.0-rc.0',
+589 silly addNameRange     '4.2.0-rc.1',
+589 silly addNameRange     '4.2.0-rc.2',
+589 silly addNameRange     '4.2.0',
+589 silly addNameRange     '4.2.1',
+589 silly addNameRange     '4.2.2',
+589 silly addNameRange     '4.2.3',
+589 silly addNameRange     '4.2.4',
+589 silly addNameRange     '4.3.0-beta.0',
+589 silly addNameRange     '4.3.0-beta.1',
+589 silly addNameRange     '4.2.5',
+589 silly addNameRange     '4.2.6',
+589 silly addNameRange     '4.3.0-rc.0',
+589 silly addNameRange     '4.3.0',
+589 silly addNameRange     '4.3.1',
+589 silly addNameRange     '5.0.0-beta.0',
+589 silly addNameRange     '4.3.2',
+589 silly addNameRange     '5.0.0-beta.1',
+589 silly addNameRange     '4.3.3',
+589 silly addNameRange     '5.0.0-beta.2',
+589 silly addNameRange     '5.0.0-beta.3',
+589 silly addNameRange     '4.3.4',
+589 silly addNameRange     '4.3.5',
+589 silly addNameRange     '5.0.0-beta.4',
+589 silly addNameRange     '4.3.6',
+589 silly addNameRange     '5.0.0-beta.5',
+589 silly addNameRange     '4.4.0-RC.0',
+589 silly addNameRange     '5.0.0-beta.6' ] ]
+590 silly addNamed @angular/common@2.0.2
+591 verbose addNamed "2.0.2" is a plain semver version for @angular/common
+592 info retry fetch attempt 1 at 12:56:47 AM
+593 info attempt registry request try #1 at 12:56:47 AM
+594 http fetch GET https://registry.npmjs.org/core-js/-/core-js-2.5.1.tgz
+595 verbose afterAdd /home/lawlug/.npm/@angular/router/3.0.2/package/package.json written
+596 verbose afterAdd /home/lawlug/.npm/@angular/upgrade/2.0.2/package/package.json written
+597 verbose afterAdd /home/lawlug/.npm/@angular/platform-browser-dynamic/2.0.2/package/package.json written
+598 silly cache afterAdd systemjs@0.19.39
+599 verbose afterAdd /home/lawlug/.npm/systemjs/0.19.39/package/package.json not in flight; writing
+600 silly cache afterAdd @angular/common@2.0.2
+601 verbose afterAdd /home/lawlug/.npm/@angular/common/2.0.2/package/package.json not in flight; writing
+602 verbose afterAdd /home/lawlug/.npm/systemjs/0.19.39/package/package.json written
+603 verbose afterAdd /home/lawlug/.npm/@angular/common/2.0.2/package/package.json written
+604 http fetch 200 https://registry.npmjs.org/core-js/-/core-js-2.5.1.tgz
+605 silly fetchAndShaCheck shasum ae6874dc66937789b80754ff5428df66819ca50b
+606 verbose addTmpTarball /tmp/npm-4761-b2b38f15/registry.npmjs.org/core-js/-/core-js-2.5.1.tgz not in flight; adding
+607 verbose addTmpTarball already have metadata; skipping unpack for core-js@2.5.1
+608 silly cache afterAdd core-js@2.5.1
+609 verbose afterAdd /home/lawlug/.npm/core-js/2.5.1/package/package.json not in flight; writing
+610 verbose afterAdd /home/lawlug/.npm/core-js/2.5.1/package/package.json written
+611 silly fetchNamedPackageData symbol-observable
+612 silly mapToRegistry name symbol-observable
+613 silly mapToRegistry using default registry
+614 silly mapToRegistry registry https://registry.npmjs.org/
+615 silly mapToRegistry uri https://registry.npmjs.org/symbol-observable
+616 verbose request uri https://registry.npmjs.org/symbol-observable
+617 verbose request no auth needed
+618 info attempt registry request try #1 at 12:56:51 AM
+619 verbose etag W/"58f72bb3-4723"
+620 verbose lastModified Wed, 19 Apr 2017 09:19:47 GMT
+621 http request GET https://registry.npmjs.org/symbol-observable
+622 http 304 https://registry.npmjs.org/symbol-observable
+623 verbose headers { date: 'Fri, 08 Sep 2017 19:26:51 GMT',
+623 verbose headers   via: '1.1 varnish',
+623 verbose headers   'cache-control': 'max-age=300',
+623 verbose headers   etag: 'W/"58f72bb3-4723"',
+623 verbose headers   age: '180',
+623 verbose headers   connection: 'keep-alive',
+623 verbose headers   'x-served-by': 'cache-ams4142-AMS',
+623 verbose headers   'x-cache': 'HIT',
+623 verbose headers   'x-cache-hits': '1',
+623 verbose headers   'x-timer': 'S1504898812.965884,VS0,VE0',
+623 verbose headers   vary: 'Accept-Encoding, Accept' }
+624 silly get cb [ 304,
+624 silly get   { date: 'Fri, 08 Sep 2017 19:26:51 GMT',
+624 silly get     via: '1.1 varnish',
+624 silly get     'cache-control': 'max-age=300',
+624 silly get     etag: 'W/"58f72bb3-4723"',
+624 silly get     age: '180',
+624 silly get     connection: 'keep-alive',
+624 silly get     'x-served-by': 'cache-ams4142-AMS',
+624 silly get     'x-cache': 'HIT',
+624 silly get     'x-cache-hits': '1',
+624 silly get     'x-timer': 'S1504898812.965884,VS0,VE0',
+624 silly get     vary: 'Accept-Encoding, Accept' } ]
+625 verbose etag https://registry.npmjs.org/symbol-observable from cache
+626 verbose get saving symbol-observable to /home/lawlug/.npm/registry.npmjs.org/symbol-observable/.cache.json
+627 silly resolveWithNewModule symbol-observable@1.0.4 checking installable status
+628 silly cache add args [ 'symbol-observable@^1.0.1', null ]
+629 verbose cache add spec symbol-observable@^1.0.1
+630 silly cache add parsed spec Result {
+630 silly cache add   raw: 'symbol-observable@^1.0.1',
+630 silly cache add   scope: null,
+630 silly cache add   name: 'symbol-observable',
+630 silly cache add   rawSpec: '^1.0.1',
+630 silly cache add   spec: '>=1.0.1 <2.0.0',
+630 silly cache add   type: 'range' }
+631 silly addNamed symbol-observable@>=1.0.1 <2.0.0
+632 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for symbol-observable
+633 silly addNameRange { name: 'symbol-observable',
+633 silly addNameRange   range: '>=1.0.1 <2.0.0',
+633 silly addNameRange   hasData: false }
+634 silly mapToRegistry name symbol-observable
+635 silly mapToRegistry using default registry
+636 silly mapToRegistry registry https://registry.npmjs.org/
+637 silly mapToRegistry uri https://registry.npmjs.org/symbol-observable
+638 verbose addNameRange registry:https://registry.npmjs.org/symbol-observable not in flight; fetching
+639 verbose get https://registry.npmjs.org/symbol-observable not expired, no request
+640 silly addNameRange number 2 { name: 'symbol-observable',
+640 silly addNameRange   range: '>=1.0.1 <2.0.0',
+640 silly addNameRange   hasData: true }
+641 silly addNameRange versions [ 'symbol-observable',
+641 silly addNameRange   [ '0.1.0',
+641 silly addNameRange     '0.2.0',
+641 silly addNameRange     '0.2.1',
+641 silly addNameRange     '0.2.2',
+641 silly addNameRange     '0.2.3',
+641 silly addNameRange     '0.2.4',
+641 silly addNameRange     '1.0.0',
+641 silly addNameRange     '1.0.1',
+641 silly addNameRange     '1.0.2',
+641 silly addNameRange     '1.0.3',
+641 silly addNameRange     '1.0.4' ] ]
+642 silly addNamed symbol-observable@1.0.4
+643 verbose addNamed "1.0.4" is a plain semver version for symbol-observable
+644 silly cache afterAdd symbol-observable@1.0.4
+645 verbose afterAdd /home/lawlug/.npm/symbol-observable/1.0.4/package/package.json not in flight; writing
+646 verbose afterAdd /home/lawlug/.npm/symbol-observable/1.0.4/package/package.json written
+647 silly fetchNamedPackageData when
+648 silly mapToRegistry name when
+649 silly mapToRegistry using default registry
+650 silly mapToRegistry registry https://registry.npmjs.org/
+651 silly mapToRegistry uri https://registry.npmjs.org/when
+652 verbose request uri https://registry.npmjs.org/when
+653 verbose request no auth needed
+654 info attempt registry request try #1 at 12:56:52 AM
+655 verbose etag W/"59805b66-1d54d"
+656 verbose lastModified Tue, 01 Aug 2017 10:43:50 GMT
+657 http request GET https://registry.npmjs.org/when
+658 http 304 https://registry.npmjs.org/when
+659 verbose headers { date: 'Fri, 08 Sep 2017 19:26:52 GMT',
+659 verbose headers   via: '1.1 varnish',
+659 verbose headers   'cache-control': 'max-age=300',
+659 verbose headers   etag: 'W/"59805b66-1d54d"',
+659 verbose headers   age: '298',
+659 verbose headers   connection: 'keep-alive',
+659 verbose headers   'x-served-by': 'cache-ams4436-AMS',
+659 verbose headers   'x-cache': 'HIT',
+659 verbose headers   'x-cache-hits': '2',
+659 verbose headers   'x-timer': 'S1504898813.648517,VS0,VE0',
+659 verbose headers   vary: 'Accept-Encoding, Accept' }
+660 silly get cb [ 304,
+660 silly get   { date: 'Fri, 08 Sep 2017 19:26:52 GMT',
+660 silly get     via: '1.1 varnish',
+660 silly get     'cache-control': 'max-age=300',
+660 silly get     etag: 'W/"59805b66-1d54d"',
+660 silly get     age: '298',
+660 silly get     connection: 'keep-alive',
+660 silly get     'x-served-by': 'cache-ams4436-AMS',
+660 silly get     'x-cache': 'HIT',
+660 silly get     'x-cache-hits': '2',
+660 silly get     'x-timer': 'S1504898813.648517,VS0,VE0',
+660 silly get     vary: 'Accept-Encoding, Accept' } ]
+661 verbose etag https://registry.npmjs.org/when from cache
+662 verbose get saving when to /home/lawlug/.npm/registry.npmjs.org/when/.cache.json
+663 silly resolveWithNewModule when@3.7.8 checking installable status
+664 silly cache add args [ 'when@^3.7.5', null ]
+665 verbose cache add spec when@^3.7.5
+666 silly cache add parsed spec Result {
+666 silly cache add   raw: 'when@^3.7.5',
+666 silly cache add   scope: null,
+666 silly cache add   name: 'when',
+666 silly cache add   rawSpec: '^3.7.5',
+666 silly cache add   spec: '>=3.7.5 <4.0.0',
+666 silly cache add   type: 'range' }
+667 silly addNamed when@>=3.7.5 <4.0.0
+668 verbose addNamed ">=3.7.5 <4.0.0" is a valid semver range for when
+669 silly addNameRange { name: 'when', range: '>=3.7.5 <4.0.0', hasData: false }
+670 silly mapToRegistry name when
+671 silly mapToRegistry using default registry
+672 silly mapToRegistry registry https://registry.npmjs.org/
+673 silly mapToRegistry uri https://registry.npmjs.org/when
+674 verbose addNameRange registry:https://registry.npmjs.org/when not in flight; fetching
+675 verbose get https://registry.npmjs.org/when not expired, no request
+676 silly addNameRange number 2 { name: 'when', range: '>=3.7.5 <4.0.0', hasData: true }
+677 silly addNameRange versions [ 'when',
+677 silly addNameRange   [ '1.2.0',
+677 silly addNameRange     '1.3.0',
+677 silly addNameRange     '1.4.0',
+677 silly addNameRange     '1.4.1',
+677 silly addNameRange     '1.4.2',
+677 silly addNameRange     '1.4.3',
+677 silly addNameRange     '1.4.4',
+677 silly addNameRange     '1.5.0',
+677 silly addNameRange     '1.5.1',
+677 silly addNameRange     '1.5.2',
+677 silly addNameRange     '1.6.0',
+677 silly addNameRange     '1.6.1',
+677 silly addNameRange     '1.7.0',
+677 silly addNameRange     '1.7.1',
+677 silly addNameRange     '1.8.0',
+677 silly addNameRange     '1.8.1',
+677 silly addNameRange     '2.0.0',
+677 silly addNameRange     '2.0.1',
+677 silly addNameRange     '2.1.0',
+677 silly addNameRange     '2.1.1',
+677 silly addNameRange     '2.2.0',
+677 silly addNameRange     '2.2.1',
+677 silly addNameRange     '2.3.0',
+677 silly addNameRange     '2.4.0',
+677 silly addNameRange     '2.5.0',
+677 silly addNameRange     '2.5.1',
+677 silly addNameRange     '2.6.0',
+677 silly addNameRange     '2.7.0',
+677 silly addNameRange     '2.7.1',
+677 silly addNameRange     '2.8.0',
+677 silly addNameRange     '3.0.0',
+677 silly addNameRange     '3.0.1',
+677 silly addNameRange     '3.1.0',
+677 silly addNameRange     '3.2.0',
+677 silly addNameRange     '3.2.1',
+677 silly addNameRange     '3.2.2',
+677 silly addNameRange     '3.2.3',
+677 silly addNameRange     '3.3.0',
+677 silly addNameRange     '3.3.1',
+677 silly addNameRange     '3.4.0',
+677 silly addNameRange     '3.4.1',
+677 silly addNameRange     '3.4.2',
+677 silly addNameRange     '3.4.3',
+677 silly addNameRange     '3.4.4',
+677 silly addNameRange     '3.4.5',
+677 silly addNameRange     '3.4.6',
+677 silly addNameRange     '3.5.0',
+677 silly addNameRange     '3.5.1',
+677 silly addNameRange     '3.5.2',
+677 silly addNameRange     '3.6.0',
+677 silly addNameRange     '3.6.1',
+677 silly addNameRange     '3.6.2',
+677 silly addNameRange     '3.6.3',
+677 silly addNameRange     '3.6.4',
+677 silly addNameRange     '3.7.0',
+677 silly addNameRange     '3.7.1',
+677 silly addNameRange     '3.7.2',
+677 silly addNameRange     '3.7.3',
+677 silly addNameRange     '3.7.4',
+677 silly addNameRange     '3.7.5',
+677 silly addNameRange     '3.7.6',
+677 silly addNameRange     '3.7.7',
+677 silly addNameRange     '3.7.8' ] ]
+678 silly addNamed when@3.7.8
+679 verbose addNamed "3.7.8" is a plain semver version for when
+680 silly cache afterAdd when@3.7.8
+681 verbose afterAdd /home/lawlug/.npm/when/3.7.8/package/package.json not in flight; writing
+682 verbose afterAdd /home/lawlug/.npm/when/3.7.8/package/package.json written
+683 silly fetchNamedPackageData concurrently
+684 silly mapToRegistry name concurrently
+685 silly mapToRegistry using default registry
+686 silly mapToRegistry registry https://registry.npmjs.org/
+687 silly mapToRegistry uri https://registry.npmjs.org/concurrently
+688 silly fetchNamedPackageData font-awesome
+689 silly mapToRegistry name font-awesome
+690 silly mapToRegistry using default registry
+691 silly mapToRegistry registry https://registry.npmjs.org/
+692 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+693 silly fetchNamedPackageData lite-server
+694 silly mapToRegistry name lite-server
+695 silly mapToRegistry using default registry
+696 silly mapToRegistry registry https://registry.npmjs.org/
+697 silly mapToRegistry uri https://registry.npmjs.org/lite-server
+698 silly fetchNamedPackageData typescript
+699 silly mapToRegistry name typescript
+700 silly mapToRegistry using default registry
+701 silly mapToRegistry registry https://registry.npmjs.org/
+702 silly mapToRegistry uri https://registry.npmjs.org/typescript
+703 silly fetchNamedPackageData typings
+704 silly mapToRegistry name typings
+705 silly mapToRegistry using default registry
+706 silly mapToRegistry registry https://registry.npmjs.org/
+707 silly mapToRegistry uri https://registry.npmjs.org/typings
+708 verbose request uri https://registry.npmjs.org/concurrently
+709 verbose request no auth needed
+710 info attempt registry request try #1 at 12:56:52 AM
+711 verbose etag W/"5997ab9f-8803"
+712 verbose lastModified Sat, 19 Aug 2017 03:08:15 GMT
+713 http request GET https://registry.npmjs.org/concurrently
+714 verbose request uri https://registry.npmjs.org/lite-server
+715 verbose request no auth needed
+716 info attempt registry request try #1 at 12:56:53 AM
+717 verbose etag W/"5989845d-7522"
+718 verbose lastModified Tue, 08 Aug 2017 09:29:01 GMT
+719 http request GET https://registry.npmjs.org/lite-server
+720 verbose request uri https://registry.npmjs.org/font-awesome
+721 verbose request no auth needed
+722 info attempt registry request try #1 at 12:56:53 AM
+723 verbose etag W/"599a17c0-579b"
+724 verbose lastModified Sun, 20 Aug 2017 23:14:08 GMT
+725 http request GET https://registry.npmjs.org/font-awesome
+726 verbose request uri https://registry.npmjs.org/typings
+727 verbose request no auth needed
+728 info attempt registry request try #1 at 12:56:53 AM
+729 verbose etag W/"5988f1f9-33296"
+730 verbose lastModified Mon, 07 Aug 2017 23:04:25 GMT
+731 http request GET https://registry.npmjs.org/typings
+732 verbose request uri https://registry.npmjs.org/typescript
+733 verbose request no auth needed
+734 info attempt registry request try #1 at 12:56:53 AM
+735 verbose etag W/"599d981e-1be9f3"
+736 verbose lastModified Wed, 23 Aug 2017 14:58:38 GMT
+737 http request GET https://registry.npmjs.org/typescript
+738 http 304 https://registry.npmjs.org/font-awesome
+739 verbose headers { date: 'Fri, 08 Sep 2017 19:26:53 GMT',
+739 verbose headers   via: '1.1 varnish',
+739 verbose headers   'cache-control': 'max-age=300',
+739 verbose headers   etag: 'W/"599a17c0-579b"',
+739 verbose headers   age: '88',
+739 verbose headers   connection: 'keep-alive',
+739 verbose headers   'x-served-by': 'cache-ams4428-AMS',
+739 verbose headers   'x-cache': 'HIT',
+739 verbose headers   'x-cache-hits': '1',
+739 verbose headers   'x-timer': 'S1504898814.502893,VS0,VE0',
+739 verbose headers   vary: 'Accept-Encoding, Accept' }
+740 silly get cb [ 304,
+740 silly get   { date: 'Fri, 08 Sep 2017 19:26:53 GMT',
+740 silly get     via: '1.1 varnish',
+740 silly get     'cache-control': 'max-age=300',
+740 silly get     etag: 'W/"599a17c0-579b"',
+740 silly get     age: '88',
+740 silly get     connection: 'keep-alive',
+740 silly get     'x-served-by': 'cache-ams4428-AMS',
+740 silly get     'x-cache': 'HIT',
+740 silly get     'x-cache-hits': '1',
+740 silly get     'x-timer': 'S1504898814.502893,VS0,VE0',
+740 silly get     vary: 'Accept-Encoding, Accept' } ]
+741 verbose etag https://registry.npmjs.org/font-awesome from cache
+742 verbose get saving font-awesome to /home/lawlug/.npm/registry.npmjs.org/font-awesome/.cache.json
+743 silly resolveWithNewModule font-awesome@4.7.0 checking installable status
+744 silly cache add args [ 'font-awesome@^4.6.3', null ]
+745 verbose cache add spec font-awesome@^4.6.3
+746 silly cache add parsed spec Result {
+746 silly cache add   raw: 'font-awesome@^4.6.3',
+746 silly cache add   scope: null,
+746 silly cache add   name: 'font-awesome',
+746 silly cache add   rawSpec: '^4.6.3',
+746 silly cache add   spec: '>=4.6.3 <5.0.0',
+746 silly cache add   type: 'range' }
+747 silly addNamed font-awesome@>=4.6.3 <5.0.0
+748 verbose addNamed ">=4.6.3 <5.0.0" is a valid semver range for font-awesome
+749 silly addNameRange { name: 'font-awesome', range: '>=4.6.3 <5.0.0', hasData: false }
+750 silly mapToRegistry name font-awesome
+751 silly mapToRegistry using default registry
+752 silly mapToRegistry registry https://registry.npmjs.org/
+753 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+754 verbose addNameRange registry:https://registry.npmjs.org/font-awesome not in flight; fetching
+755 verbose get https://registry.npmjs.org/font-awesome not expired, no request
+756 silly addNameRange number 2 { name: 'font-awesome', range: '>=4.6.3 <5.0.0', hasData: true }
+757 silly addNameRange versions [ 'font-awesome',
+757 silly addNameRange   [ '3.2.1',
+757 silly addNameRange     '4.0.3',
+757 silly addNameRange     '4.1.0',
+757 silly addNameRange     '4.2.0',
+757 silly addNameRange     '4.3.0',
+757 silly addNameRange     '4.4.0',
+757 silly addNameRange     '4.5.0',
+757 silly addNameRange     '4.6.1',
+757 silly addNameRange     '4.6.3',
+757 silly addNameRange     '4.7.0' ] ]
+758 silly addNamed font-awesome@4.7.0
+759 verbose addNamed "4.7.0" is a plain semver version for font-awesome
+760 silly cache afterAdd font-awesome@4.7.0
+761 verbose afterAdd /home/lawlug/.npm/font-awesome/4.7.0/package/package.json not in flight; writing
+762 verbose afterAdd /home/lawlug/.npm/font-awesome/4.7.0/package/package.json written
+763 http 200 https://registry.npmjs.org/typings
+764 verbose headers { server: 'nginx/1.10.1',
+764 verbose headers   'content-type': 'application/json',
+764 verbose headers   'last-modified': 'Thu, 31 Aug 2017 20:34:18 GMT',
+764 verbose headers   etag: 'W/"59a872ca-332b2"',
+764 verbose headers   'content-encoding': 'gzip',
+764 verbose headers   'cache-control': 'max-age=300',
+764 verbose headers   'content-length': '14441',
+764 verbose headers   'accept-ranges': 'bytes',
+764 verbose headers   date: 'Fri, 08 Sep 2017 19:26:53 GMT',
+764 verbose headers   via: '1.1 varnish',
+764 verbose headers   age: '0',
+764 verbose headers   connection: 'keep-alive',
+764 verbose headers   'x-served-by': 'cache-ams4429-AMS',
+764 verbose headers   'x-cache': 'HIT',
+764 verbose headers   'x-cache-hits': '1',
+764 verbose headers   'x-timer': 'S1504898814.540217,VS0,VE7',
+764 verbose headers   vary: 'Accept-Encoding, Accept' }
+765 silly get cb [ 200,
+765 silly get   { server: 'nginx/1.10.1',
+765 silly get     'content-type': 'application/json',
+765 silly get     'last-modified': 'Thu, 31 Aug 2017 20:34:18 GMT',
+765 silly get     etag: 'W/"59a872ca-332b2"',
+765 silly get     'content-encoding': 'gzip',
+765 silly get     'cache-control': 'max-age=300',
+765 silly get     'content-length': '14441',
+765 silly get     'accept-ranges': 'bytes',
+765 silly get     date: 'Fri, 08 Sep 2017 19:26:53 GMT',
+765 silly get     via: '1.1 varnish',
+765 silly get     age: '0',
+765 silly get     connection: 'keep-alive',
+765 silly get     'x-served-by': 'cache-ams4429-AMS',
+765 silly get     'x-cache': 'HIT',
+765 silly get     'x-cache-hits': '1',
+765 silly get     'x-timer': 'S1504898814.540217,VS0,VE7',
+765 silly get     vary: 'Accept-Encoding, Accept' } ]
+766 verbose get saving typings to /home/lawlug/.npm/registry.npmjs.org/typings/.cache.json
+767 silly resolveWithNewModule typings@1.5.0 checking installable status
+768 silly cache add args [ 'typings@^1.4.0', null ]
+769 verbose cache add spec typings@^1.4.0
+770 silly cache add parsed spec Result {
+770 silly cache add   raw: 'typings@^1.4.0',
+770 silly cache add   scope: null,
+770 silly cache add   name: 'typings',
+770 silly cache add   rawSpec: '^1.4.0',
+770 silly cache add   spec: '>=1.4.0 <2.0.0',
+770 silly cache add   type: 'range' }
+771 silly addNamed typings@>=1.4.0 <2.0.0
+772 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for typings
+773 silly addNameRange { name: 'typings', range: '>=1.4.0 <2.0.0', hasData: false }
+774 silly mapToRegistry name typings
+775 silly mapToRegistry using default registry
+776 silly mapToRegistry registry https://registry.npmjs.org/
+777 silly mapToRegistry uri https://registry.npmjs.org/typings
+778 verbose addNameRange registry:https://registry.npmjs.org/typings not in flight; fetching
+779 verbose get https://registry.npmjs.org/typings not expired, no request
+780 silly addNameRange number 2 { name: 'typings', range: '>=1.4.0 <2.0.0', hasData: true }
+781 silly addNameRange versions [ 'typings',
+781 silly addNameRange   [ '0.0.0',
+781 silly addNameRange     '0.0.2',
+781 silly addNameRange     '0.0.3',
+781 silly addNameRange     '0.0.4',
+781 silly addNameRange     '0.0.5',
+781 silly addNameRange     '0.0.6',
+781 silly addNameRange     '0.0.7',
+781 silly addNameRange     '0.0.8',
+781 silly addNameRange     '0.0.9',
+781 silly addNameRange     '0.0.10',
+781 silly addNameRange     '0.0.11',
+781 silly addNameRange     '0.0.12',
+781 silly addNameRange     '0.0.13',
+781 silly addNameRange     '0.1.0',
+781 silly addNameRange     '0.1.1',
+781 silly addNameRange     '0.1.2',
+781 silly addNameRange     '0.1.3',
+781 silly addNameRange     '0.1.4',
+781 silly addNameRange     '0.1.5',
+781 silly addNameRange     '0.1.6',
+781 silly addNameRange     '0.1.7',
+781 silly addNameRange     '0.2.0',
+781 silly addNameRange     '0.2.1',
+781 silly addNameRange     '0.2.2',
+781 silly addNameRange     '0.2.3',
+781 silly addNameRange     '0.2.4',
+781 silly addNameRange     '0.3.0',
+781 silly addNameRange     '0.3.1',
+781 silly addNameRange     '0.3.2',
+781 silly addNameRange     '0.3.3',
+781 silly addNameRange     '0.3.4',
+781 silly addNameRange     '0.3.5',
+781 silly addNameRange     '0.4.0',
+781 silly addNameRange     '0.4.1',
+781 silly addNameRange     '0.5.0',
+781 silly addNameRange     '0.5.1',
+781 silly addNameRange     '0.5.2',
+781 silly addNameRange     '0.6.0',
+781 silly addNameRange     '0.6.1',
+781 silly addNameRange     '0.6.2',
+781 silly addNameRange     '0.6.3',
+781 silly addNameRange     '0.6.4',
+781 silly addNameRange     '0.6.5',
+781 silly addNameRange     '0.6.6',
+781 silly addNameRange     '0.6.7',
+781 silly addNameRange     '0.6.8',
+781 silly addNameRange     '0.6.9',
+781 silly addNameRange     '0.6.10',
+781 silly addNameRange     '0.7.0',
+781 silly addNameRange     '0.7.1',
+781 silly addNameRange     '0.7.2',
+781 silly addNameRange     '0.7.3',
+781 silly addNameRange     '0.7.4',
+781 silly addNameRange     '0.7.5',
+781 silly addNameRange     '0.7.6',
+781 silly addNameRange     '0.7.7',
+781 silly addNameRange     '0.7.8',
+781 silly addNameRange     '0.7.9',
+781 silly addNameRange     '0.7.10',
+781 silly addNameRange     '0.7.11',
+781 silly addNameRange     '0.7.12',
+781 silly addNameRange     '0.8.0',
+781 silly addNameRange     '0.8.1',
+781 silly addNameRange     '1.0.1',
+781 silly addNameRange     '1.0.2',
+781 silly addNameRange     '1.0.3',
+781 silly addNameRange     '1.0.4',
+781 silly addNameRange     '1.0.5',
+781 silly addNameRange     '1.1.0',
+781 silly addNameRange     '1.2.0',
+781 silly addNameRange     '1.3.0',
+781 silly addNameRange     '1.3.1',
+781 silly addNameRange     '1.3.2',
+781 silly addNameRange     '1.3.3',
+781 silly addNameRange     '1.4.0',
+781 silly addNameRange     '1.5.0',
+781 silly addNameRange     '2.0.0',
+781 silly addNameRange     '2.1.0',
+781 silly addNameRange     '2.1.1' ] ]
+782 silly addNamed typings@1.5.0
+783 verbose addNamed "1.5.0" is a plain semver version for typings
+784 warn deprecated typings@1.5.0: Typings is deprecated in favor of NPM @types -- see README for more information
+785 silly cache afterAdd typings@1.5.0
+786 verbose afterAdd /home/lawlug/.npm/typings/1.5.0/package/package.json not in flight; writing
+787 verbose afterAdd /home/lawlug/.npm/typings/1.5.0/package/package.json written
+788 http 200 https://registry.npmjs.org/lite-server
+789 verbose headers { server: 'nginx/1.10.1',
+789 verbose headers   'content-type': 'application/json',
+789 verbose headers   'last-modified': 'Wed, 06 Sep 2017 12:55:59 GMT',
+789 verbose headers   etag: 'W/"59aff05f-7543"',
+789 verbose headers   'content-encoding': 'gzip',
+789 verbose headers   'cache-control': 'max-age=300',
+789 verbose headers   'content-length': '5714',
+789 verbose headers   'accept-ranges': 'bytes',
+789 verbose headers   date: 'Fri, 08 Sep 2017 19:26:53 GMT',
+789 verbose headers   via: '1.1 varnish',
+789 verbose headers   age: '0',
+789 verbose headers   connection: 'keep-alive',
+789 verbose headers   'x-served-by': 'cache-ams4430-AMS',
+789 verbose headers   'x-cache': 'HIT',
+789 verbose headers   'x-cache-hits': '1',
+789 verbose headers   'x-timer': 'S1504898814.936683,VS0,VE7',
+789 verbose headers   vary: 'Accept-Encoding, Accept' }
+790 silly get cb [ 200,
+790 silly get   { server: 'nginx/1.10.1',
+790 silly get     'content-type': 'application/json',
+790 silly get     'last-modified': 'Wed, 06 Sep 2017 12:55:59 GMT',
+790 silly get     etag: 'W/"59aff05f-7543"',
+790 silly get     'content-encoding': 'gzip',
+790 silly get     'cache-control': 'max-age=300',
+790 silly get     'content-length': '5714',
+790 silly get     'accept-ranges': 'bytes',
+790 silly get     date: 'Fri, 08 Sep 2017 19:26:53 GMT',
+790 silly get     via: '1.1 varnish',
+790 silly get     age: '0',
+790 silly get     connection: 'keep-alive',
+790 silly get     'x-served-by': 'cache-ams4430-AMS',
+790 silly get     'x-cache': 'HIT',
+790 silly get     'x-cache-hits': '1',
+790 silly get     'x-timer': 'S1504898814.936683,VS0,VE7',
+790 silly get     vary: 'Accept-Encoding, Accept' } ]
+791 verbose get saving lite-server to /home/lawlug/.npm/registry.npmjs.org/lite-server/.cache.json
+792 silly resolveWithNewModule lite-server@2.3.0 checking installable status
+793 silly cache add args [ 'lite-server@^2.2.2', null ]
+794 verbose cache add spec lite-server@^2.2.2
+795 silly cache add parsed spec Result {
+795 silly cache add   raw: 'lite-server@^2.2.2',
+795 silly cache add   scope: null,
+795 silly cache add   name: 'lite-server',
+795 silly cache add   rawSpec: '^2.2.2',
+795 silly cache add   spec: '>=2.2.2 <3.0.0',
+795 silly cache add   type: 'range' }
+796 silly addNamed lite-server@>=2.2.2 <3.0.0
+797 verbose addNamed ">=2.2.2 <3.0.0" is a valid semver range for lite-server
+798 silly addNameRange { name: 'lite-server', range: '>=2.2.2 <3.0.0', hasData: false }
+799 silly mapToRegistry name lite-server
+800 silly mapToRegistry using default registry
+801 silly mapToRegistry registry https://registry.npmjs.org/
+802 silly mapToRegistry uri https://registry.npmjs.org/lite-server
+803 verbose addNameRange registry:https://registry.npmjs.org/lite-server not in flight; fetching
+804 verbose get https://registry.npmjs.org/lite-server not expired, no request
+805 silly addNameRange number 2 { name: 'lite-server', range: '>=2.2.2 <3.0.0', hasData: true }
+806 silly addNameRange versions [ 'lite-server',
+806 silly addNameRange   [ '1.0.0',
+806 silly addNameRange     '1.0.1',
+806 silly addNameRange     '1.0.3',
+806 silly addNameRange     '1.1.0',
+806 silly addNameRange     '1.2.0',
+806 silly addNameRange     '1.3.0',
+806 silly addNameRange     '1.3.1',
+806 silly addNameRange     '1.3.2',
+806 silly addNameRange     '1.3.3',
+806 silly addNameRange     '1.3.4',
+806 silly addNameRange     '2.0.0',
+806 silly addNameRange     '2.0.1',
+806 silly addNameRange     '2.1.0',
+806 silly addNameRange     '2.2.0',
+806 silly addNameRange     '2.2.2',
+806 silly addNameRange     '2.3.0' ] ]
+807 silly addNamed lite-server@2.3.0
+808 verbose addNamed "2.3.0" is a plain semver version for lite-server
+809 silly cache afterAdd lite-server@2.3.0
+810 verbose afterAdd /home/lawlug/.npm/lite-server/2.3.0/package/package.json not in flight; writing
+811 verbose afterAdd /home/lawlug/.npm/lite-server/2.3.0/package/package.json written
+812 http 200 https://registry.npmjs.org/typescript
+813 verbose headers { server: 'nginx/1.10.1',
+813 verbose headers   'content-type': 'application/json',
+813 verbose headers   'last-modified': 'Fri, 08 Sep 2017 06:48:57 GMT',
+813 verbose headers   etag: 'W/"59b23d59-1c90e3"',
+813 verbose headers   'content-encoding': 'gzip',
+813 verbose headers   'cache-control': 'max-age=300',
+813 verbose headers   'content-length': '92339',
+813 verbose headers   'accept-ranges': 'bytes',
+813 verbose headers   date: 'Fri, 08 Sep 2017 19:26:53 GMT',
+813 verbose headers   via: '1.1 varnish',
+813 verbose headers   age: '286',
+813 verbose headers   connection: 'keep-alive',
+813 verbose headers   'x-served-by': 'cache-ams4130-AMS',
+813 verbose headers   'x-cache': 'HIT',
+813 verbose headers   'x-cache-hits': '2',
+813 verbose headers   'x-timer': 'S1504898814.577374,VS0,VE0',
+813 verbose headers   vary: 'Accept-Encoding, Accept' }
+814 silly get cb [ 200,
+814 silly get   { server: 'nginx/1.10.1',
+814 silly get     'content-type': 'application/json',
+814 silly get     'last-modified': 'Fri, 08 Sep 2017 06:48:57 GMT',
+814 silly get     etag: 'W/"59b23d59-1c90e3"',
+814 silly get     'content-encoding': 'gzip',
+814 silly get     'cache-control': 'max-age=300',
+814 silly get     'content-length': '92339',
+814 silly get     'accept-ranges': 'bytes',
+814 silly get     date: 'Fri, 08 Sep 2017 19:26:53 GMT',
+814 silly get     via: '1.1 varnish',
+814 silly get     age: '286',
+814 silly get     connection: 'keep-alive',
+814 silly get     'x-served-by': 'cache-ams4130-AMS',
+814 silly get     'x-cache': 'HIT',
+814 silly get     'x-cache-hits': '2',
+814 silly get     'x-timer': 'S1504898814.577374,VS0,VE0',
+814 silly get     vary: 'Accept-Encoding, Accept' } ]
+815 verbose get saving typescript to /home/lawlug/.npm/registry.npmjs.org/typescript/.cache.json
+816 silly resolveWithNewModule typescript@2.5.2 checking installable status
+817 silly cache add args [ 'typescript@^2.0.3', null ]
+818 verbose cache add spec typescript@^2.0.3
+819 silly cache add parsed spec Result {
+819 silly cache add   raw: 'typescript@^2.0.3',
+819 silly cache add   scope: null,
+819 silly cache add   name: 'typescript',
+819 silly cache add   rawSpec: '^2.0.3',
+819 silly cache add   spec: '>=2.0.3 <3.0.0',
+819 silly cache add   type: 'range' }
+820 silly addNamed typescript@>=2.0.3 <3.0.0
+821 verbose addNamed ">=2.0.3 <3.0.0" is a valid semver range for typescript
+822 silly addNameRange { name: 'typescript', range: '>=2.0.3 <3.0.0', hasData: false }
+823 silly mapToRegistry name typescript
+824 silly mapToRegistry using default registry
+825 silly mapToRegistry registry https://registry.npmjs.org/
+826 silly mapToRegistry uri https://registry.npmjs.org/typescript
+827 verbose addNameRange registry:https://registry.npmjs.org/typescript not in flight; fetching
+828 verbose get https://registry.npmjs.org/typescript not expired, no request
+829 silly addNameRange number 2 { name: 'typescript', range: '>=2.0.3 <3.0.0', hasData: true }
+830 silly addNameRange versions [ 'typescript',
+830 silly addNameRange   [ '0.8.0',
+830 silly addNameRange     '0.8.1',
+830 silly addNameRange     '0.8.1-1',
+830 silly addNameRange     '0.8.2',
+830 silly addNameRange     '0.8.3',
+830 silly addNameRange     '0.9.0',
+830 silly addNameRange     '0.9.0-1',
+830 silly addNameRange     '0.9.1',
+830 silly addNameRange     '0.9.1-1',
+830 silly addNameRange     '0.9.5',
+830 silly addNameRange     '0.9.7',
+830 silly addNameRange     '1.0.0',
+830 silly addNameRange     '1.0.1',
+830 silly addNameRange     '1.1.0-1',
+830 silly addNameRange     '1.3.0',
+830 silly addNameRange     '1.4.1',
+830 silly addNameRange     '1.5.0-alpha',
+830 silly addNameRange     '1.5.0-beta',
+830 silly addNameRange     '1.5.3',
+830 silly addNameRange     '1.6.0-dev.20150722.1',
+830 silly addNameRange     '1.6.0-dev.20150723',
+830 silly addNameRange     '1.6.0-dev.20150724',
+830 silly addNameRange     '1.6.0-dev.20150725',
+830 silly addNameRange     '1.6.0-dev.20150726',
+830 silly addNameRange     '1.6.0-dev.20150727',
+830 silly addNameRange     '1.6.0-dev.20150728',
+830 silly addNameRange     '1.6.0-dev.20150729',
+830 silly addNameRange     '1.6.0-dev.20150730',
+830 silly addNameRange     '1.6.0-dev.20150731',
+830 silly addNameRange     '1.6.0-dev.20150801',
+830 silly addNameRange     '1.6.0-dev.20150802',
+830 silly addNameRange     '1.6.0-dev.20150803',
+830 silly addNameRange     '1.6.0-dev.20150804',
+830 silly addNameRange     '1.6.0-dev.20150805',
+830 silly addNameRange     '1.6.0-dev.20150806',
+830 silly addNameRange     '1.6.0-dev.20150807',
+830 silly addNameRange     '1.6.0-dev.20150808',
+830 silly addNameRange     '1.6.0-dev.20150809',
+830 silly addNameRange     '1.6.0-dev.20150810',
+830 silly addNameRange     '1.6.0-dev.20150811',
+830 silly addNameRange     '1.6.0-dev.20150812',
+830 silly addNameRange     '1.6.0-dev.20150813',
+830 silly addNameRange     '1.6.0-dev.20150814',
+830 silly addNameRange     '1.6.0-dev.20150815',
+830 silly addNameRange     '1.6.0-dev.20150816',
+830 silly addNameRange     '1.6.0-dev.20150817',
+830 silly addNameRange     '1.6.0-dev.20150818',
+830 silly addNameRange     '1.6.0-dev.20150819',
+830 silly addNameRange     '1.6.0-dev.20150820',
+830 silly addNameRange     '1.6.0-dev.20150821',
+830 silly addNameRange     '1.6.0-dev.20150822',
+830 silly addNameRange     '1.6.0-dev.20150823',
+830 silly addNameRange     '1.6.0-dev.20150824',
+830 silly addNameRange     '1.6.0-dev.20150825',
+830 silly addNameRange     '1.7.0-dev.20150826',
+830 silly addNameRange     '1.7.0-dev.20150827',
+830 silly addNameRange     '1.7.0-dev.20150828',
+830 silly addNameRange     '1.7.0-dev.20150829',
+830 silly addNameRange     '1.7.0-dev.20150830',
+830 silly addNameRange     '1.7.0-dev.20150831',
+830 silly addNameRange     '1.7.0-dev.20150901',
+830 silly addNameRange     '1.7.0-dev.20150902',
+830 silly addNameRange     '1.6.0-beta',
+830 silly addNameRange     '1.7.0-dev.20150903',
+830 silly addNameRange     '1.7.0-dev.20150904',
+830 silly addNameRange     '1.6.0-dev.20150905',
+830 silly addNameRange     '1.6.0-dev.20150906',
+830 silly addNameRange     '1.6.0-dev.20150907',
+830 silly addNameRange     '1.6.0-dev.20150908',
+830 silly addNameRange     '1.6.0-dev.20150909',
+830 silly addNameRange     '1.6.0-dev.20150910',
+830 silly addNameRange     '1.6.0-dev.20150911',
+830 silly addNameRange     '1.6.0-dev.20150912',
+830 silly addNameRange     '1.6.0-dev.20150913',
+830 silly addNameRange     '1.6.0-dev.20150914',
+830 silly addNameRange     '1.6.0-dev.20150915',
+830 silly addNameRange     '1.7.0-dev.20150916',
+830 silly addNameRange     '1.6.2',
+830 silly addNameRange     '1.7.0-dev.20150917',
+830 silly addNameRange     '1.7.0-dev.20150918',
+830 silly addNameRange     '1.7.0-dev.20150919',
+830 silly addNameRange     '1.7.0-dev.20150920',
+830 silly addNameRange     '1.7.0-dev.20150921',
+830 silly addNameRange     '1.7.0-dev.20150922',
+830 silly addNameRange     '1.7.0-dev.20150923',
+830 silly addNameRange     '1.7.0-dev.20150924',
+830 silly addNameRange     '1.7.0-dev.20150925',
+830 silly addNameRange     '1.7.0-dev.20150926',
+830 silly addNameRange     '1.7.0-dev.20150927',
+830 silly addNameRange     '1.7.0-dev.20150928',
+830 silly addNameRange     '1.7.0-dev.20150929',
+830 silly addNameRange     '1.7.0-dev.20150930',
+830 silly addNameRange     '1.7.0-dev.20151001',
+830 silly addNameRange     '1.7.0-dev.20151002',
+830 silly addNameRange     '1.7.0-dev.20151003',
+830 silly addNameRange     '1.7.0-dev.20151004',
+830 silly addNameRange     '1.7.0-dev.20151005',
+830 silly addNameRange     '1.7.0-dev.20151006',
+830 silly addNameRange     '1.7.0-dev.20151014',
+830 silly addNameRange     '1.7.0-dev.20151015',
+830 silly addNameRange     '1.7.0-dev.20151016',
+830 silly addNameRange     '1.8.0-dev.20151017',
+830 silly addNameRange     '1.8.0-dev.20151018',
+830 silly addNameRange     '1.8.0-dev.20151019',
+830 silly addNameRange     '1.8.0-dev.20151020',
+830 silly addNameRange     '1.8.0-dev.20151021',
+830 silly addNameRange     '1.8.0-dev.20151022',
+830 silly addNameRange     '1.8.0-dev.20151023',
+830 silly addNameRange     '1.8.0-dev.20151024',
+830 silly addNameRange     '1.8.0-dev.20151025',
+830 silly addNameRange     '1.8.0-dev.20151026',
+830 silly addNameRange     '1.8.0-dev.20151027',
+830 silly addNameRange     '1.8.0-dev.20151028',
+830 silly addNameRange     '1.8.0-dev.20151029',
+830 silly addNameRange     '1.8.0-dev.20151030',
+830 silly addNameRange     '1.8.0-dev.20151031',
+830 silly addNameRange     '1.8.0-dev.20151101',
+830 silly addNameRange     '1.8.0-dev.20151102',
+830 silly addNameRange     '1.8.0-dev.20151103',
+830 silly addNameRange     '1.8.0-dev.20151104',
+830 silly addNameRange     '1.8.0-dev.20151105',
+830 silly addNameRange     '1.8.0-dev.20151106',
+830 silly addNameRange     '1.8.0-dev.20151107',
+830 silly addNameRange     '1.8.0-dev.20151108',
+830 silly addNameRange     '1.8.0-dev.20151109',
+830 silly addNameRange     '1.8.0-dev.20151110',
+830 silly addNameRange     '1.8.0-dev.20151111',
+830 silly addNameRange     '1.8.0-dev.20151112',
+830 silly addNameRange     '1.8.0-dev.20151113',
+830 silly addNameRange     '1.8.0-dev.20151114',
+830 silly addNameRange     '1.8.0-dev.20151115',
+830 silly addNameRange     '1.8.0-dev.20151116',
+830 silly addNameRange     '1.8.0-dev.20151117',
+830 silly addNameRange     '1.8.0-dev.20151118',
+830 silly addNameRange     '1.8.0-dev.20151119',
+830 silly addNameRange     '1.8.0-dev.20151120',
+830 silly addNameRange     '1.8.0-dev.20151121',
+830 silly addNameRange     '1.8.0-dev.20151122',
+830 silly addNameRange     '1.8.0-dev.20151123',
+830 silly addNameRange     '1.8.0-dev.20151124',
+830 silly addNameRange     '1.8.0-dev.20151125',
+830 silly addNameRange     '1.8.0-dev.20151126',
+830 silly addNameRange     '1.8.0-dev.20151127',
+830 silly addNameRange     '1.8.0-dev.20151128',
+830 silly addNameRange     '1.8.0-dev.20151129',
+830 silly addNameRange     '1.8.0-dev.20151130',
+830 silly addNameRange     '1.7.3',
+830 silly addNameRange     '1.8.0-dev.20151201',
+830 silly addNameRange     '1.8.0-dev.20151202',
+830 silly addNameRange     '1.8.0-dev.20151203',
+830 silly addNameRange     '1.8.0-dev.20151204',
+830 silly addNameRange     '1.8.0-dev.20151210',
+830 silly addNameRange     '1.8.0-dev.20151211',
+830 silly addNameRange     '1.8.0-dev.20151212',
+830 silly addNameRange     '1.8.0-dev.20151213',
+830 silly addNameRange     '1.8.0-dev.20151214',
+830 silly addNameRange     '1.7.5',
+830 silly addNameRange     '1.8.0-dev.20151215',
+830 silly addNameRange     '1.8.0-dev.20151216',
+830 silly addNameRange     '1.8.0-dev.20151217',
+830 silly addNameRange     '1.8.0-dev.20151218',
+830 silly addNameRange     '1.8.0-dev.20151219',
+830 silly addNameRange     '1.8.0-dev.20151220',
+830 silly addNameRange     '1.8.0-dev.20151221',
+830 silly addNameRange     '1.8.0-dev.20151222',
+830 silly addNameRange     '1.8.0-dev.20151223',
+830 silly addNameRange     '1.8.0-dev.20151224',
+830 silly addNameRange     '1.8.0-dev.20151225',
+830 silly addNameRange     '1.8.0-dev.20151226',
+830 silly addNameRange     '1.8.0-dev.20151227',
+830 silly addNameRange     '1.8.0-dev.20151228',
+830 silly addNameRange     '1.8.0-dev.20151229',
+830 silly addNameRange     '1.8.0-dev.20151230',
+830 silly addNameRange     '1.8.0-dev.20151231',
+830 silly addNameRange     '1.8.0-dev.20160101',
+830 silly addNameRange     '1.8.0-dev.20160102',
+830 silly addNameRange     '1.8.0-dev.20160103',
+830 silly addNameRange     '1.8.0-dev.20160104',
+830 silly addNameRange     '1.8.0-dev.20160105',
+830 silly addNameRange     '1.8.0-dev.20160106',
+830 silly addNameRange     '1.8.0-dev.20160107',
+830 silly addNameRange     '1.8.0-dev.20160108',
+830 silly addNameRange     '1.8.0-dev.20160109',
+830 silly addNameRange     '1.8.0-dev.20160110',
+830 silly addNameRange     '1.8.0-dev.20160111',
+830 silly addNameRange     '1.8.0-dev.20160112',
+830 silly addNameRange     '1.8.0-dev.20160113',
+830 silly addNameRange     '1.8.0-dev.20160114',
+830 silly addNameRange     '1.8.0-dev.20160115',
+830 silly addNameRange     '1.8.0-dev.20160116',
+830 silly addNameRange     '1.8.0-dev.20160117',
+830 silly addNameRange     '1.8.0-dev.20160118',
+830 silly addNameRange     '1.8.0-dev.20160119',
+830 silly addNameRange     '1.8.0-dev.20160120',
+830 silly addNameRange     '1.8.0-dev.20160121',
+830 silly addNameRange     '1.8.0-dev.20160122',
+830 silly addNameRange     '1.8.0-dev.20160123',
+830 silly addNameRange     '1.8.0-dev.20160124',
+830 silly addNameRange     '1.8.0-dev.20160125',
+830 silly addNameRange     '1.9.0-dev.20160126',
+830 silly addNameRange     '1.9.0-dev.20160127',
+830 silly addNameRange     '1.9.0-dev.20160128',
+830 silly addNameRange     '1.8.0',
+830 silly addNameRange     '1.9.0-dev.20160129',
+830 silly addNameRange     '1.9.0-dev.20160130',
+830 silly addNameRange     '1.9.0-dev.20160131',
+830 silly addNameRange     '1.9.0-dev.20160201',
+830 silly addNameRange     '1.9.0-dev.20160202',
+830 silly addNameRange     '1.9.0-dev.20160203',
+830 silly addNameRange     '1.9.0-dev.20160204',
+830 silly addNameRange     '1.9.0-dev.20160205',
+830 silly addNameRange     '1.9.0-dev.20160206',
+830 silly addNameRange     '1.9.0-dev.20160207',
+830 silly addNameRange     '1.9.0-dev.20160208',
+830 silly addNameRange     '1.9.0-dev.20160209',
+830 silly addNameRange     '1.9.0-dev.20160210',
+830 silly addNameRange     '1.9.0-dev.20160211',
+830 silly addNameRange     '1.9.0-dev.20160212',
+830 silly addNameRange     '1.9.0-dev.20160213',
+830 silly addNameRange     '1.9.0-dev.20160214',
+830 silly addNameRange     '1.9.0-dev.20160215',
+830 silly addNameRange     '1.9.0-dev.20160216',
+830 silly addNameRange     '1.9.0-dev.20160217',
+830 silly addNameRange     '1.9.0-dev.20160218',
+830 silly addNameRange     '1.9.0-dev.20160219',
+830 silly addNameRange     '1.9.0-dev.20160220',
+830 silly addNameRange     '1.9.0-dev.20160221',
+830 silly addNameRange     '1.9.0-dev.20160222',
+830 silly addNameRange     '1.8.2',
+830 silly addNameRange     '1.9.0-dev.20160223',
+830 silly addNameRange     '1.9.0-dev.20160224',
+830 silly addNameRange     '1.9.0-dev.20160225',
+830 silly addNameRange     '1.9.0-dev.20160226',
+830 silly addNameRange     '1.9.0-dev.20160227',
+830 silly addNameRange     '1.9.0-dev.20160228',
+830 silly addNameRange     '1.9.0-dev.20160229',
+830 silly addNameRange     '1.9.0-dev.20160301',
+830 silly addNameRange     '1.8.5',
+830 silly addNameRange     '1.8.6',
+830 silly addNameRange     '1.8.7',
+830 silly addNameRange     '1.9.0-dev.20160302',
+830 silly addNameRange     '1.9.0-dev.20160302.1',
+830 silly addNameRange     '1.9.0-dev.20160303',
+830 silly addNameRange     '1.9.0-dev.20160304',
+830 silly addNameRange     '1.9.0-dev.20160305',
+830 silly addNameRange     '1.9.0-dev.20160306',
+830 silly addNameRange     '1.9.0-dev.20160307',
+830 silly addNameRange     '1.9.0-dev.20160308',
+830 silly addNameRange     '1.9.0-dev.20160309',
+830 silly addNameRange     '1.9.0-dev.20160310',
+830 silly addNameRange     '1.9.0-dev.20160311',
+830 silly addNameRange     '1.9.0-dev.20160312',
+830 silly addNameRange     '1.9.0-dev.20160313',
+830 silly addNameRange     '1.9.0-dev.20160315',
+830 silly addNameRange     '1.9.0-dev.20160316',
+830 silly addNameRange     '1.8.9',
+830 silly addNameRange     '1.9.0-dev.20160317',
+830 silly addNameRange     '1.9.0-dev.20160318',
+830 silly addNameRange     '1.9.0-dev.20160319',
+830 silly addNameRange     '1.9.0-dev.20160320',
+830 silly addNameRange     '1.9.0-dev.20160321',
+830 silly addNameRange     '1.9.0-dev.20160322',
+830 silly addNameRange     '1.9.0-dev.20160323',
+830 silly addNameRange     '1.9.0-dev.20160324',
+830 silly addNameRange     '1.9.0-dev.20160325',
+830 silly addNameRange     '1.9.0-dev.20160326',
+830 silly addNameRange     '1.9.0-dev.20160327',
+830 silly addNameRange     '1.9.0-dev.20160328',
+830 silly addNameRange     '1.9.0-dev.20160329',
+830 silly addNameRange     '1.9.0-dev.20160330',
+830 silly addNameRange     '1.9.0-dev.20160331',
+830 silly addNameRange     '1.9.0-dev.20160401',
+830 silly addNameRange     '1.9.0-dev.20160402',
+830 silly addNameRange     '1.9.0-dev.20160403',
+830 silly addNameRange     '1.9.0-dev.20160404',
+830 silly addNameRange     '1.9.0-dev.20160405',
+830 silly addNameRange     '1.9.0-dev.20160406',
+830 silly addNameRange     '1.9.0-dev.20160407',
+830 silly addNameRange     '1.9.0-dev.20160408',
+830 silly addNameRange     '1.9.0-dev.20160409',
+830 silly addNameRange     '1.9.0-dev.20160411',
+830 silly addNameRange     '1.9.0-dev.20160412',
+830 silly addNameRange     '1.8.10',
+830 silly addNameRange     '1.9.0-dev.20160413',
+830 silly addNameRange     '1.9.0-dev.20160414',
+830 silly addNameRange     '1.9.0-dev.20160415',
+830 silly addNameRange     '1.9.0-dev.20160416',
+830 silly addNameRange     '1.9.0-dev.20160417',
+830 silly addNameRange     '1.9.0-dev.20160418',
+830 silly addNameRange     '1.9.0-dev.20160419',
+830 silly addNameRange     '1.9.0-dev.20160420',
+830 silly addNameRange     '1.9.0-dev.20160421',
+830 silly addNameRange     '1.9.0-dev.20160422',
+830 silly addNameRange     '1.9.0-dev.20160423',
+830 silly addNameRange     '1.9.0-dev.20160424',
+830 silly addNameRange     '1.9.0-dev.20160425',
+830 silly addNameRange     '1.9.0-dev.20160426',
+830 silly addNameRange     '1.9.0-dev.20160427',
+830 silly addNameRange     '1.9.0-dev.20160428',
+830 silly addNameRange     '1.9.0-dev.20160428-1.0',
+830 silly addNameRange     '1.9.0-dev.20160429',
+830 silly addNameRange     '1.9.0-dev.20160430',
+830 silly addNameRange     '1.9.0-dev.20160501',
+830 silly addNameRange     '1.9.0-dev.20160502',
+830 silly addNameRange     '1.9.0-dev.20160503',
+830 silly addNameRange     '1.9.0-dev.20160504',
+830 silly addNameRange     '1.9.0-dev.20160505',
+830 silly addNameRange     '1.9.0-dev.20160506',
+830 silly addNameRange     '1.9.0-dev.20160507',
+830 silly addNameRange     '1.9.0-dev.20160508',
+830 silly addNameRange     '1.9.0-dev.20160509',
+830 silly addNameRange     '1.9.0-dev.20160510',
+830 silly addNameRange     '1.9.0-dev.20160511',
+830 silly addNameRange     '1.9.0-dev.20160512',
+830 silly addNameRange     '1.9.0-dev.20160513',
+830 silly addNameRange     '1.9.0-dev.20160514',
+830 silly addNameRange     '1.9.0-dev.20160515',
+830 silly addNameRange     '1.9.0-dev.20160516',
+830 silly addNameRange     '1.9.0-dev.20160517-1.0',
+830 silly addNameRange     '1.9.0-dev.20160518-1.0',
+830 silly addNameRange     '1.9.0-dev.20160519-1.0',
+830 silly addNameRange     '1.9.0-dev.20160520-1.0',
+830 silly addNameRange     '1.9.0-dev.20160521-1.0',
+830 silly addNameRange     '1.9.0-dev.20160522-1.0',
+830 silly addNameRange     '1.9.0-dev.20160523-1.0',
+830 silly addNameRange     '1.9.0-dev.20160524-1.0',
+830 silly addNameRange     '1.9.0-dev.20160525-1.0',
+830 silly addNameRange     '1.9.0-dev.20160526-1.0',
+830 silly addNameRange     '1.9.0-dev.20160527-1.0',
+830 silly addNameRange     '1.9.0-dev.20160528-1.0',
+830 silly addNameRange     '1.9.0-dev.20160529-1.0',
+830 silly addNameRange     '1.9.0-dev.20160530-1.0',
+830 silly addNameRange     '1.9.0-dev.20160531-1.0',
+830 silly addNameRange     '1.9.0-dev.20160601-1.0',
+830 silly addNameRange     '1.9.0-dev.20160602-1.0',
+830 silly addNameRange     '1.9.0-dev.20160603-1.0',
+830 silly addNameRange     '1.9.0-dev.20160604-1.0',
+830 silly addNameRange     '1.9.0-dev.20160605-1.0',
+830 silly addNameRange     '1.9.0-dev.20160606-1.0',
+830 silly addNameRange     '1.9.0-dev.20160607-1.0',
+830 silly addNameRange     '1.9.0-dev.20160608-1.0',
+830 silly addNameRange     '1.9.0-dev.20160609-1.0',
+830 silly addNameRange     '1.9.0-dev.20160610-1.0',
+830 silly addNameRange     '1.9.0-dev.20160611-1.0',
+830 silly addNameRange     '1.9.0-dev.20160612-1.0',
+830 silly addNameRange     '1.9.0-dev.20160613-1.0',
+830 silly addNameRange     '1.9.0-dev.20160614-1.0',
+830 silly addNameRange     '1.9.0-dev.20160615-1.0',
+830 silly addNameRange     '1.9.0-dev.20160616-1.0',
+830 silly addNameRange     '1.9.0-dev.20160617-1.0',
+830 silly addNameRange     '1.9.0-dev.20160618-1.0',
+830 silly addNameRange     '1.9.0-dev.20160619-1.0',
+830 silly addNameRange     '1.9.0-dev.20160620-1.0',
+830 silly addNameRange     '1.9.0-dev.20160622-1.0',
+830 silly addNameRange     '1.9.0-dev.20160623-1.0',
+830 silly addNameRange     '1.9.0-dev.20160624-1.0',
+830 silly addNameRange     '1.9.0-dev.20160625-1.0',
+830 silly addNameRange     '1.9.0-dev.20160626-1.0',
+830 silly addNameRange     '1.9.0-dev.20160627-1.0',
+830 silly addNameRange     '2.0.0-dev.20160628',
+830 silly addNameRange     '2.0.0-dev.20160629',
+830 silly addNameRange     '2.0.0-dev.20160630',
+830 silly addNameRange     '2.0.0-dev.20160701',
+830 silly addNameRange     '2.0.0-dev.20160702',
+830 silly addNameRange     '2.0.0-dev.20160703',
+830 silly addNameRange     '2.0.0-dev.20160704',
+830 silly addNameRange     '2.0.0-dev.20160705',
+830 silly addNameRange     '2.0.0-dev.20160706',
+830 silly addNameRange     '2.0.0-dev.20160707',
+830 silly addNameRange     '2.0.0-dev.20160711',
+830 silly addNameRange     '2.0.0',
+830 silly addNameRange     '2.1.0-dev.20160712',
+830 silly addNameRange     '2.1.0-dev.20160713',
+830 silly addNameRange     '2.1.0-dev.20160714',
+830 silly addNameRange     '2.1.0-dev.20160715',
+830 silly addNameRange     '2.1.0-dev.20160716',
+830 silly addNameRange     '2.1.0-dev.20160717',
+830 silly addNameRange     '2.1.0-dev.20160718',
+830 silly addNameRange     '2.1.0-dev.20160719',
+830 silly addNameRange     '2.1.0-dev.20160720',
+830 silly addNameRange     '2.1.0-dev.20160721',
+830 silly addNameRange     '2.1.0-dev.20160722',
+830 silly addNameRange     '2.1.0-dev.20160723',
+830 silly addNameRange     '2.1.0-dev.20160724',
+830 silly addNameRange     '2.1.0-dev.20160725',
+830 silly addNameRange     '2.1.0-dev.20160726',
+830 silly addNameRange     '2.1.0-dev.20160727',
+830 silly addNameRange     '2.1.0-dev.20160728',
+830 silly addNameRange     '2.1.0-dev.20160729',
+830 silly addNameRange     '2.1.0-dev.20160730',
+830 silly addNameRange     '2.1.0-dev.20160731',
+830 silly addNameRange     '2.1.0-dev.20160801',
+830 silly addNameRange     '2.1.0-dev.20160802',
+830 silly addNameRange     '2.1.0-dev.20160803',
+830 silly addNameRange     '2.1.0-dev.20160804',
+830 silly addNameRange     '2.1.0-dev.20160805',
+830 silly addNameRange     '2.1.0-dev.20160806',
+830 silly addNameRange     '2.1.0-dev.20160807',
+830 silly addNameRange     '2.1.0-dev.20160808',
+830 silly addNameRange     '2.1.0-dev.20160809',
+830 silly addNameRange     '2.1.0-dev.20160810',
+830 silly addNameRange     '2.1.0-dev.20160811',
+830 silly addNameRange     '2.1.0-dev.20160812',
+830 silly addNameRange     '2.1.0-dev.20160813',
+830 silly addNameRange     '2.1.0-dev.20160814',
+830 silly addNameRange     '2.1.0-dev.20160815',
+830 silly addNameRange     '2.1.0-dev.20160816',
+830 silly addNameRange     '2.1.0-dev.20160817',
+830 silly addNameRange     '2.1.0-dev.20160818',
+830 silly addNameRange     '2.1.0-dev.20160819',
+830 silly addNameRange     '2.1.0-dev.20160820',
+830 silly addNameRange     '2.1.0-dev.20160821',
+830 silly addNameRange     '2.1.0-dev.20160822',
+830 silly addNameRange     '2.1.0-dev.20160823',
+830 silly addNameRange     '2.1.0-dev.20160824',
+830 silly addNameRange     '2.1.0-dev.20160825',
+830 silly addNameRange     '2.1.0-dev.20160826',
+830 silly addNameRange     '2.1.0-dev.20160827',
+830 silly addNameRange     '2.1.0-dev.20160828',
+830 silly addNameRange     '2.1.0-dev.20160829',
+830 silly addNameRange     '2.1.0-dev.20160830',
+830 silly addNameRange     '2.0.2',
+830 silly addNameRange     '2.1.0-dev.20160831',
+830 silly addNameRange     '2.1.0-dev.20160901',
+830 silly addNameRange     '2.1.0-dev.20160902',
+830 silly addNameRange     '2.1.0-dev.20160903',
+830 silly addNameRange     '2.1.0-dev.20160904',
+830 silly addNameRange     '2.1.0-dev.20160905',
+830 silly addNameRange     '2.1.0-dev.20160906',
+830 silly addNameRange     '2.1.0-dev.20160907',
+830 silly addNameRange     '2.1.0-dev.20160908',
+830 silly addNameRange     '2.1.0-dev.20160909',
+830 silly addNameRange     '2.1.0-dev.20160910',
+830 silly addNameRange     '2.1.0-dev.20160911',
+830 silly addNameRange     '2.1.0-dev.20160912',
+830 silly addNameRange     '2.1.0-dev.20160913',
+830 silly addNameRange     '2.1.0-dev.20160914',
+830 silly addNameRange     '2.1.0-dev.20160915',
+830 silly addNameRange     '2.1.0-dev.20160916',
+830 silly addNameRange     '2.1.0-dev.20160917',
+830 silly addNameRange     '2.1.0-dev.20160918',
+830 silly addNameRange     '2.1.0-dev.20160919',
+830 silly addNameRange     '2.1.0-dev.20160920',
+830 silly addNameRange     '2.1.0-dev.20160921',
+830 silly addNameRange     '2.1.0-dev.20160922',
+830 silly addNameRange     '2.0.3',
+830 silly addNameRange     '2.1.0-dev.20160923',
+830 silly addNameRange     '2.1.0-dev.20160924',
+830 silly addNameRange     '2.1.0-dev.20160925',
+830 silly addNameRange     '2.1.0-dev.20160926',
+830 silly addNameRange     '2.1.0-dev.20160927',
+830 silly addNameRange     '2.1.0-dev.20160928',
+830 silly addNameRange     '2.1.0-dev.20160929',
+830 silly addNameRange     '2.1.0-dev.20160930',
+830 silly addNameRange     '2.1.0-dev.20161001',
+830 silly addNameRange     '2.1.0-dev.20161002',
+830 silly addNameRange     '2.1.0-dev.20161003',
+830 silly addNameRange     '2.1.0-dev.20161004',
+830 silly addNameRange     '2.1.0-dev.20161005',
+830 silly addNameRange     '2.1.0-dev.20161006',
+830 silly addNameRange     '2.1.0-dev.20161007',
+830 silly addNameRange     '2.0.6-insiders.20161007',
+830 silly addNameRange     '2.1.0-dev.20161008',
+830 silly addNameRange     '2.1.0-dev.20161009',
+830 silly addNameRange     '2.1.0-dev.20161010',
+830 silly addNameRange     '2.1.0-dev.20161011',
+830 silly addNameRange     '2.1.0-dev.20161012',
+830 silly addNameRange     '2.0.6-insiders.20161012',
+830 silly addNameRange     '2.1.0-dev.20161013',
+830 silly addNameRange     '2.1.0-dev.20161014',
+830 silly addNameRange     '2.0.6-insiders.20161014',
+830 silly addNameRange     '2.1.0-dev.20161015',
+830 silly addNameRange     '2.1.0-dev.20161016',
+830 silly addNameRange     '2.1.0-dev.20161017',
+830 silly addNameRange     '2.0.6-insiders.20161017',
+830 silly addNameRange     '2.1.0-dev.20161018',
+830 silly addNameRange     '2.1.0-dev.20161019',
+830 silly addNameRange     '2.1.0-dev.20161020',
+830 silly addNameRange     '2.1.0-dev.20161021',
+830 silly addNameRange     '2.1.0-dev.20161022',
+830 silly addNameRange     '2.1.0-dev.20161023',
+830 silly addNameRange     '2.1.0-dev.20161024',
+830 silly addNameRange     '2.1.0-dev.20161025',
+830 silly addNameRange     '2.0.6',
+830 silly addNameRange     '2.1.0-dev.20161026',
+830 silly addNameRange     '2.1.0-dev.20161027',
+830 silly addNameRange     '2.1.0-dev.20161028',
+830 silly addNameRange     '2.1.0-dev.20161029',
+830 silly addNameRange     '2.1.0-dev.20161030',
+830 silly addNameRange     '2.1.0-dev.20161031',
+830 silly addNameRange     '2.1.0-dev.20161101',
+830 silly addNameRange     '2.1.0-dev.20161102',
+830 silly addNameRange     '2.1.0-dev.20161103',
+830 silly addNameRange     '2.0.7',
+830 silly addNameRange     '2.1.0-dev.20161104',
+830 silly addNameRange     '2.1.0-dev.20161105',
+830 silly addNameRange     '2.1.0-dev.20161106',
+830 silly addNameRange     '2.1.0-dev.20161107',
+830 silly addNameRange     '2.0.8',
+830 silly addNameRange     '2.1.0-dev.20161108',
+830 silly addNameRange     '2.1.1',
+830 silly addNameRange     '2.1.0-dev.20161109',
+830 silly addNameRange     '2.1.0-dev.20161110',
+830 silly addNameRange     '2.0.9',
+830 silly addNameRange     '2.2.0-dev.20161111',
+830 silly addNameRange     '2.2.0-dev.20161112',
+830 silly addNameRange     '2.2.0-dev.20161113',
+830 silly addNameRange     '2.2.0-dev.20161114',
+830 silly addNameRange     '2.2.0-dev.20161115',
+830 silly addNameRange     '2.0.10',
+830 silly addNameRange     '2.2.0-dev.20161116',
+830 silly addNameRange     '2.2.0-dev.20161117',
+830 silly addNameRange     '2.2.0-dev.20161118',
+830 silly addNameRange     '2.2.0-dev.20161120',
+830 silly addNameRange     '2.2.0-dev.20161121',
+830 silly addNameRange     '2.2.0-dev.20161122',
+830 silly addNameRange     '2.2.0-dev.20161123',
+830 silly addNameRange     '2.2.0-dev.20161124',
+830 silly addNameRange     '2.2.0-dev.20161125',
+830 silly addNameRange     '2.2.0-dev.20161126',
+830 silly addNameRange     '2.2.0-dev.20161127',
+830 silly addNameRange     '2.2.0-dev.20161128',
+830 silly addNameRange     '2.2.0-dev.20161129',
+830 silly addNameRange     '2.1.3-insiders.20161130',
+830 silly addNameRange     '2.2.0-dev.20161130',
+830 silly addNameRange     '2.2.0-dev.20161201',
+830 silly addNameRange     '2.1.4-insiders.20161201',
+830 silly addNameRange     '2.2.0-dev.20161202',
+830 silly addNameRange     '2.2.0-dev.20161203',
+830 silly addNameRange     '2.2.0-dev.20161204',
+830 silly addNameRange     '2.2.0-dev.20161205',
+830 silly addNameRange     '2.1.4-insiders.20161206',
+830 silly addNameRange     '2.2.0-dev.20161206',
+830 silly addNameRange     '2.2.0-dev.20161207',
+830 silly addNameRange     '2.1.4',
+830 silly addNameRange     '2.2.0-dev.20161208',
+830 silly addNameRange     '2.2.0-dev.20161209',
+830 silly addNameRange     '2.2.0-dev.20161210',
+830 silly addNameRange     '2.2.0-dev.20161211',
+830 silly addNameRange     '2.2.0-dev.20161212',
+830 silly addNameRange     '2.2.0-dev.20161213',
+830 silly addNameRange     '2.1.5-insiders.20161213',
+830 silly addNameRange     '2.2.0-dev.20161214',
+830 silly addNameRange     '2.2.0-dev.20161215',
+830 silly addNameRange     '2.2.0-dev.20161216',
+830 silly addNameRange     '2.2.0-dev.20161217',
+830 silly addNameRange     '2.2.0-dev.20161218',
+830 silly addNameRange     '2.2.0-dev.20161219',
+830 silly addNameRange     '2.2.0-dev.20161220',
+830 silly addNameRange     '2.1.5-insiders.20161220',
+830 silly addNameRange     '2.2.0-dev.20161221',
+830 silly addNameRange     '2.2.0-dev.20161222',
+830 silly addNameRange     '2.2.0-dev.20161223',
+830 silly addNameRange     '2.2.0-dev.20161224',
+830 silly addNameRange     '2.2.0-dev.20161225',
+830 silly addNameRange     '2.2.0-dev.20161226',
+830 silly addNameRange     '2.2.0-dev.20161227',
+830 silly addNameRange     '2.2.0-dev.20161228',
+830 silly addNameRange     '2.2.0-dev.20161229',
+830 silly addNameRange     '2.1.5-insiders.20161229',
+830 silly addNameRange     '2.2.0-dev.20161230',
+830 silly addNameRange     '2.2.0-dev.20161231',
+830 silly addNameRange     '2.2.0-dev.20170101',
+830 silly addNameRange     '2.2.0-dev.20170102',
+830 silly addNameRange     '2.2.0-dev.20170103',
+830 silly addNameRange     '2.2.0-dev.20170104',
+830 silly addNameRange     '2.2.0-dev.20170105',
+830 silly addNameRange     '2.2.0-dev.20170106',
+830 silly addNameRange     '2.2.0-dev.20170107',
+830 silly addNameRange     '2.2.0-dev.20170108',
+830 silly addNameRange     '2.2.0-dev.20170109',
+830 silly addNameRange     '2.2.0-dev.20170110',
+830 silly addNameRange     '2.2.0-dev.20170111',
+830 silly addNameRange     '2.1.5',
+830 silly addNameRange     '2.2.0-dev.20170112',
+830 silly addNameRange     '2.2.0-dev.20170113',
+830 silly addNameRange     '2.2.0-dev.20170114',
+830 silly addNameRange     '2.2.0-dev.20170115',
+830 silly addNameRange     '2.2.0-dev.20170116',
+830 silly addNameRange     '2.2.0-dev.20170117',
+830 silly addNameRange     '2.2.0-dev.20170118',
+830 silly addNameRange     '2.2.0-dev.20170119',
+830 silly addNameRange     '2.2.0-dev.20170120',
+830 silly addNameRange     '2.2.0-dev.20170121',
+830 silly addNameRange     '2.2.0-dev.20170122',
+830 silly addNameRange     '2.2.0-dev.20170123',
+830 silly addNameRange     '2.2.0-dev.20170124',
+830 silly addNameRange     '2.2.0-dev.20170125',
+830 silly addNameRange     '2.2.0-dev.20170126',
+830 silly addNameRange     '2.2.0-dev.20170127',
+830 silly addNameRange     '2.2.0-dev.20170128',
+830 silly addNameRange     '2.2.0-dev.20170129',
+830 silly addNameRange     '2.2.0-dev.20170130',
+830 silly addNameRange     '2.2.0-dev.20170131',
+830 silly addNameRange     '2.2.0-dev.20170201',
+830 silly addNameRange     '2.2.0-dev.20170202',
+830 silly addNameRange     '2.2.0',
+830 silly addNameRange     '2.2.0-dev.20170203',
+830 silly addNameRange     '2.2.0-dev.20170204',
+830 silly addNameRange     '2.2.0-dev.20170205',
+830 silly addNameRange     '2.2.0-dev.20170206',
+830 silly addNameRange     '2.2.0-dev.20170207',
+830 silly addNameRange     '2.1.6',
+830 silly addNameRange     '2.2.0-dev.20170209',
+830 silly addNameRange     '2.2.1-insiders.20170209',
+830 silly addNameRange     '2.2.0-dev.20170210',
+830 silly addNameRange     '2.2.0-dev.20170211',
+830 silly addNameRange     '2.2.0-dev.20170212',
+830 silly addNameRange     '2.2.0-dev.20170213',
+830 silly addNameRange     '2.2.0-dev.20170214',
+830 silly addNameRange     '2.3.0-dev.20170215',
+830 silly addNameRange     '2.3.0-dev.20170216',
+830 silly addNameRange     '2.2.1-insiders.20170216',
+830 silly addNameRange     '2.3.0-dev.20170217',
+830 silly addNameRange     '2.2.1-insiders.20170217',
+830 silly addNameRange     '2.3.0-dev.20170218',
+830 silly addNameRange     '2.3.0-dev.20170219',
+830 silly addNameRange     '2.3.0-dev.20170220',
+830 silly addNameRange     '2.3.0-dev.20170221',
+830 silly addNameRange     '2.3.0-dev.20170222',
+830 silly addNameRange     '2.2.1',
+830 silly addNameRange     '2.3.0-dev.20170223',
+830 silly addNameRange     '2.3.0-dev.20170224',
+830 silly addNameRange     '2.3.0-dev.20170225',
+830 silly addNameRange     '2.3.0-dev.20170226',
+830 silly addNameRange     '2.3.0-dev.20170227',
+830 silly addNameRange     '2.3.0-dev.20170228',
+830 silly addNameRange     '2.3.0-dev.20170301',
+830 silly addNameRange     '2.3.0-dev.20170302',
+830 silly addNameRange     '2.2.2-insiders.20170302',
+830 silly addNameRange     '2.3.0-dev.20170303',
+830 silly addNameRange     '2.3.0-dev.20170306',
+830 silly addNameRange     '2.3.0-dev.20170307',
+830 silly addNameRange     '2.3.0-dev.20170308',
+830 silly addNameRange     '2.3.0-dev.20170310',
+830 silly addNameRange     '2.3.0-dev.20170311',
+830 silly addNameRange     '2.3.0-dev.20170312',
+830 silly addNameRange     '2.3.0-dev.20170313',
+830 silly addNameRange     '2.3.0-dev.20170314',
+830 silly addNameRange     '2.3.0-dev.20170315',
+830 silly addNameRange     '2.3.0-dev.20170316',
+830 silly addNameRange     '2.3.0-dev.20170317',
+830 silly addNameRange     '2.2.2-insiders.20170317',
+830 silly addNameRange     '2.3.0-dev.20170318',
+830 silly addNameRange     '2.3.0-dev.20170319',
+830 silly addNameRange     '2.3.0-dev.20170320',
+830 silly addNameRange     '2.3.0-dev.20170321',
+830 silly addNameRange     '2.3.0-dev.20170322',
+830 silly addNameRange     '2.3.0-dev.20170323',
+830 silly addNameRange     '2.3.0-dev.20170324',
+830 silly addNameRange     '2.3.0-dev.20170325',
+830 silly addNameRange     '2.3.0-dev.20170326',
+830 silly addNameRange     '2.3.0-dev.20170327',
+830 silly addNameRange     '2.2.2',
+830 silly addNameRange     '2.3.0-dev.20170328',
+830 silly addNameRange     '2.3.0-dev.20170329',
+830 silly addNameRange     '2.3.0-dev.20170330',
+830 silly addNameRange     '2.3.0-dev.20170331',
+830 silly addNameRange     '2.3.0-dev.20170401',
+830 silly addNameRange     '2.3.0-dev.20170402',
+830 silly addNameRange     '2.3.0-dev.20170403',
+830 silly addNameRange     '2.3.0-dev.20170404',
+830 silly addNameRange     '2.3.0-dev.20170405',
+830 silly addNameRange     '2.3.0-dev.20170406',
+830 silly addNameRange     '2.3.0-dev.20170407',
+830 silly addNameRange     '2.3.0',
+830 silly addNameRange     '2.3.0-dev.20170411',
+830 silly addNameRange     '2.3.0-dev.20170412',
+830 silly addNameRange     '2.3.0-dev.20170413',
+830 silly addNameRange     '2.3.1-insiders.20170413',
+830 silly addNameRange     '2.3.0-dev.20170414',
+830 silly addNameRange     '2.3.0-dev.20170415',
+830 silly addNameRange     '2.3.0-dev.20170416',
+830 silly addNameRange     '2.3.1-insiders.20170416',
+830 silly addNameRange     '2.3.0-dev.20170417',
+830 silly addNameRange     '2.3.0-dev.20170418',
+830 silly addNameRange     '2.3.0-dev.20170419',
+830 silly addNameRange     '2.3.0-dev.20170420',
+830 silly addNameRange     '2.3.1-insiders.20170420',
+830 silly addNameRange     '2.3.0-dev.20170421',
+830 silly addNameRange     '2.3.0-dev.20170422',
+830 silly addNameRange     '2.3.0-dev.20170423',
+830 silly addNameRange     '2.3.0-dev.20170424',
+830 silly addNameRange     '2.3.0-dev.20170425',
+830 silly addNameRange     '2.3.1-insiders.20170425',
+830 silly addNameRange     '2.3.1-insiders.20170425.1',
+830 silly addNameRange     '2.3.0-dev.20170426',
+830 silly addNameRange     '2.4.0-dev.20170427',
+830 silly addNameRange     '2.3.1',
+830 silly addNameRange     '2.4.0-dev.20170428',
+830 silly addNameRange     '2.3.2',
+830 silly addNameRange     '2.4.0-dev.20170429',
+830 silly addNameRange     '2.4.0-dev.20170430',
+830 silly addNameRange     '2.4.0-dev.20170501',
+830 silly addNameRange     '2.4.0-dev.20170502',
+830 silly addNameRange     '2.4.0-dev.20170503',
+830 silly addNameRange     '2.4.0-dev.20170504',
+830 silly addNameRange     '2.4.0-dev.20170505',
+830 silly addNameRange     '2.4.0-dev.20170506',
+830 silly addNameRange     '2.4.0-dev.20170507',
+830 silly addNameRange     '2.4.0-dev.20170508',
+830 silly addNameRange     '2.4.0-dev.20170509',
+830 silly addNameRange     '2.4.0-dev.20170510',
+830 silly addNameRange     '2.4.0-dev.20170511',
+830 silly addNameRange     '2.4.0-dev.20170512',
+830 silly addNameRange     '2.3.3-insiders.20170512',
+830 silly addNameRange     '2.4.0-dev.20170513',
+830 silly addNameRange     '2.4.0-dev.20170514',
+830 silly addNameRange     '2.4.0-dev.20170515',
+830 silly addNameRange     '2.4.0-dev.20170516',
+830 silly addNameRange     '2.4.0-dev.20170517',
+830 silly addNameRange     '2.4.0-dev.20170518',
+830 silly addNameRange     '2.4.0-dev.20170519',
+830 silly addNameRange     '2.3.3',
+830 silly addNameRange     '2.4.0-dev.20170523',
+830 silly addNameRange     '2.4.0-dev.20170524',
+830 silly addNameRange     '2.4.0-dev.20170525',
+830 silly addNameRange     '2.4.0-dev.20170526',
+830 silly addNameRange     '2.4.0-dev.20170527',
+830 silly addNameRange     '2.4.0-dev.20170528',
+830 silly addNameRange     '2.4.0-dev.20170529',
+830 silly addNameRange     '2.4.0-dev.20170530',
+830 silly addNameRange     '2.3.4',
+830 silly addNameRange     '2.4.0-dev.20170531',
+830 silly addNameRange     '2.4.0-dev.20170601',
+830 silly addNameRange     '2.4.0-dev.20170602',
+830 silly addNameRange     '2.4.0-dev.20170603',
+830 silly addNameRange     '2.4.0-dev.20170604',
+830 silly addNameRange     '2.4.0-dev.20170605',
+830 silly addNameRange     '2.4.0-dev.20170606',
+830 silly addNameRange     '2.4.0-dev.20170607',
+830 silly addNameRange     '2.4.0-dev.20170608',
+830 silly addNameRange     '2.4.0-dev.20170609',
+830 silly addNameRange     '2.4.0-dev.20170610',
+830 silly addNameRange     '2.4.0-dev.20170611',
+830 silly addNameRange     '2.4.0-dev.20170612',
+830 silly addNameRange     '2.4.0',
+830 silly addNameRange     '2.5.0-dev.20170613',
+830 silly addNameRange     '2.5.0-dev.20170614',
+830 silly addNameRange     '2.4.1-insiders.20170614',
+830 silly addNameRange     '2.5.0-dev.20170615',
+830 silly addNameRange     '2.4.1-insiders.20170615',
+830 silly addNameRange     '2.5.0-dev.20170616',
+830 silly addNameRange     '2.5.0-dev.20170617',
+830 silly addNameRange     '2.5.0-dev.20170618',
+830 silly addNameRange     '2.5.0-dev.20170619',
+830 silly addNameRange     '2.5.0-dev.20170621',
+830 silly addNameRange     '2.5.0-dev.20170622',
+830 silly addNameRange     '2.5.0-dev.20170623',
+830 silly addNameRange     '2.5.0-dev.20170624',
+830 silly addNameRange     '2.5.0-dev.20170625',
+830 silly addNameRange     '2.5.0-dev.20170626',
+830 silly addNameRange     '2.5.0-dev.20170627',
+830 silly addNameRange     '2.4.1',
+830 silly addNameRange     '2.5.0-dev.20170628',
+830 silly addNameRange     '2.5.0-dev.20170629',
+830 silly addNameRange     '2.4.1-insiders.20170630',
+830 silly addNameRange     '2.4.2-insiders.20170630',
+830 silly addNameRange     '2.5.0-dev.20170707',
+830 silly addNameRange     '2.5.0-dev.20170712',
+830 silly addNameRange     '2.4.2-insiders.20170719',
+830 silly addNameRange     '2.4.2',
+830 silly addNameRange     '2.5.0-dev.20170719',
+830 silly addNameRange     '2.5.0-dev.20170725',
+830 silly addNameRange     '2.5.0-dev.20170727',
+830 silly addNameRange     '2.5.0-dev.20170731',
+830 silly addNameRange     '2.5.0-dev.20170801',
+830 silly addNameRange     '2.5.0-dev.20170803',
+830 silly addNameRange     '2.5.0-dev.20170807',
+830 silly addNameRange     '2.5.0-dev.20170808',
+830 silly addNameRange     '2.5.0-dev.20170815',
+830 silly addNameRange     '2.5.0-dev.20170816',
+830 silly addNameRange     '2.6.0-dev.20170817',
+830 silly addNameRange     '2.5.0',
+830 silly addNameRange     '2.6.0-dev.20170818',
+830 silly addNameRange     '2.5.1',
+830 silly addNameRange     '2.5.1-insiders.20170818',
+830 silly addNameRange     '2.6.0-dev.20170819',
+830 silly addNameRange     '2.5.1-insiders.20170822',
+830 silly addNameRange     '2.6.0-dev.20170822',
+830 silly addNameRange     '2.6.0-dev.20170823',
+830 silly addNameRange     '2.6.0-dev.20170824',
+830 silly addNameRange     '2.6.0-dev.20170825',
+830 silly addNameRange     '2.5.1-insiders.20170825',
+830 silly addNameRange     '2.6.0-dev.20170826',
+830 silly addNameRange     '2.6.0-dev.20170829',
+830 silly addNameRange     '2.6.0-dev.20170830',
+830 silly addNameRange     '2.6.0-dev.20170831',
+830 silly addNameRange     '2.5.2',
+830 silly addNameRange     '2.6.0-dev.20170901',
+830 silly addNameRange     '2.6.0-dev.20170902',
+830 silly addNameRange     '2.6.0-dev.20170904',
+830 silly addNameRange     '2.6.0-dev.20170906',
+830 silly addNameRange     '2.6.0-dev.20170907',
+830 silly addNameRange     '2.5.3-insiders.20170908',
+830 silly addNameRange     '2.6.0-dev.20170908' ] ]
+831 silly addNamed typescript@2.5.2
+832 verbose addNamed "2.5.2" is a plain semver version for typescript
+833 silly mapToRegistry name typescript
+834 silly mapToRegistry using default registry
+835 silly mapToRegistry registry https://registry.npmjs.org/
+836 silly mapToRegistry uri https://registry.npmjs.org/typescript
+837 verbose addRemoteTarball https://registry.npmjs.org/typescript/-/typescript-2.5.2.tgz not in flight; adding
+838 verbose addRemoteTarball [ 'https://registry.npmjs.org/typescript/-/typescript-2.5.2.tgz',
+838 verbose addRemoteTarball   '038a95f7d9bbb420b1bf35ba31d4c5c1dd3ffe34' ]
+839 info retry fetch attempt 1 at 12:56:54 AM
+840 info attempt registry request try #1 at 12:56:54 AM
+841 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.5.2.tgz
+842 http fetch 200 https://registry.npmjs.org/typescript/-/typescript-2.5.2.tgz
+843 silly fetchAndShaCheck shasum 038a95f7d9bbb420b1bf35ba31d4c5c1dd3ffe34
+844 verbose addTmpTarball /tmp/npm-4761-b2b38f15/registry.npmjs.org/typescript/-/typescript-2.5.2.tgz not in flight; adding
+845 verbose addTmpTarball already have metadata; skipping unpack for typescript@2.5.2
+846 silly cache afterAdd typescript@2.5.2
+847 verbose afterAdd /home/lawlug/.npm/typescript/2.5.2/package/package.json not in flight; writing
+848 verbose afterAdd /home/lawlug/.npm/typescript/2.5.2/package/package.json written
+849 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.36.162:443
+850 info attempt registry request try #2 at 12:59:14 AM
+851 verbose etag W/"5997ab9f-8803"
+852 verbose lastModified Sat, 19 Aug 2017 03:08:15 GMT
+853 http request GET https://registry.npmjs.org/concurrently
+854 verbose stack Error: read ECONNRESET
+854 verbose stack     at exports._errnoException (util.js:870:11)
+854 verbose stack     at TLSWrap.onread (net.js:544:26)
+855 verbose cwd /home/lawlug/web development/project10917
+856 error Linux 4.8.0-59-generic
+857 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+858 error node v4.2.6
+859 error npm  v3.5.2
+860 error code ECONNRESET
+861 error errno ECONNRESET
+862 error syscall read
+863 error network read ECONNRESET
+864 error network This is most likely not a problem with npm itself
+864 error network and is related to network connectivity.
+864 error network In most cases you are behind a proxy or have bad network settings.
+864 error network
+864 error network If you are behind a proxy, please make sure that the
+864 error network 'proxy' config is set properly.  See: 'npm help config'
+865 verbose exit [ 1, true ]

@@ -1,0 +1,661 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"On",
+				"OnInit\talias"
+			],
+			[
+				"ev",
+				"EventEmitter\talias"
+			],
+			[
+				"Even",
+				"EventEmitter\talias"
+			],
+			[
+				"templ",
+				"templateUrl\tproperty"
+			],
+			[
+				"Pipe",
+				"Pipe\talias"
+			],
+			[
+				"fun",
+				"function\tkeyword"
+			],
+			[
+				"sty",
+				"styleUrls\tproperty"
+			],
+			[
+				"wri",
+				"writeHead"
+			],
+			[
+				"print",
+				"printAvtar"
+			],
+			[
+				"prin",
+				"printAvtar"
+			],
+			[
+				"o",
+				"Ordernumber"
+			],
+			[
+				"O",
+				"Ordernumber"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"oc",
+				"onclick\tAttr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"echo",
+				"echo\techo \"…\""
+			],
+			[
+				"backro",
+				"background-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"onm",
+				"onmouseover\tAttr"
+			],
+			[
+				"drop",
+				"dropdown-content"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"first",
+				"firstFactory"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"itsy",
+				"itsyllabus"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"groups",
+				"groups"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"snak",
+				"snakePos"
+			],
+			[
+				"game",
+				"gameOver"
+			],
+			[
+				"snake",
+				"snakePos"
+			],
+			[
+				"fps",
+				"fpsController"
+			],
+			[
+				"fo",
+				"foodSpawn"
+			],
+			[
+				"food",
+				"foodSpawn"
+			],
+			[
+				"foo",
+				"foodPos"
+			],
+			[
+				"set",
+				"set_caption"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/app-component.html",
+			"settings":
+			{
+				"buffer_size": 1545,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.module.ts",
+			"settings":
+			{
+				"buffer_size": 434,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 235,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: Rd (R Documentation)"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 195.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/lawlug/web development/project10917",
+		"/home/lawlug/web development/project10917/app",
+		"/home/lawlug/web development/project10917/assets",
+		"/home/lawlug/web development/project10917/assets/images"
+	],
+	"file_history":
+	[
+		"/home/lawlug/web development/angular2/starter/tsconfig.json",
+		"/home/lawlug/web development/angular2/starter/package.json",
+		"/home/lawlug/Desktop/demo.html",
+		"/home/lawlug/web development/angular2/starter/app/books/book.ts",
+		"/home/lawlug/web development/angular2/starter/app/shared/pipes/truncate.pipe.ts",
+		"/home/lawlug/web development/angular2/starter/app/books/books-list/books-list.component.html",
+		"/home/lawlug/web development/angular2/bookstore.sublime-project",
+		"/home/lawlug/web development/angular2/starter/shared/highlight.directive.ts",
+		"/home/lawlug/Downloads/d_oneWayBind/app/books/books-list/books-list.component.html",
+		"/home/lawlug/Downloads/d_oneWayBind/package.json",
+		"/home/lawlug/web development/angular2/starter/app/welcome/welcome.component.ts",
+		"/home/lawlug/web development/angular2/starter/app/welcome/welcome.component.html",
+		"/home/lawlug/Downloads/b2_welcomeComponent/b2_welcomeComponent/app/welcome/welcome.component.css",
+		"/home/lawlug/web development/angular2/starter/index.html",
+		"/home/lawlug/Downloads/b2_welcomeComponent/b2_welcomeComponent/index.html",
+		"/home/lawlug/Downloads/b2_welcomeComponent/b2_welcomeComponent/app/welcome/welcome.component.ts",
+		"/home/lawlug/web development/angular2/starter/app/css/styles.css",
+		"/home/lawlug/web development/angular2/starter/app/app.component.js",
+		"/home/lawlug/web development/angular2/starter/app/app.component.ts",
+		"/home/lawlug/Desktop/new changes 130817/appang.html",
+		"/home/lawlug/Desktop/placement.html",
+		"/home/lawlug/Desktop/new changes 130817/listcontrollers.js",
+		"/home/lawlug/Desktop/college website/newClgWebsite/js/listcontrollers.js",
+		"/home/lawlug/Desktop/college website/newClgWebsite/views/facthum.html",
+		"/home/lawlug/Desktop/college website/newClgWebsite/views/factall.html",
+		"/home/lawlug/Desktop/college website/newClgWebsite/views/fact.html",
+		"/media/lawlug/3077-0118/civilang.html",
+		"/home/lawlug/Desktop/user.html",
+		"/home/lawlug/web development/node js/login.js",
+		"/home/lawlug/Desktop/practice project/3007/server.js",
+		"/home/lawlug/web development/node js/form.html",
+		"/home/lawlug/Desktop/practice project/3007/local.html",
+		"/home/lawlug/web development/node js/sqldemo.js",
+		"/home/lawlug/Desktop/practice project/3007/form2",
+		"/home/lawlug/Desktop/practice project/3007/abhay/servera",
+		"/home/lawlug/web development/node js/server.js",
+		"/home/lawlug/web development/node js/first.js",
+		"/home/lawlug/Desktop/practice project/login.js",
+		"/home/lawlug/Desktop/impdoc",
+		"/home/lawlug/Desktop/practice project/server.js",
+		"/home/lawlug/Desktop/college website/clg23072017/index.html",
+		"/home/lawlug/Desktop/untitled.html",
+		"/home/lawlug/Desktop/college website/clg23072017/eventsandconferences.html",
+		"/home/lawlug/Desktop/try.html",
+		"/home/lawlug/Desktop/try.js",
+		"/home/lawlug/Desktop/clg23072017/envang.html",
+		"/home/lawlug/Desktop/clg23072017/itang.html",
+		"/home/lawlug/Desktop/clg23072017/civilang.html",
+		"/home/lawlug/Desktop/clg23072017/webdev.css",
+		"/home/lawlug/Desktop/clg23072017/webdev.html",
+		"/home/lawlug/Desktop/clg23072017/js/listcontrollers.js",
+		"/home/lawlug/Desktop/clg23072017/civil.html",
+		"/home/lawlug/Desktop/clg22072017/secsem2014.html",
+		"/home/lawlug/Desktop/clg22072017/secondsem2017.html",
+		"/home/lawlug/Desktop/clg22072017/secondmidtermcivil17.html",
+		"/home/lawlug/Desktop/clg22072017/secondmidterm2017env.html",
+		"/home/lawlug/Desktop/clg22072017/secondmidterm17it.html",
+		"/home/lawlug/Desktop/clg22072017/scholarship.html",
+		"/home/lawlug/Desktop/clg22072017/projection2014.html",
+		"/home/lawlug/Desktop/clg22072017/placement.html",
+		"/home/lawlug/Desktop/clg22072017/mozillacommunity.html",
+		"/home/lawlug/Desktop/clg22072017/micro.html",
+		"/home/lawlug/Desktop/clg22072017/meclab.html",
+		"/home/lawlug/Desktop/clg22072017/mcl.html",
+		"/home/lawlug/Desktop/clg22072017/materialtestlab.html",
+		"/home/lawlug/Desktop/clg22072017/location.html",
+		"/home/lawlug/Desktop/clg22072017/library.html",
+		"/home/lawlug/Desktop/clg22072017/holidays.html",
+		"/home/lawlug/Desktop/clg22072017/freshersparty2011.html",
+		"/home/lawlug/Desktop/clg22072017/formsandperforma.html",
+		"/home/lawlug/Desktop/clg22072017/firstmidtermcivil17.html",
+		"/home/lawlug/Desktop/clg22072017/firstmidterm17it.html",
+		"/home/lawlug/Desktop/clg22072017/firstmidterm17env.html",
+		"/home/lawlug/Desktop/clg22072017/feenaudit.html",
+		"/home/lawlug/Desktop/clg22072017/feechallan.html",
+		"/home/lawlug/Desktop/clg22072017/eventsandconferences.html",
+		"/home/lawlug/Desktop/clg22072017/environmaneeng.html",
+		"/home/lawlug/Desktop/clg22072017/envang.html",
+		"/home/lawlug/Desktop/clg22072017/env.html",
+		"/home/lawlug/Desktop/clg22072017/enggralab.html",
+		"/home/lawlug/Desktop/clg22072017/embsys.html",
+		"/home/lawlug/Desktop/clg22072017/eleclab.html",
+		"/home/lawlug/Desktop/clg22072017/disclaimer.html",
+		"/home/lawlug/Desktop/clg22072017/digicircuitlab1.html",
+		"/home/lawlug/Desktop/clg22072017/dcnlab.html",
+		"/home/lawlug/Desktop/clg22072017/contactus.html",
+		"/home/lawlug/Desktop/clg22072017/computerlab2.html",
+		"/home/lawlug/Desktop/clg22072017/computerlab1.html",
+		"/home/lawlug/Desktop/clg22072017/commitees.html",
+		"/home/lawlug/Desktop/clg22072017/collegeactivities.html",
+		"/home/lawlug/Desktop/clg22072017/circuitandsystem.html",
+		"/home/lawlug/Desktop/clg22072017/antiragging.html",
+		"/home/lawlug/Desktop/clg22072017/advancecomputernet.html",
+		"/home/lawlug/Desktop/clg22072017/admission.html",
+		"/home/lawlug/Desktop/clg22072017/StudentNotices.html",
+		"/home/lawlug/Desktop/clg22072017/itang.html",
+		"/home/lawlug/Desktop/clg22072017/js/listcontrollers.js",
+		"/home/lawlug/Desktop/clg22072017/phonemoremenu.html",
+		"/home/lawlug/Desktop/clg22072017/civilang.html",
+		"/home/lawlug/Desktop/clg22072017/index.js",
+		"/home/lawlug/Desktop/clg22072017/main.css",
+		"/home/lawlug/Desktop/clg22072017/it.html",
+		"/home/lawlug/Desktop/clg22072017/it - images",
+		"/home/lawlug/Desktop/clg22072017/index.js~",
+		"/home/lawlug/Desktop/clg22072017/index.html",
+		"/home/lawlug/Desktop/clg22072017/studentnotices.css",
+		"/home/lawlug/Desktop/clg22072017/studentnotices.js",
+		"/home/lawlug/Desktop/clg22072017/styles.css",
+		"/home/lawlug/Desktop/clg22072017/tender.html",
+		"/home/lawlug/Desktop/clg22072017/transengg.html",
+		"/home/lawlug/Desktop/clg22072017/trynoti.html",
+		"/home/lawlug/Desktop/clg22072017/under.html",
+		"/home/lawlug/Desktop/clg22072017/webdev.css",
+		"/home/lawlug/Desktop/clg22072017/webdev.html",
+		"/home/lawlug/Desktop/clg22072017/workshop.html",
+		"/home/lawlug/Desktop/clg22072017/structureanalysis.html",
+		"/home/lawlug/Desktop/clg22072017/soillab.html",
+		"/home/lawlug/Desktop/clg22072017/softwareengineering.html",
+		"/home/lawlug/Desktop/clg22072017/rti.html",
+		"/home/lawlug/Desktop/clg22072017/progection2014.html",
+		"/home/lawlug/Desktop/clg22072017/placement2011-12.html",
+		"/home/lawlug/Desktop/clg22072017/placement1.html",
+		"/home/lawlug/Desktop/clg22072017/geoinformatics.html",
+		"/home/lawlug/Desktop/clg22072017/phylab.html",
+		"/home/lawlug/Desktop/clg22072017/impdoc",
+		"/home/lawlug/Desktop/clg22072017/home.html",
+		"/home/lawlug/Desktop/clg22072017/home.css",
+		"/home/lawlug/Desktop/clg22072017/geolab.html"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 111.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mycontroller",
+			"treat",
+			"body",
+			"deptmenu1",
+			"secondmidtermcivil17",
+			"firstmidtermcivil17.html",
+			"secondmidtermcivil17.html",
+			"firstmidtermcivil17.html",
+			"iamges/icon_pdf.gif",
+			"Images/icon_pdf.gif",
+			"bxSlider",
+			"logoimg",
+			"it",
+			"footer",
+			"  '",
+			"changeto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"changeTo"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/app-component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"file": "assets/images/107291.jpg",
+					"semi_transient": true,
+					"stack_index": 0,
+					"type": "image"
+				},
+				{
+					"buffer": 1,
+					"file": "app/app.module.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript-Sublime-Plugin/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript-Sublime-Plugin/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1151,
+								1151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "uc.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
